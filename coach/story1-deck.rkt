@@ -100,7 +100,7 @@
  Play the youtube video of you
  telling your coach story.
 }
-  @text-back { }
+  @text-back{ }
   600)
 
 
