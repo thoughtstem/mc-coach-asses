@@ -38,7 +38,13 @@
 
   (apply make-front new-ss))
 
-(define text-back text-front)
+(define (text-back . ss)
+  ;Double-space automatically, but not via \n, because flash-card (mode-lambda) doesn't work that way.
+  (define newline? (and/c string?
+                          (curry string=? "\n")))
+  (define new-ss (add-between (filter-not newline? ss) ""))
+
+  (apply make-back new-ss))
 
 (define (code-back . ss)
   (make-back
