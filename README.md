@@ -1,5 +1,6 @@
 mc-coach-assess
 ===============
-README text here.
-# mc-coach-asses
-# mc-coach-assess
+
+`git clone git@github.com:thoughtstem/mc-coach-assess.git`
+`cd mc-coach-assess`
+`raco pkg install`
