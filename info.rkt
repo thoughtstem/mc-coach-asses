@@ -2,7 +2,7 @@
 (define collection "mc-coach-assess")
 (define deps '("base" 
                "https://github.com/thoughtstem/flash-card.git"
-               "reprovide"
+               "reprovide-lang-lib"
                ))
 (define build-deps '("scribble-lib" "racket-doc" "rackunit-lib"))
 (define scribblings '(("scribblings/mc-coach-assess.scrbl" ())))
