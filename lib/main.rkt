@@ -7,7 +7,8 @@
          go-look-it-up
          test-card
          define/provide-deck
-         define-card)
+         define-card
+         define-vocab-card)
 
 (require 2htdp/image 
          (prefix-in p: pict)
@@ -56,7 +57,6 @@
     Review quest materials for answers.
   })
 
-
 (define test-card
   (flash-card
     @text-front{Test card...}
@@ -73,6 +73,16 @@
       (view-deck (name)))))
 
 (define-syntax-rule (define-card name stuff ...)
+  
   (define name
     (flash-card
       stuff ...)))
+
+
+(define-syntax-rule (define-vocab-card name front back)
+  
+  (define-card name front back 10))
+
+
+
+
