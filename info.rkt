@@ -4,6 +4,7 @@
                "https://github.com/thoughtstem/flash-card.git"
                "https://github.com/thoughtstem/ts-printing.git"
                "reprovide-lang-lib"))
+(define compile-omit-paths '("cards/"))
 (define build-deps '("scribble-lib" "racket-doc" "rackunit-lib"))
 (define scribblings '(("scribblings/mc-coach-assess.scrbl" ())))
 (define pkg-desc "Description Here")
