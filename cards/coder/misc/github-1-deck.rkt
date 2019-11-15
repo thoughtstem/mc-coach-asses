@@ -18,8 +18,11 @@
   @(go-look-it-up)
   60)
 
+;TODO: Nix?
 (define-card make-a-github-repo 
   @text-front{
+    (TODO: Nix this card?)
+
     In under 2 minutes, create 
     a new repo. Create a new
     Racket package.  Push the package

@@ -100,7 +100,7 @@
 (define-card your-game
   @text-front{
  Pull up the code you wrote to create a new game
- github.com and explain the title and objective.
+ on github.com and explain the title and objective.
 }
   @text-back{ ... } 
   20)
