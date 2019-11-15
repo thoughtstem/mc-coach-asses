@@ -74,6 +74,21 @@
    120)
 
 
+(define-card push-image-flashcard
+   @text-front{
+     In under 120 seconds, push a 
+     new card to your card repo.  
+     
+     The card should have an image on the 
+     front and an image of the code that 
+     created that image on the back.
+
+     Show the committed code after
+     pushing.
+   }
+   @(go-look-it-up)
+   120)
+
 (define/provide-deck (github-2-deck)
   "Images Deck"
 
