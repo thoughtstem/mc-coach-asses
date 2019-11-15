@@ -2,18 +2,6 @@
 
 (require mc-coach-assess/lib)
 
-(define-card hello-world
-  @text-front{
- Open DrRacket, write and run
- a program that prints...
- "Hello, World"
-}
-  @code-back{
- #lang racket 
-
- "Hello, World!"
-} 
-  30)
 
 (define-card adv-student-engagement-1
   @text-front{
@@ -87,12 +75,20 @@
 }
   30)
 
+(define-card story-science
+  @text-front{
+ Name X ways that science supports
+ the use of story in learning.
+ }
+  @(go-look-it-up)
+  60)
+
 (define-card coach-story-text
   @text-front{
  Pull up the text outline
  of your coach story on github.com.
 }
-  @text-back{ }
+  @text-back{...}
   30)
 
 (define-card coach-story-video
@@ -100,19 +96,19 @@
  Play the youtube video of you
  telling your coach story.
 }
-  @text-back{ }
+  @text-back{...}
   600)
 
 
 
 (define/provide-deck (story1-deck)
   "Story I Deck"
-  hello-world
   adv-student-engagement-1
   why-coach-story
   story-vocab-1
   story-vocab-2
   story-vocab-3
+  story-science
   coach-story-text
   coach-story-video
   )

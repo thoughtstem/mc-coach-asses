@@ -2,13 +2,13 @@
 
 (require mc-coach-assess/lib)
 
-(define-card define-transitions
+(define-card coach-vocab-1
   @text-front{
  Define TRANSITION (as used in a classroom
  environment) in your own words.
 }
   @(go-look-it-up)
-  60)
+  10)
 
 (define-card why-transitions
   @text-front{
@@ -87,7 +87,7 @@
 
 (define/provide-deck (transitions-deck)
   "Transitions Deck"
-  define-transitions
+  coach-vocab-1
   why-transitions
   good-transition
   opinion-transitions

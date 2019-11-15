@@ -89,6 +89,14 @@
 
 ;have multiple of the game-reading types, to be created when games collection is created.
 
+(define-card game-science
+  @text-front{
+ Name X ways that science supports
+ the use of games in learning.
+ }
+  @(go-look-it-up)
+  60)
+
 (define-card your-game
   @text-front{
  Pull up the code you wrote to create a new game
@@ -111,6 +119,7 @@
   game-reading-2
   game-reading-3
   game-reading-4
+  game-science
   your-game
   )
 
