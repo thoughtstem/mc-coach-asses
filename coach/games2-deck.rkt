@@ -5,11 +5,11 @@
 (define-card adv-student-engagement-4
   @text-front{
  What are two different was to engage
- returning students in Story Mode?
+ returning students in Game Mode?
 }
   @text-back{
  1) Acknowledge their experience
- 2) "Promote" them to co-storyteller
+ 2) Have them help you run the game
 } 
   30)
 
