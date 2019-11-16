@@ -37,57 +37,6 @@
    }
    120)
 
-(define-vocab-card vocab:spaced-repetition
-   @text-front{
-     Define "Spaced Repetition"
-   }
-   @text-back{
-     ... 
-   })
-
-(define-vocab-card vocab:learning-science
-   @text-front{
-     Define "Learning Science"
-   }
-   @text-back{
-     ... 
-   })
-
-(define-vocab-card vocab:fluency 
-   @text-front{
-     Define "fluency"
-     (as used in learning science)
-   }
-   @text-back{
-     ... 
-   })
-
-(define-vocab-card vocab:recall 
-   @text-front{
-     Define "recall"
-     (as used in learning science)
-   }
-   @text-back{
-     ... 
-   })
-
-(define-vocab-card vocab:effortful-recall 
-   @text-front{
-     Define "effortful recall"
-     (as used in learning science)
-   }
-   @text-back{
-     ... 
-   })
-
-(define-vocab-card srs-story
-   @text-front{
-     In your own words, tell the story of 
-     the spaced repetition scientific result
-     and its (continued) absence in American 
-     education systems.
-   }
-   @(go-look-it-up))
 
 (define/provide-deck (github-2-deck)
   "Making Flashcards"

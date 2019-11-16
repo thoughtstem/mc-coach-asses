@@ -1,6 +1,6 @@
 #lang at-exp flash-card
 
-(require mc-coach-assess/lib)
+(require mc-coach-assess/cards/lib)
 
 (define-card hello-world-1
   @text-front{

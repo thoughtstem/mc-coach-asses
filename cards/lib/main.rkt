@@ -74,15 +74,16 @@
 
 (define-syntax-rule (define-card name stuff ...)
   
-  (define name
-    (flash-card
-      stuff ...)))
+  (begin
+    (provide name)
+    (define name
+      (flash-card
+        stuff ...))))
 
 
 (define-syntax-rule (define-vocab-card name front back)
   
   (define-card name front back 10))
-
 
 
 
