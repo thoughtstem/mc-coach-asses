@@ -5,9 +5,10 @@
 (require metapolis-stories
          (prefix-in stories: "./stories.rkt"))
 
-(define quest-stops
+(define (quest-stops)
   (list 
    places:metapolis-welcome-center
+   stories:intro
 
    ;Class prep at coder cafe?
    ;map-use

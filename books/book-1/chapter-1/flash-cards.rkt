@@ -6,7 +6,7 @@
   @text-front{
     Open DrRacket, write and run
     a program that prints...
-    "Hello, World"
+    "Hello, World!"
   }
   @code-back{
     #lang racket 

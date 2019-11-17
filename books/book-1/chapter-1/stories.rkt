@@ -3,4 +3,4 @@
 
 (defines-from-directory "./stories"
                         #:wrap-each   path->story
-                        #:all-as-list chapter-2)
+                        #:all-as-list chapter-1)

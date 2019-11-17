@@ -5,9 +5,10 @@
 (require metapolis-stories
          (prefix-in stories: "./stories.rkt"))
 
-(define quest-stops
+(define (quest-stops)
   (list 
    places:metapolis-welcome-center
+   stories:intro
 
    ;We go to various classes to witness the transitions 
 
