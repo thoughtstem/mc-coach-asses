@@ -7,10 +7,24 @@
 
 (define quest-stops
   (list 
-    places:metapolis-welcome-center
+   places:metapolis-welcome-center
 
-    places:coder-cafe
-    stories:yu-gets-github
-    
-    ))
+   ;We go to various classes to witness the transitions 
+
+   ;coach-vocab-1
+   ;why-transitions
+   ;good-transition
+   ;opinion-transitions
+   ;bad-transition
+
+   ;Somewhere else to view the transitions
+
+   ;transitions-library-1
+   ;transitions-library-2
+
+   ;Elsewhere to do the recording? (Is it always Yu if we are asking the reader for something?)
+
+   ;story-game-transitions
+   
+   ))
 

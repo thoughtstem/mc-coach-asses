@@ -7,10 +7,23 @@
 
 (define quest-stops
   (list 
-    places:metapolis-welcome-center
+   places:metapolis-welcome-center
 
-    places:coder-cafe
-    stories:yu-gets-github
-    
-    ))
+   ;Presumably we go somewhere to see some games in action?
+   
+   ;adv-student-engagement-2
+   ;game-vocab-1
+   ;game-vocab-2
+   ;game-vocab-3
+   ;game-vocab-4
+   ;game-reading-1
+   ;game-reading-2
+   ;game-reading-3
+   ;game-reading-4
+
+   ;To Babbage university for the science...
+   ;game-science
+
+   ;your-game
+   ))
 

@@ -7,10 +7,13 @@
 
 (define quest-stops
   (list 
-    places:metapolis-welcome-center
+   places:metapolis-welcome-center
 
-    places:coder-cafe
-    stories:yu-gets-github
-    
-    ))
+   ;Class prep at coder cafe?
+   ;map-use
+   ;why-maps
+   ;find-and-read-map-1
+   ;find-and-read-map-2
+   ;find-and-read-map-3
+   ))
 

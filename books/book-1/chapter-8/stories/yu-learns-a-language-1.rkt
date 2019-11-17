@@ -1,6 +1,6 @@
 #lang at-exp metapolis-stories/lang/story
   
-(define title         "Yu Gets Github")
+(define title         "Yu Learns a Language (Part 1)")
 (define place         places:coder-cafe)
 (define characters    (list characters:yu))
 (define time          (unnamed-time
@@ -14,7 +14,5 @@
   Github account time!!
 
   TODO: 
-  why-github-account? 
-  purpose-of-mc-coach-repo?
-  mc-coach-repo-exists?
+  learn-a-language
 }

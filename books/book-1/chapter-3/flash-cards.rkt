@@ -2,34 +2,113 @@
 
 (require mc-coach-assess/cards/lib)
 
-(define-card why-github-account?
+
+(define-card adv-student-engagement-1
   @text-front{
-    Why are we asking you to have
-    a Github account?
-  }  
-  @(go-look-it-up)
+ What is one way to engage returning
+ students in Story Mode?
+}
+  @text-back{
+ Acknowledge and celebrate
+ their expertise.
+} 
+  15)
+
+(define-card why-coach-story
+  @text-front{
+ Name 2 reasons why your personal coach
+ story is valuble in the classroom.
+}
+  @;(go-look-it-up)
+  @text-back{
+ 1) Establishes you as someone to listen to.
+ 2) Connects students to you as a "real person"
+ with thoughts and feelings.
+ 3) A chance to introduce values in a
+ personal context.
+ 4) Establishes story as part of the class
+ experience right away.
+}
   60)
 
-(define-card purpose-of-mc-coach-repo?
+(define-card story-vocab-1
   @text-front{
-    Why are we asking you to have
-    a coach repo?
-  }  
-  @(go-look-it-up)
-  60)
-
-(define-card mc-coach-repo-exists?
-  @text-front{
-    In a browser, navigate to the 
-    page for your coach repo.  
-    Hightlight the URL.
-  }  
-  @(go-look-it-up)
+ How does eye contact from the storyteller make
+ a story a better experience for the audience?
+}
+  @;(go-look-it-up)
+  @text-back{
+ 1) Increases audience engagement by making them
+ a part of the experience.
+ 2) Grabs their attention and reduces risk of
+ "spacing out."
+}
   30)
 
-(define/provide-deck (flash-cards)
-  "1st Github Deck"
-  mc-coach-repo-exists?
-  purpose-of-mc-coach-repo? 
-  why-github-account?)
+(define-card story-vocab-2
+  @text-front{
+ How does eye contact with the
+ audience help a storyteller?
+}
+  @;(go-look-it-up)
+  @text-back{
+ 1) By actually checking in with their audience,
+ a storyteller can see in real time the feelings,
+ attention level, and response of the audience.
+ 2) Seeing genuine engagement, excitement, and
+ interest in the audience can energize the
+ storyteller and just feels awesome!
+}
+  30)
 
+(define-card story-vocab-3
+  @text-front{
+ What is another way to engage
+ your audience in the storytelling
+ experience?
+}
+  @;(go-look-it-up)
+  @text-back{
+ Ask questions that tie personal
+ knowledge and experience to the
+ story context.
+}
+  30)
+
+(define-card story-science
+  @text-front{
+ Name X ways that science supports
+ the use of story in learning.
+ }
+  @(go-look-it-up)
+  60)
+
+(define-card coach-story-text
+  @text-front{
+ Pull up the text outline
+ of your coach story on github.com.
+}
+  @text-back{...}
+  30)
+
+(define-card coach-story-video
+  @text-front{
+ Play the youtube video of you
+ telling your coach story.
+}
+  @text-back{...}
+  600)
+
+
+
+(define/provide-deck (story1-deck)
+  "Story I Deck"
+  adv-student-engagement-1
+  why-coach-story
+  story-vocab-1
+  story-vocab-2
+  story-vocab-3
+  story-science
+  coach-story-text
+  coach-story-video
+  )

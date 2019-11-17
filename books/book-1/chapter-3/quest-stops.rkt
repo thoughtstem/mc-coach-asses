@@ -8,9 +8,14 @@
 (define quest-stops
   (list 
     places:metapolis-welcome-center
-
-    places:coder-cafe
-    stories:yu-gets-github
     
+    ;adv-student-engagement-1
+    ;why-coach-story
+    ;story-vocab-1
+    ;story-vocab-2
+    ;story-vocab-3
+    ;story-science
+    ;coach-story-text
+    ;coach-story-video
     ))
 

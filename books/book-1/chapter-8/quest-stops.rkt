@@ -9,8 +9,13 @@
   (list 
     places:metapolis-welcome-center
 
+    places:hopper-library
+    stories:yu-learns-language-story
+
     places:coder-cafe
-    stories:yu-gets-github
-    
+    stories:yu-learns-a-language-1
+
+    places:bruce
+    stories:yu-learns-a-language-2
     ))
 

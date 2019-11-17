@@ -7,7 +7,8 @@
          (prefix-in ch4: "chapter-4/quest-stops.rkt")
 
          (prefix-in ch6: "chapter-6/quest-stops.rkt")
+         (prefix-in ch8: "chapter-8/quest-stops.rkt")
          )
 
-(preview ch6:quest-stops)
+(preview ch8:quest-stops)
 
