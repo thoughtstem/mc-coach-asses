@@ -13,11 +13,11 @@
 @paras{
   Welcome back to Metapolis!
 
-  In this chapter, we'll be following Yu, who (much like you) is going through the MetaCoders coach training certification.
+  In this chapter, we'll be following Yu, who (much like you) is going through the MetaCoders coach training.
 
-  Yu will be creating their Github account and their very first repo.  So will you.
+  Yu will be creating their Github account and their very first repo.  So will you.  But at MetaCoders we never ask anyone to do something without a clear understanding of @b{Why}.
 
- (Idea: Film our instructional videos at a coffee shop?)
+  So head over to Coder Cafe, where we'll discuss this critically important topic.  That's the only one stop in this chapter.
 }
 
 
