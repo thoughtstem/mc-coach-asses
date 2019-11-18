@@ -1,2 +1,2 @@
 #lang reprovide
-"./book-1/main.rkt"
+"./book-1/chapter-1.rkt"
