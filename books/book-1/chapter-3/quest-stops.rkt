@@ -9,6 +9,17 @@
   (list 
     places:metapolis-welcome-center
     stories:intro
+
+    places:lovelace-elementary
+    stories:about-story
+
+    places:kick-butt-martial-arts
+    stories:more-on-stories
+
+    places:babbage-university
+    stories:story-science
+
+    ;TODO check against flashcards
     
     ;adv-student-engagement-1
     ;why-coach-story

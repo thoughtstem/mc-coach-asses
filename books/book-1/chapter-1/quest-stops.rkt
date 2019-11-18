@@ -13,15 +13,13 @@
     stories:intro
 
     places:babbage-university
-    ;Peer instruction...
-
-    places:lovelace-elementary
-
-    places:turing-recreational-center
+    stories:class-snapshot
 
     places:hopper-library
+    stories:student-journey
 
-    places:pascal-elementary))
+    places:metapolis-welcome-center
+    stories:outro))
 
 
 

@@ -1,6 +1,6 @@
 #lang at-exp metapolis-stories/lang/story
   
-(define title         "Chapter 1: Intro")
+(define title         "Chapter 1: Once Upon a Time...")
 (define place         places:metapolis-welcome-center)
 (define characters    (list ))
 (define time          (unnamed-time
@@ -11,10 +11,19 @@
 (require "../flash-cards.rkt")
 
 @paras{
-  Welcome to Metapolis for the first time...
-  (Model city...)
-  (What is a model?)
+ First stop in the Chapter 1 Quest.
 
-  Here's the schedule for the day...
+Outline:
+
+- Where we are
+
+- What is MetaCoder's presence here
+
+- Purpose of Metapolis
+      - See all the moving pieces that make Metacoders work in action
+      - See how you, a training staff member, will fit in all this and progress
+      - Stories make good teaching/learning tools (as we will learning about later in this quest...)
+
+
 
 }
