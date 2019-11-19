@@ -75,7 +75,7 @@
 
   @card{
     @card-body{
-      A culturally important document about how to ask questions from other coders: @a[href: https://stackoverflow.com/help/how-to-ask]{Stack Overflow Question Guidelines}
+      A culturally important document about how to ask questions from other coders: @a[href: "https://stackoverflow.com/help/how-to-ask"]{Stack Overflow Question Guidelines}
     } 
   }
 
