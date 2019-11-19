@@ -110,9 +110,7 @@
 
     You nod slowly, taking it all in, watching the students work at their computers.  For some reason, you find yourself thinking about that painting of Charles Babbage, and you hear Joseph's question from earlier lingering in your mind: "What do you think life would be like today if Babbage had never invented the computer?"
 
-    These kids are learning to become coders, learning to become MetaCoder coaches one day -- part of a computational tradition.  You find yourself wondering if Babbage had any idea just how powerful his ideas were, and how much they would change human history.  You find yourself imagining going back in time and telling Charles Babbage that, one day, there would be rooms full of children learning how to code computers so that they can one day teach other rooms full of children how to code computers.  And so on.
-
-   It's a silly idea -- going back in time.  But you make a mental note to ask students to imagine going back in time when you find the Charles Babbage story on one of your own classmaps.  
+   These kids probably wouldn't be here learning to code.
 }
 
 
