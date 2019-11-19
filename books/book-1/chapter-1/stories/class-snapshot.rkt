@@ -11,7 +11,6 @@
 
 (require "../flash-cards.rkt" 2htdp/image)
 
-@;TODO -- update name Molly to Gabbi (renamed because Metapolis already had a Molly -- a mom)
 
 @paras{
 
@@ -95,21 +94,21 @@
 
      "Makes sense.  Kind of meta, isn't it?"
 
-     Joseph checks his coach timer.  "Now I've gotta go around and check on my students.  Molly over there has taken a few MetaCoders courses already, so I might have to give her an extra challenge before the timer beeps." 
+     Joseph checks his coach timer.  "Now I've gotta go around and check on my students.  Gabbi over there has taken a few MetaCoders courses already, so I might have to give her an extra challenge before the timer beeps." 
 
-     You follow Joseph as he walks to Molly and glances at her computer screen.  It has a lot of code on it that you don't understand yet -- but you can tell that she has written everything on her hexagonal card, and more.
+     You follow Joseph as he walks to Gabbi and glances at her computer screen.  It has a lot of code on it that you don't understand yet -- but you can tell that she has written everything on her hexagonal card, and more.
 
-     "Molly, here's another card," says Joseph.  "You still have 5 minutes.  See if you can add features of the code on this card to the code you're writing."
+     "Gabbi, here's another card," says Joseph.  "You still have 5 minutes.  See if you can add features of the code on this card to the code you're writing."
 
-     "Cool!" says Molly, taking the card and starting to read it.  
+     "Cool!" says Gabbi, taking the card and starting to read it.  
    
-     When you and Joseph walk out of Molly's earshot, you ask, "So there are students of different levels in the same class?"
+     When you and Joseph walk out of Gabbi's earshot, you ask, "So there are students of different levels in the same class?"
 
-     "Always," says Joseph.  "Every student has a different story.  Molly's mom is a software engineer, so she's been sending Molly to MetaCoders for the last year or so.  But many of the kids here just started.  In fact, Molly has heard the Charles Babbage story before -- so I'm going to ask her to help me tell the last part of it at the end of class.  It's a great way to engage advanced students."
+     "Always," says Joseph.  "Every student has a different story.  Gabbi's mom is a software engineer, so she's been sending Gabbi to MetaCoders for the last year or so.  But many of the kids here just started.  In fact, Gabbi has heard the Charles Babbage story before -- so I'm going to ask her to help me tell the last part of it at the end of class.  It's a great way to engage advanced students."
 
-    "Is that on the classmap?  Does it say: 'Give Molly extra challenges during Game Mode' and 'Have Molly help tell stories during Story Mode'?"
+    "Is that on the classmap?  Does it say: 'Give Gabbi extra challenges during Game Mode' and 'Have Gabbi help tell stories during Story Mode'?"
   
-    "Nope.  I gave her an extra challenge during Game Mode because that's part of the definition of Game Mode -- a goal-directed activity that is just outside of their comfort zones.  Molly has a different comfort zone, so I adapted.  As for Story Mode, the sooner you get students to tell stories with you, the sooner you're developing their leadership skills.  Our goal at MetaCoders is that a lot of these kids will go on to become junior coaches, and when they're old enough we want them to become MetaCoders coaches like you and me."
+    "Nope.  I gave her an extra challenge during Game Mode because that's part of the definition of Game Mode -- a goal-directed activity that is just outside of their comfort zones.  Gabbi has a different comfort zone, so I adapted.  As for Story Mode, the sooner you get students to tell stories with you, the sooner you're developing their leadership skills.  Our goal at MetaCoders is that a lot of these kids will go on to become junior coaches, and when they're old enough we want them to become MetaCoders coaches like you and me."
 
     You nod slowly, taking it all in, watching the students work at their computers.  For some reason, you find yourself thinking about that painting of Charles Babbage, and you hear Joseph's question from earlier lingering in your mind: "What do you think life would be like today if Babbage had never invented the computer?"
 
