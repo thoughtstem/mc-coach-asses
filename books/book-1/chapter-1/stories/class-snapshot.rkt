@@ -74,10 +74,10 @@
         @b{Game Mode}
         @ul{
           @li{goal-oriented}
-          @{different students/srudent groups can have different goals}
-          @{multiple points of focus}
-          @{usually where coding takes place}
-          @{can be higher challenge/risk for students}
+          @li{different students/srudent groups can have different goals}
+          @li{multiple points of focus}
+          @li{usually where coding takes place}
+          @li{can be higher challenge/risk for students}
         }
        }
 
