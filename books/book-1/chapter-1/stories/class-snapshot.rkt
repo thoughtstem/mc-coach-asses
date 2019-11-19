@@ -4,8 +4,8 @@
 (define place         places:babbage-university)
 (define characters    (list characters:joseph))
 (define time          (unnamed-time 
-                        (moment 2021 5 8 10)
-                        (moment 2021 5 8 11 30)))
+                        (moment 2021 4 24 10)
+                        (moment 2021 4 24 11 30)))
 (define links   '())
 
 (require "../flash-cards.rkt" 2htdp/image)
