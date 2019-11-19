@@ -2,13 +2,16 @@
   
 (define title         "Chapter 1: Inside a MetaCoder's Classroom")
 (define place         places:babbage-university)
-(define characters    (list characters:joseph))
+(define characters    (list characters:joseph
+                            characters:gabbi-dupont))
 (define time          (unnamed-time 
                         (moment 2021 4 24 10)
                         (moment 2021 4 24 11 30)))
 (define links   '())
 
 (require "../flash-cards.rkt" 2htdp/image)
+
+@;TODO -- update name Molly to Gabbi (renamed because Metapolis already had a Molly -- a mom)
 
 @paras{
 
