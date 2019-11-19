@@ -1,0 +1,119 @@
+#lang at-exp metapolis-stories/lang/story
+  
+(define title         "Chapter 1: Inside a MetaCoder's Classroom")
+(define place         places:babbage-university)
+(define characters    (list characters:joseph))
+(define time          (unnamed-time 
+                        (moment 2021 5 8 10)
+                        (moment 2021 5 8 11 30)))
+(define links   '())
+
+(require "../flash-cards.rkt" 2htdp/image)
+
+@paras{
+
+       As you walk the quiet halls of Babbage University early on a Saturday morning, you stop to admire a painting of Charles Babbage himself, hanging on the wall.
+
+       @(img src: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Charles_Babbage_-_1860.jpg/330px-Charles_Babbage_-_1860.jpg")
+
+       Charles Babbage invented the computer, before there was electricity, before there were transistors, before there were LCD screens -- or so you learn from the plaque beneath the painting.  Suddenly, you hear children laughing down the hall -- and you remember that you're here to observe a MetaCoders classroom.
+
+       Not wanting to be late, you hurry on down to the classroom that MetaCoders rents from the university for weekend classes.  Inside, you see a class of 10 students.  The coach Joseph is at the head of the classroom, telling a story.
+
+       You stand in the doorway and listen, making the following observations:
+
+       @ul{
+         @li{The students are @b{really} into this story.  Only a few of them even notice you're standing in the doorway.}
+         @li{Joseph is a fantastic storyteller.  You realize, to your surprise, he's telling the story of Charles Babbage.  It's the same story you began to read on the plaque beneath the painting.}
+         @li{But Joseph is masterfully adapting the story to his audience of third and fourth graders.  He asks them questions, like, "How do you think Babbage's computer moved if it didn't use electricity?"  And "What do you think life would be like today if Babbage had never invented the computer?"}
+       }
+
+       As Joseph wraps up the story, he announces, "Okay, that's it for Story Mode for now.  If there's time at the end of class, we'll do another Story Mode, and I'll tell you how Charles Babbage and a woman named Ada Lovelace wrote programs for that computer before the machine was even built."  
+
+      He then tells the class that they are switching to "Game Mode".  All of the students seem to know what "Story Mode" and "Game Mode" mean -- and you too begin to get an intuition about the two modes as Joseph distributes what look like hexagonal playing cards to each student and instructs them all to spend the next ten minutes writing the code on the card and then doing something creative with it.  He sets a coach timer and shouts "Go!"
+
+       The room goes silent, save for the clicking of keyboards.  Joseph takes this moment to come over to you.
+
+       "Welcome to Metapolis," he whispers.  "I'm Joseph."
+
+       "You're good at telling stories," you say, shaking his hand.
+
+       "You will be too," says Joseph.  "Stories and games are the heart of everything we do at MetaCoders.  Then again, you've probably figured that out already -- given that we're both in a story right now."
+
+       "Yeah," you say. "I had a feeling that stories were important.  What is Game Mode, though?"
+
+       "Ah," says Joseph.  "At MetaCoders, there are exactly two 'class modalities' that a MetaCoders class should be in at any given time.  As a coach, you get trained to facilitate those two modalities and to switch between them."  He gestures at the students, all intently staring at their computers.  "Each mode has a distinct 'feel' or 'energy'.  As you can see, in Game Mode, every student's attention is on their task at hand.  In Story Mode, their attention is on you -- unless you choose to redirect it, like when you ask questions to keep your audience engaged."  Joseph leans closer.  "I'll tell you a secret: Before becoming a MetaCoders coach, I wasn't nearly as good at this stuff as I am today."
+
+       "I'm kind of nervous about teaching my first class," you say.
+
+       "Coaching," says Joseph.  "We don't say 'teaching'.  At MetaCoders, we always say 'Coaching'."
+
+       "Why?" 
+
+       "You'll learn more about MetaCoders terminology in later chapters," says Joseph.  "As for being nervous, don't be.  By the time you begin coaching, you'll have been trained on Story Mode, Game Mode, and the art of transitioning.  Plus," he went on, "you won't be expected to create your own classmaps until you're a Level 2 coach."
+
+       "Am I supposed to know what a classmap is?"
+
+       "Not yet," he said. "I mention it now for the sake of foreshadowing; you'll learn about classmaps in a later chapter.  But in short, a classmap is an outline of what stories you will tell and what games you will run for the duration of a class."
+
+       "So it's like a lesson plan?"
+
+       "We don't say 'lesson plan', just like we don't say 'teach'.  Again, you'll learn more about why we have our own words in later chapters.  The short answer is that coaching isn't quite the same as teaching, and classmaps aren't quite the same as lesson plans.  If it helps to think about them that way for now, that's fine.  I know I did when I first started."
+
+       "Okay, so let me see if I understand.  A MetaCoders class is a sequence of Story Modes and Game Modes, and the map tells you what to do when?"
+
+       "Daaaang," said Joseph.  "I'm impressed.  Alright, since you're practically an expert, let me give you the official guidelines for Story Mode and Game Mode."  He rummages around in his pocket and finds a slip of paper that he hands to you.  It reads:
+
+       @card{
+        @card-body{
+        @card-text{
+        @b{Story Mode}
+        @ul{
+          @li{@b{Focal Points} All students share a common point of focus -- usually the coach, sometimes other students}
+          @li{@b{Energy Level} Students are engaged and interested -- but heartrates are low (compared to playing games).  It's the kind of energy you experence when you watch an interesting show on television, or read an interesting book.}
+          @li{@b{Comfort Zone} Students are inside their comfort zone.  It's imperative that they actually understand you -- or they won't be able to engage with the story.}
+          @li{@b{Learning Gains} During Story Mode, students may learn many things -- but the @b{type} of thing that stories teach is always the same.  Stories communicate @b{information and values}.}
+        }
+
+        @b{Game Mode}
+        @ul{
+          @li{@b{Focal Points} Each student has a different point of focus -- usually their individual computers and other game materials.}
+          @li{@b{Energy Level} Students are striving to achieve a well-defined goal -- and heartrates may be higher (compared to listening to stories).  It's the kind of energy you experence when you have to finish a difficult but acheivable task under time pressure.}
+          @li{@b{Comfort Zone} Students are slightly outside of their comfort zone.  Psychologists use the term "flow state" to describe what we experience when we play games -- when we are doing something that is not too easy and not too hard, challenging but acheivable.}
+          @li{@b{Learning Gains} During Game Mode, students may learn many things -- but the @b{type} of thing they teach is always the same.  Games train @b{skills and fluencies}.}
+        }
+       }
+      }
+     }
+
+      "Can I keep this?" you ask.
+
+      "Sorry," says Joseph.  "I need it back.  But the nice thing about us both being characters in a story is that we're not going anywhere.  Metapolis is timeless.  So is Babbage University.  So is this conversation we're having.  We'll always be right here, in Chapter 1, at Babbage University, having this exact conversation.  That's how it works in Metapolis: As long as you remember where you learned something, you can always find it again."
+
+     "Makes sense.  Kind of meta, isn't it?"
+
+     Joseph checks his coach timer.  "Now I've gotta go around and check on my students.  Molly over there has taken a few MetaCoders courses already, so I might have to give her an extra challenge before the timer beeps." 
+
+     You follow Joseph as he walks to Molly and glances at her computer screen.  It has a lot of code on it that you don't understand yet -- but you can tell that she has written everything on her hexagonal card, and more.
+
+     "Molly, here's another card," says Joseph.  "You still have 5 minutes.  See if you can add features of the code on this card to the code you're writing."
+
+     "Cool!" says Molly, taking the card and starting to read it.  
+   
+     When you and Joseph walk out of Molly's earshot, you ask, "So there are students of different levels in the same class?"
+
+     "Always," says Joseph.  "Every student has a different story.  Molly's mom is a software engineer, so she's been sending Molly to MetaCoders for the last year or so.  But many of the kids here just started.  In fact, Molly has heard the Charles Babbage story before -- so I'm going to ask her to help me tell the last part of it at the end of class.  It's a great way to engage advanced students."
+
+    "Is that on the classmap?  Does it say: 'Give Molly extra challenges during Game Mode' and 'Have Molly help tell stories during Story Mode'?"
+  
+    "Nope.  I gave her an extra challenge during Game Mode because that's part of the definition of Game Mode -- a goal-directed activity that is just outside of their comfort zones.  Molly has a different comfort zone, so I adapted.  As for Story Mode, the sooner you get students to tell stories with you, the sooner you're developing their leadership skills.  Our goal at MetaCoders is that a lot of these kids will go on to become junior coaches, and when they're old enough we want them to become MetaCoders coaches like you and me."
+
+    You nod slowly, taking it all in, watching the students work at their computers.  For some reason, you find yourself thinking about that painting of Charles Babbage, and you hear Joseph's question from earlier lingering in your mind: "What do you think life would be like today if Babbage had never invented the computer?"
+
+    These kids are learning to become coders, learning to become MetaCoder coaches one day -- part of a computational tradition.  You find yourself wondering if Babbage had any idea just how powerful his ideas were, and how much they would change human history.  You find yourself imagining going back in time and telling Charles Babbage that, one day, there would be rooms full of children learning how to code computers so that they can one day teach other rooms full of children how to code computers.  And so on.
+
+   It's a silly idea -- going back in time.  But you make a mental note to ask students to imagine going back in time when you find the Charles Babbage story on one of your own classmaps.  
+}
+
+
+

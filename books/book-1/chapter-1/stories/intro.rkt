@@ -1,6 +1,6 @@
 #lang at-exp metapolis-stories/lang/story
   
-(define title         "Chapter 1: Intro")
+(define title         "Chapter 1: Once Upon a Time...")
 (define place         places:metapolis-welcome-center)
 (define characters    (list ))
 (define time          (unnamed-time
@@ -11,14 +11,27 @@
 (require "../flash-cards.rkt")
 
 @paras{
-  Welcome to Metapolis for the first time...
-  (Model city...)
-  (What is a model?)
+  Welcome to Metapolis!  As you can probably see by looking around, Metapolis is not a real city.  Rather, is a city created with code -- a model of reality.  
 
-  We'll taking you to several MetaCoders classrooms across the city.
-  We'll look at the things that are common about all MetaCoders coaches -- the things they all do.  The things we expect you to learn.
+  We created Metapolis as the imaginary site for your MetaCoders coach training for a few reasons.
 
-  Most of all, we hope this chapter communicates to you the scope of the MetaCoders vision.  We need you to understand it because we need your help bringing that vision to life.  Thank you for being here.  We couldn't do this without you.  Together we can make this world a better place.
+  @ol{
+    @li{Human brains retain information better when it is organized spatially.  We actually want you to remember this stuff.  So as you traverse the city of Metapolis, one click at a time, we hope you'll imagine the places and characters you'll meet.}
+    @li{Being a MetaCoders coach is about more than just being a coach.  It's about being part of a coding ecosystem that includes coaches, students, parents, technology coordinators, curriculum developers, and more.  Whether it's Metapolis or the real city that you're currently living in, we never want you to lose sight of the big picture.  MetaCoders was founded to change the world, one city at a time. Metapolis serves the purpose that most utopias serve -- utopias are fictional accounts that give us something to strive for in the real world.} 
+    @li{It's fun!}
+  }
 
-  Welcome to Metapolis.
+  In Metapolis, there are several coaches and several places where coaches and students gather to learn the arts of coding: Babbage University, Hopper Libarary, and Lovelace Elementary -- just to name a few.  
+
+  Your training will involve us taking you on a tour through Metapolis, glimpsing first-hand inside the classrooms of the city, and even inside the minds of the students and coaches therein.  
+
+  Thank you for being here with us.  We hope you enjoy your stay.
+
+  Today, the tour is as follows:
+
+  @ul{
+    @li{@b{Babbage University}, where we'll observe a smoothly running coding classroom, with excellent coaches -- that you (one day) will be.}
+    @li{@b{Hopper Libarary}, where we'll observe another classroom, where we'll meet some long-time students who are themselves training to be a coach (just like you).}
+    @li{@b{Metapolis Welcome Center} (where we are now) -- where we'll wrap up and help you prepare for this chapter's assessment.}
+  }
 }
