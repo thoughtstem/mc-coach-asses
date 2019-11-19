@@ -17,7 +17,7 @@
 
   Yu will be creating their Github account and their very first repo.  So will you.  But at MetaCoders we never ask anyone to do something without a clear understanding of @b{Why}.
 
-  So head over to Coder Cafe, where we'll discuss this critically important topic.  That's the only one stop in this chapter.
+  So in this chapter, the one stop is @b{Coder Cafe} where Yu is currently sitting... waiting for you.  Yu will give a quick overview of Git and Github.  Go!
 }
 
 

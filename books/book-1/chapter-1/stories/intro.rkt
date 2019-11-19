@@ -17,7 +17,7 @@
 
   @ol{
     @li{Human brains organize information better when it is organized spatially -- and we actually want you to remember this stuff!  So as you traverse the city of Metapolis, one click at a time, we hope you'll imagine the places and characters you'll meet.}
-    @li{Being a MetaCoders coach is about more than just being a coach.  It's about being part of a coding ecosystem that includes coaches, students, parents, technology coordinators, curriculum developers, and more.  Whether it's Metapolis or the real city that you're currently living in, we never want you to lose sight of the big picture.} @; MetaCoders was founded to change the world, one city at a time. Metapolis serves the purpose that most utopias serve -- the are fictional accounts that give us something to strive for. 
+    @li{Being a MetaCoders coach is about more than just being a coach.  It's about being part of a coding ecosystem that includes coaches, students, parents, technology coordinators, curriculum developers, and more.  Whether it's Metapolis or the real city that you're currently living in, we never want you to lose sight of the big picture.} 
     @li{It's fun!}
   }
 
