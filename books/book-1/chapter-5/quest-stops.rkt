@@ -10,7 +10,11 @@
    places:metapolis-welcome-center
    stories:intro
 
-   ;Presumably we go somewhere to see some games in action?
+   places:turing-recreational-center
+   stories:game-mode-intro
+
+   places:babbage-university
+   stories:more-on-games
    
    ;adv-student-engagement-2
    ;game-vocab-1
