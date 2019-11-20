@@ -13,12 +13,19 @@
 @paras{
   Welcome back to Metapolis!
 
-  The theme of this chapter is the importance of Story.  By the end of it (if you complete the assessment), you will have created and uploaded your own, critically important, Coach Story video.
+  The theme of this chapter is the importance of Story.  By the end of it (if you complete the assessment), you will have created and uploaded your own, critically important, Coach Story video to Youtube and pushed your coach webpage to Github.
 
   We'll also stop by Babbage University to learn about the science of how stories accelerate learning.
 
   This is like the "Hello, World!" of being a MetaCoders coach.  It's a right of passage.  So, in advance: We officially welcome you to MetaCoders.
 
+  The schedule is:
+
+  @ol{
+    @li{@b{Lovelace Elementary} Where we'll see how Story Mode works on day 1 of any MetaCoders class.}
+    @li{@b{Kick Butt Martial Arts} Where we'll see even more ways that Story Modes can unfold.}
+    @li{@b{Babbage Universtiy} Where we'll learn about the science of storytelling.}   
+  }
 }
 
 
