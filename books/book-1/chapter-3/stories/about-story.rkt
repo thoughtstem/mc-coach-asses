@@ -56,9 +56,9 @@
 
   "Ummm," she says.  "Is this..."  She gulps, a bit shy.  "Uh... the... coding class?"
 
-  "It sure is," says Bruce, with a huge smile.  "Come on in!  Leave your backpack by the door.  You can have a seat right here, in the front row."
+  "It sure is," says Bruce, with a huge smile.  "Come on in!  Leave your backpack by the door.  You can join me and my new friend right over here."
 
-  Once she is seated, Bruce says to her and to you, "At MetaCoders we always say: Class doesn't start at the scheduled time.  It starts the moment you see the first student.  So let's start with Game Mode while we wait for everyone."
+  Once she has joined, Bruce says to her and to you, "At MetaCoders we always say: Class doesn't start at the scheduled time.  It starts the moment you see the first student.  So let's start with Game Mode while we wait for everyone."
 
   "What's Game Mode?" she asks.  
 
@@ -68,35 +68,50 @@
 
   "Cool!" says Bruce.  "This game is a memory game.  We'll each say something we like about computers or coding.  For example, you just said 'Fortnite'.  Now it's my turn, so I have to remember what you said -- 'Fortnite' -- and then add my own thing that @i{I} like about computers or coding.  I like..." He thinks for a moment.  "DrRacket -- which is the program we'll be using today to write programs in."  He looks at you.
 
-  "Umm.  Sophie likes Fortnite.  Bruce likes DrRacket.  I like..." The first thing that pops into your head is: "Github." 
+  You say, "Umm.  Sophie likes Fortnite.  Bruce likes DrRacket.  I like..." The first thing that pops into your head is: "Github." 
 
   "What's Github?" says Sophie. 
 
   "It's a website," says Bruce, "where coders put their code so that they can work with other coders on the same code."
 
-  Inwardly, your impressed at how quickly Bruce managed to explain that concept to a 7-year-old.  
+  Inwardly, you're impressed at how quickly Bruce managed to explain that concept to a 7-year-old.  
 
   "Okay, Sophie," says Bruce.  "Now you have to remember all three things and then add another."
 
-  Sophie <<starts>> <<Another student walks in.>> 
+  Sophie says, "Fortnite, DrRacket, Github, and..." But just as she is about to add something, another student walks in.
 
-  <<Bruce re-starts the game...>> 
-
-  <<So it goes as more kids filter in.  Attendance?>>
-
-   
-
-Outline:
+  Bruce tells her to wait so that they can all play.  "Put your backpack by the door and come join us."  When the fourth student, a boy named Marco joins the growing circle and introductions have gone around, Bruce explains the game, and they begin again.
  
-Lovelace Introduction -- how long has Meta Coders been here, what we do here
+  "Fortnite," says Sophie.
 
-Coach Intro -- Bruce, first class ever, new, nervous?
+  "Fortnite, DrRacket," says Bruce.
+  
+  "Fortnite, DrRacket, Github," you say.
+  
+  "Fortnite, DrRacket, Github.  And... I like YouTube."
 
-Introduce students? who has been here before? how they feel about class?
+  So it goes as the rest of the students filter in.  Bruce restarts the game whenever new students arrive.  Occasionally, he switches topics.  For example, after a few rounds of "things you like about coding and computers", he does the "name game" where everyone takes turns saying their names and remembering the names of the people who went earlier.  Then he chooses the topic to "things that have computers inside of them".  It's all the same game -- a memory game -- but the change of topic keeps it interesting both for the students and for you. 
 
-Map -- using Class Launch map
+  When class time finally arrives, Bruces asks everyone to sit down.  "Okay!  What we were just doing was Game Mode.  But now, we're going to switch to Story Mode.  But first, I want to ask, has anyone here taken a MetaCoders class before?"
 
-See stories in action:
+  One student named Dylan raises his hand.  
+
+  "Cool!  Who was your coach?"
+   
+  "Coach Joseph," he says. 
+
+  "Then can you tell everyone what the tradition is on the first day of class?" Bruce asks.
+
+  "Umm... where you tell your story?" says Dylan.
+
+  "Right!" says Bruce.  "Every MetaCoders class, on the first day, the coach tells their own story about who they are and why they became a MetaCoders coach.  By the way, for those of you who might be forgetful.  My name is Bruce."  He says it like the shark in @i{Finding Nemo}.
+
+  @(img src: "http://4.bp.blogspot.com/-RBl5a9gHIl4/U74H69JVQbI/AAAAAAAABU8/84QIEWt2VNc/s640/tumblr_n0fj7pdSnv1shsvppo1_500.gif")
+
+  Everyone laughs.
+
+  "Thanks," says Bruce.  "I've been practicing that joke for weeks.  Anyway, here's my story..."   
+
 
 Collapse?
 ___
@@ -104,28 +119,23 @@ Stop 1a in STORIES quest
 
 Outline:
 
-All coaches creates their own introductory story
-
-You will be asked to soon!
-
 Examples of topics for intro stories
 
 Text (Video?!) of Bruce's intro story.
-
-INCLUDE RETURNER STUDENT -- asking about previous coach?
-
-TEXT FROM PREVIOUSLY WRITTEN STORIES
-
-Bruce gathers the students, encouraging the stragglers to quickly put their snacks away and join
- him, seated on the classroom rug. Once circled up, Bruce introduces himself (again!) and
- launches into his Introductory Story that he practiced in training:
  
-@quotation{Hello everyone! My name is Bruce and I am your Coding Coach. I am brand new to being
+@quotation{Hello everyone! I am brand new to being
   a Code Coach and I only started coding a few months ago! I bet some of you have been coding
-  longer than that -- was anyone part of this class in the Winter? Yu? and Efan! Well that means
-  you two have been coders longer than I have!}
+  longer than that -- like Dylan.  Has anyone else done some coding before? <<..>> Well that means
+  you have been coders longer than I have!
 
- @quotation{A lot of my work is with my hands -- I do carpentry, painting, fixing for people
+  But I don't want you to get all egotistical about it.  <<Does anyone know what egotistical means?>>
+
+  ... What it means to be a _MetaCoders_ coach.  At MetaCoders, we don't just teach coding.  We teach you to code <<to become a better person / learn / coding and brains and learning / >>.  I haven't been learning to code as long as some of you.  But let me tell you what I @i{have} been learning for a looooong time. ... 
+
+   <<Carpentry>>...
+}
+
+@quotation{A lot of my work is with my hands -- I do carpentry, painting, fixing for people
   around their house. I always thought coding was cool but I didn't think it was something I
   could do. I love to play video games. Does anyone else like video games? Yes! I love video
   games and always wanted to make my own, but thought it was really really hard. So I never
@@ -201,7 +211,9 @@ ___
 Finish with brief summary, lead in to next stop.
 
 
-
+<<Show the Map -- Bruce would be using the Class Launch map.>>
+<<Direct links to images can break...  Move into project...>>
+<<In the outro, tips for generating a story -- why? chain.  Story too short?  Ask another why...>>
 }
 
 
