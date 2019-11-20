@@ -27,9 +27,21 @@
   @(go-look-it-up)
   30)
 
+(define-card push-a-file
+  @text-front{
+    Push a blank text file to github.
+    First, show us in your browser that 
+    the file is not there.  Then push it, 
+    and show us in your browser that it
+    is there now.
+  }  
+  @(go-look-it-up)
+  60)
+
 (define/provide-deck (flash-cards)
   "1st Github Deck"
   mc-coach-repo-exists?
   purpose-of-mc-coach-repo? 
-  why-github-account?)
+  why-github-account?
+  push-a-file)
 

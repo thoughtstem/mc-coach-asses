@@ -1,475 +1,207 @@
-#reader(lib"read.ss""wxme")WXME0108 ## 
-#|
-   This file uses the GRacket editor format.
-   Open this file in DrRacket version 7.4 or later to read it.
+#lang at-exp metapolis-stories/lang/story
+  
+(define title         "Chapter 3: A Story about Stories")
+(define place         places:lovelace-elementary)
+(define characters    (list  characters:bruce
+                             characters:aurelia-todd
+                             characters:efan-farrell
+                             characters:colin-pearson
+                             characters:yu-huang
+                             characters:ava-cortez
+                             ))
+(define time          (unnamed-time 
+                        (moment 2021 3 25) 
+                        (moment 2021 3 25)))
 
-   Most likely, it was created by saving a program in DrRacket,
-   and it probably contains a program with non-text elements
-   (such as images or comment boxes).
+(define links   (list ))
 
-            http://racket-lang.org/
-|#
- 32 7 #"wxtext\0"
-3 1 6 #"wxtab\0"
-1 1 8 #"wximage\0"
-2 0 8 #"wxmedia\0"
-4 1 34 #"(lib \"syntax-browser.ss\" \"mrlib\")\0"
-1 0 36 #"(lib \"cache-image-snip.ss\" \"mrlib\")\0"
-1 0 68
-(
- #"((lib \"image-core.ss\" \"mrlib\") (lib \"image-core-wxme.rkt\" \"mr"
- #"lib\"))\0"
-) 1 0 16 #"drscheme:number\0"
-3 0 44 #"(lib \"number-snip.ss\" \"drscheme\" \"private\")\0"
-1 0 36 #"(lib \"comment-snip.ss\" \"framework\")\0"
-1 0 93
-(
- #"((lib \"collapsed-snipclass.ss\" \"framework\") (lib \"collapsed-sni"
- #"pclass-wxme.ss\" \"framework\"))\0"
-) 0 0 43 #"(lib \"collapsed-snipclass.ss\" \"framework\")\0"
-0 0 19 #"drscheme:sexp-snip\0"
-0 0 29 #"drscheme:bindings-snipclass%\0"
-1 0 101
-(
- #"((lib \"ellipsis-snip.rkt\" \"drracket\" \"private\") (lib \"ellipsi"
- #"s-snip-wxme.rkt\" \"drracket\" \"private\"))\0"
-) 2 0 88
-(
- #"((lib \"pict-snip.rkt\" \"drracket\" \"private\") (lib \"pict-snip.r"
- #"kt\" \"drracket\" \"private\"))\0"
-) 0 0 55
-#"((lib \"snip.rkt\" \"pict\") (lib \"snip-wxme.rkt\" \"pict\"))\0"
-1 0 34 #"(lib \"bullet-snip.rkt\" \"browser\")\0"
-0 0 25 #"(lib \"matrix.ss\" \"htdp\")\0"
-1 0 22 #"drscheme:lambda-snip%\0"
-1 0 29 #"drclickable-string-snipclass\0"
-0 0 26 #"drracket:spacer-snipclass\0"
-0 0 26 #"drscheme:pict-value-snip%\0"
-0 0 45 #"(lib \"image-snipr.ss\" \"slideshow\" \"private\")\0"
-1 0 38 #"(lib \"pict-snipclass.ss\" \"slideshow\")\0"
-2 0 55 #"(lib \"vertical-separator-snip.ss\" \"stepper\" \"private\")\0"
-1 0 18 #"drscheme:xml-snip\0"
-1 0 31 #"(lib \"xml-snipclass.ss\" \"xml\")\0"
-1 0 21 #"drscheme:scheme-snip\0"
-2 0 34 #"(lib \"scheme-snipclass.ss\" \"xml\")\0"
-1 0 10 #"text-box%\0"
-1 0 32 #"(lib \"text-snipclass.ss\" \"xml\")\0"
-1 0 1 6 #"wxloc\0"
-          0 0 56 0 1 #"\0"
-0 75 1 #"\0"
-0 12 90 -1 90 -1 3 -1 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 255 255 255 1 -1 0 9
-#"Standard\0"
-0 75 6 #"Menlo\0"
-0 15 90 -1 90 -1 3 -1 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 255 255 255 1 -1 2 1
-#"\0"
-0 -1 1 #"\0"
-1 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 -1 -1 2 24
-#"framework:default-color\0"
-0 -1 1 #"\0"
-1 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 -1 -1 2 1
-#"\0"
-0 -1 1 #"\0"
-1 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 1 1 150 0 150 0 0 0 -1 -1 2 15
-#"text:ports out\0"
-0 -1 1 #"\0"
-1 0 -1 -1 -1 93 -1 -1 0 1 0 0 0 0 0 0 0 1 1 1 150 0 150 0 0 0 -1 -1 2 1
-#"\0"
-0 -1 1 #"\0"
-1.0 0 -1 -1 93 -1 -1 -1 0 0 0 0 0 0 0 0 0 1.0 1.0 1.0 255 0 0 0 0 0 -1
--1 2 15 #"text:ports err\0"
-0 -1 1 #"\0"
-1 0 -1 -1 93 -1 -1 -1 0 1 0 0 0 0 0 0 0 1 1 1 255 0 0 0 0 0 -1 -1 2 1
-#"\0"
-0 -1 1 #"\0"
-1 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 1 1 0 0 175 0 0 0 -1 -1 2 17
-#"text:ports value\0"
-0 -1 1 #"\0"
-1 0 -1 -1 -1 93 -1 -1 0 1 0 0 0 0 0 0 0 1 1 1 0 0 175 0 0 0 -1 -1 2 1
-#"\0"
-0 -1 1 #"\0"
-1.0 0 92 -1 -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 1.0 1.0 1.0 34 139 34 0 0 0 -1
--1 2 27 #"Matching Parenthesis Style\0"
-0 -1 1 #"\0"
-1.0 0 92 -1 -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 1.0 1.0 1.0 34 139 34 0 0 0 -1
--1 2 1 #"\0"
-0 -1 1 #"\0"
-1 0 -1 -1 -1 93 -1 -1 0 1 0 0 0 0 0 0 0 1 1 1 38 38 128 0 0 0 -1 -1 2 37
-#"framework:syntax-color:scheme:symbol\0"
-0 -1 1 #"\0"
-1 0 -1 -1 -1 93 -1 -1 0 1 0 0 0 0 0 0 0 1 1 1 38 38 128 0 0 0 -1 -1 2 38
-#"framework:syntax-color:scheme:keyword\0"
-0 -1 1 #"\0"
-1 0 -1 -1 -1 93 -1 -1 0 1 0 0 0 0 0 0 0 1 1 1 38 38 128 0 0 0 -1 -1 2 1
-#"\0"
-0 -1 1 #"\0"
-1 0 -1 -1 -1 93 -1 -1 0 1 0 0 0 0 0 0 0 1 1 1 194 116 31 0 0 0 -1 -1 2
-38 #"framework:syntax-color:scheme:comment\0"
-0 -1 1 #"\0"
-1 0 -1 -1 -1 93 -1 -1 0 1 0 0 0 0 0 0 0 1 1 1 194 116 31 0 0 0 -1 -1 2 1
-#"\0"
-0 -1 1 #"\0"
-1 0 -1 -1 -1 93 -1 -1 0 1 0 0 0 0 0 0 0 1 1 1 41 128 38 0 0 0 -1 -1 2 37
-#"framework:syntax-color:scheme:string\0"
-0 -1 1 #"\0"
-1 0 -1 -1 -1 93 -1 -1 0 1 0 0 0 0 0 0 0 1 1 1 41 128 38 0 0 0 -1 -1 2 35
-#"framework:syntax-color:scheme:text\0"
-0 -1 1 #"\0"
-1 0 -1 -1 -1 93 -1 -1 0 1 0 0 0 0 0 0 0 1 1 1 41 128 38 0 0 0 -1 -1 2 39
-#"framework:syntax-color:scheme:constant\0"
-0 -1 1 #"\0"
-1 0 -1 -1 -1 93 -1 -1 0 1 0 0 0 0 0 0 0 1 1 1 41 128 38 0 0 0 -1 -1 2 1
-#"\0"
-0 -1 1 #"\0"
-1 0 -1 -1 -1 93 -1 -1 0 1 0 0 0 0 0 0 0 1 1 1 132 60 36 0 0 0 -1 -1 2 49
-#"framework:syntax-color:scheme:hash-colon-keyword\0"
-0 -1 1 #"\0"
-1 0 -1 -1 -1 93 -1 -1 0 1 0 0 0 0 0 0 0 1 1 1 132 60 36 0 0 0 -1 -1 2 42
-#"framework:syntax-color:scheme:parenthesis\0"
-0 -1 1 #"\0"
-1 0 -1 -1 -1 93 -1 -1 0 1 0 0 0 0 0 0 0 1 1 1 132 60 36 0 0 0 -1 -1 2 1
-#"\0"
-0 -1 1 #"\0"
-1 0 -1 -1 -1 93 -1 -1 0 1 0 0 0 0 0 0 0 1 1 1 255 0 0 0 0 0 -1 -1 2 36
-#"framework:syntax-color:scheme:error\0"
-0 -1 1 #"\0"
-1 0 -1 -1 -1 93 -1 -1 0 1 0 0 0 0 0 0 0 1 1 1 255 0 0 0 0 0 -1 -1 2 1
-#"\0"
-0 -1 1 #"\0"
-1 0 -1 -1 -1 93 -1 -1 0 1 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 -1 -1 2 36
-#"framework:syntax-color:scheme:other\0"
-0 -1 1 #"\0"
-1 0 -1 -1 -1 93 -1 -1 0 1 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 -1 -1 2 16
-#"Misspelled Text\0"
-0 -1 1 #"\0"
-1 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 -1 -1 2 1
-#"\0"
-0 -1 1 #"\0"
-1 0 -1 -1 -1 93 -1 -1 0 1 0 0 0 0 0 0 0 1 1 1 81 112 203 0 0 0 -1 -1 2
-38 #"drracket:check-syntax:lexically-bound\0"
-0 -1 1 #"\0"
-1 0 -1 -1 -1 93 -1 -1 0 1 0 0 0 0 0 0 0 1 1 1 81 112 203 0 0 0 -1 -1 2 1
-#"\0"
-0 -1 1 #"\0"
-1 0 -1 -1 -1 93 -1 -1 0 1 0 0 0 0 0 0 0 1 1 1 178 34 34 0 0 0 -1 -1 2 28
-#"drracket:check-syntax:set!d\0"
-0 -1 1 #"\0"
-1 0 -1 -1 -1 93 -1 -1 0 1 0 0 0 0 0 0 0 1 1 1 178 34 34 0 0 0 -1 -1 2 37
-#"drracket:check-syntax:unused-require\0"
-0 -1 1 #"\0"
-1 0 -1 -1 -1 93 -1 -1 0 1 0 0 0 0 0 0 0 1 1 1 255 0 0 0 0 0 -1 -1 2 36
-#"drracket:check-syntax:free-variable\0"
-0 -1 1 #"\0"
-1 0 -1 -1 -1 93 -1 -1 0 1 0 0 0 0 0 0 0 1 1 1 255 0 0 0 0 0 -1 -1 2 1
-#"\0"
-0 -1 1 #"\0"
-1 0 -1 -1 -1 93 -1 -1 0 1 0 0 0 0 0 0 0 1 1 1 68 0 203 0 0 0 -1 -1 2 31
-#"drracket:check-syntax:imported\0"
-0 -1 1 #"\0"
-1 0 -1 -1 -1 93 -1 -1 0 1 0 0 0 0 0 0 0 1 1 1 68 0 203 0 0 0 -1 -1 2 47
-#"drracket:check-syntax:my-obligation-style-pref\0"
-0 -1 1 #"\0"
-1 0 -1 -1 -1 93 -1 -1 0 1 0 0 0 0 0 0 0 1 1 1 178 34 34 0 0 0 -1 -1 2 1
-#"\0"
-0 -1 1 #"\0"
-1 0 -1 -1 -1 93 -1 -1 0 1 0 0 0 0 0 0 0 1 1 1 0 116 0 0 0 0 -1 -1 2 50
-#"drracket:check-syntax:their-obligation-style-pref\0"
-0 -1 1 #"\0"
-1 0 -1 -1 -1 93 -1 -1 0 1 0 0 0 0 0 0 0 1 1 1 0 116 0 0 0 0 -1 -1 2 48
-#"drracket:check-syntax:unk-obligation-style-pref\0"
-0 -1 1 #"\0"
-1 0 -1 -1 -1 93 -1 -1 0 1 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 -1 -1 2 1
-#"\0"
-0 -1 1 #"\0"
-1 0 -1 -1 -1 93 -1 -1 0 1 0 0 0 0 0 0 0 1 1 1 139 142 28 0 0 0 -1 -1 2
-49 #"drracket:check-syntax:both-obligation-style-pref\0"
-0 -1 1 #"\0"
-1 0 -1 -1 -1 93 -1 -1 0 1 0 0 0 0 0 0 0 1 1 1 139 142 28 0 0 0 -1 -1 2
-26 #"plt:htdp:test-coverage-on\0"
-0 -1 1 #"\0"
-1 0 -1 -1 -1 93 -1 -1 0 1 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 -1 -1 2 1
-#"\0"
-0 -1 1 #"\0"
-1 0 -1 -1 -1 93 -1 -1 0 1 0 0 0 1 0 0 0 0 0 0 255 165 0 0 0 0 -1 -1 2 27
-#"plt:htdp:test-coverage-off\0"
-0 -1 1 #"\0"
-1 0 -1 -1 -1 93 -1 -1 0 1 0 0 0 1 0 0 0 0 0 0 255 165 0 0 0 0 -1 -1 4 1
-#"\0"
-0 70 1 #"\0"
-1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 1.0 1.0 1.0 1.0 1.0 1.0 0 0 0 0 0 0
--1 -1 4 4 #"XML\0"
-0 70 1 #"\0"
-1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 1.0 1.0 1.0 1.0 1.0 1.0 0 0 0 0 0 0
--1 -1 2 37 #"plt:module-language:test-coverage-on\0"
-0 -1 1 #"\0"
-1 0 -1 -1 -1 93 -1 -1 0 1 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 -1 -1 2 38
-#"plt:module-language:test-coverage-off\0"
-0 -1 1 #"\0"
-1 0 -1 -1 -1 93 -1 -1 0 1 0 0 0 1 0 0 0 0 0 0 255 165 0 0 0 0 -1 -1 4 1
-#"\0"
-0 71 1 #"\0"
-1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 1.0 1.0 1.0 1.0 1.0 1.0 0 0 0 0 0 0
--1 -1 4 1 #"\0"
-0 -1 1 #"\0"
-1.0 0 -1 -1 -1 -1 -1 -1 1 0 0 0 0 0 0 0 0 1.0 1.0 1.0 0 0 255 0 0 0 -1
--1 4 1 #"\0"
-0 71 1 #"\0"
-1.0 0 -1 -1 -1 -1 -1 -1 1 0 0 0 0 0 0 0 0 1.0 1.0 1.0 0 0 255 0 0 0 -1
--1 4 1 #"\0"
-0 71 1 #"\0"
-1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 1.0 1.0 1.0 0 100 0 0 0 0 -1
--1 2 1 #"\0"
-0 -1 1 #"\0"
-1 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 1 1 1 200 0 0 0 0 0 -1 -1
-          0 189 0 28 3 41 #"#lang at-exp metapolis-stories/lang/story"
-0 0 24 29 1 #"\n"
-0 0 24 3 2 #"  "
-0 0 24 29 1 #"\n"
-0 0 24 3 1 #"("
-0 0 15 3 6 #"define"
-0 0 24 3 1 #" "
-0 0 14 3 5 #"title"
-0 0 24 3 9 #"         "
-0 0 19 3 34 #"\"Chapter 3: A Story about Stories\""
-0 0 24 3 1 #")"
-0 0 24 29 1 #"\n"
-0 0 24 3 1 #"("
-0 0 15 3 6 #"define"
-0 0 24 3 1 #" "
-0 0 14 3 5 #"place"
-0 0 24 3 9 #"         "
-0 0 14 3 26 #"places:lovelace-elementary"
-0 0 24 3 1 #")"
-0 0 24 29 1 #"\n"
-0 0 24 3 1 #"("
-0 0 15 3 6 #"define"
-0 0 24 3 1 #" "
-0 0 14 3 10 #"characters"
-0 0 24 3 5 #"    ("
-0 0 14 3 4 #"list"
-0 0 24 3 2 #"  "
-0 0 14 3 16 #"characters:bruce"
-0 0 24 29 1 #"\n"
-0 0 24 3 29 #"                             "
-0 0 14 3 23 #"characters:aurelia-todd"
-0 0 24 29 1 #"\n"
-0 0 24 3 29 #"                             "
-0 0 14 3 23 #"characters:efan-farrell"
-0 0 24 29 1 #"\n"
-0 0 24 3 29 #"                             "
-0 0 14 3 24 #"characters:colin-pearson"
-0 0 24 29 1 #"\n"
-0 0 24 3 29 #"                             "
-0 0 14 3 19 #"characters:yu-huang"
-0 0 24 29 1 #"\n"
-0 0 24 3 29 #"                             "
-0 0 14 3 21 #"characters:ava-cortez"
-0 0 24 29 1 #"\n"
-0 0 24 3 31 #"                             ))"
-0 0 24 29 1 #"\n"
-0 0 24 3 1 #"("
-0 0 15 3 6 #"define"
-0 0 24 3 1 #" "
-0 0 14 3 4 #"time"
-0 0 24 3 11 #"          ("
-0 0 14 3 12 #"unnamed-time"
-0 0 24 3 1 #" "
-0 0 24 29 1 #"\n"
-0 0 24 3 25 #"                        ("
-0 0 14 3 6 #"moment"
-0 0 24 3 1 #" "
-0 0 21 3 4 #"2021"
-0 0 24 3 1 #" "
-0 0 21 3 1 #"3"
-0 0 24 3 1 #" "
-0 0 21 3 2 #"25"
-0 0 24 3 2 #") "
-0 0 24 29 1 #"\n"
-0 0 24 3 25 #"                        ("
-0 0 14 3 6 #"moment"
-0 0 24 3 1 #" "
-0 0 21 3 4 #"2021"
-0 0 24 3 1 #" "
-0 0 21 3 1 #"3"
-0 0 24 3 1 #" "
-0 0 21 3 2 #"25"
-0 0 24 3 3 #")))"
-0 0 24 29 1 #"\n"
-0 0 24 29 1 #"\n"
-0 0 24 3 1 #"("
-0 0 15 3 6 #"define"
-0 0 24 3 1 #" "
-0 0 14 3 5 #"links"
-0 0 24 3 4 #"   ("
-0 0 14 3 4 #"list"
-0 0 24 3 2 #" ("
-0 0 14 3 10 #"story-from"
-0 0 24 3 1 #" "
-0 0 19 3 12 #"\"about-story"
-0 0 19 3 24 #"/introduction-story.rkt\""
-0 0 24 3 1 #")"
-0 0 24 29 1 #"\n"
-0 0 24 3 23 #"                      ("
-0 0 14 3 10 #"story-from"
-0 0 24 3 1 #" "
-0 0 19 3 12 #"\"about-story"
-0 0 19 3 33 #"/code-of-awesomeness-stories.rkt\""
-0 0 24 3 1 #")"
-0 0 24 29 1 #"\n"
-0 0 24 3 23 #"                      ("
-0 0 14 3 10 #"story-from"
-0 0 24 3 1 #" "
-0 0 19 3 12 #"\"about-story"
-0 0 19 3 23 #"/hello-world-intro.rkt\""
-0 0 24 3 1 #")"
-0 0 24 29 1 #"\n"
-0 0 24 3 23 #"                      ("
-0 0 14 3 10 #"story-from"
-0 0 24 3 1 #" "
-0 0 19 3 28 #"\"about-story/reflection.rkt\""
-0 0 24 3 3 #")))"
-0 0 24 29 1 #"\n"
-0 0 24 29 1 #"\n"
-0 0 24 3 1 #"("
-0 0 15 3 7 #"require"
-0 0 24 3 1 #" "
-0 0 19 3 20 #"\"../flash-cards.rkt\""
-0 0 24 3 1 #")"
-0 0 24 29 1 #"\n"
-0 0 24 29 1 #"\n"
-0 0 24 3 1 #"@"
-0 0 14 3 5 #"paras"
-0 0 24 3 1 #"{"
-0 0 20 3 1 #"s"
-0 0 24 29 1 #"\n"
-0 0 24 3 2 #"  "
-0 0 20 3 25 #"1st stop in STORIES quest"
-0 0 24 29 1 #"\n"
-0 0 24 29 1 #"\n"
-0 0 20 3 8 #"Outline:"
-0 0 24 29 1 #"\n"
-0 0 24 3 1 #" "
-0 0 24 29 1 #"\n"
-0 0 20 3 76
-(
- #"Lovelace Introduction -- how long has Meta Coders been here, what we"
- #" do here"
-) 0 0 24 29 1 #"\n"
-0 0 24 29 1 #"\n"
-0 0 20 3 53 #"Coach Intro -- Bruce, first class ever, new, nervous?"
-0 0 24 29 1 #"\n"
-0 0 24 29 1 #"\n"
-0 0 20 3 72
-(
- #"Introduce students? who has been here before? how they feel about cl"
- #"ass?"
-) 0 0 24 29 1 #"\n"
-0 0 24 29 1 #"\n"
-0 0 20 3 29 #"Map -- using Class Launch map"
-0 0 24 29 1 #"\n"
-0 0 24 29 1 #"\n"
-0 0 24 29 1 #"\n"
-0 0 20 3 22 #"See stories in action:"
-0 0 24 29 1 #"\n"
-0 0 24 29 1 #"\n"
-0 0 24 3 2 #"@("
-0 0 14 3 13 #"link-to-story"
-0 0 24 3 2 #" ("
-0 0 14 3 5 #"first"
-0 0 24 3 1 #" "
-0 0 14 3 5 #"links"
-0 0 24 3 2 #"))"
-0 0 24 29 1 #"\n"
-0 0 24 3 2 #"@("
-0 0 14 3 13 #"link-to-story"
-0 0 24 3 2 #" ("
-0 0 14 3 6 #"second"
-0 0 24 3 1 #" "
-0 0 14 3 5 #"links"
-0 0 24 3 2 #"))"
-0 0 24 29 1 #"\n"
-0 0 24 3 2 #"@("
-0 0 14 3 13 #"link-to-story"
-0 0 24 3 2 #" ("
-0 0 14 3 5 #"third"
-0 0 24 3 1 #" "
-0 0 14 3 5 #"links"
-0 0 24 3 2 #"))"
-0 0 24 29 1 #"\n"
-0 0 24 3 2 #"@("
-0 0 14 3 13 #"link-to-story"
-0 0 24 3 2 #" ("
-0 0 14 3 6 #"fourth"
-0 0 24 3 1 #" "
-0 0 14 3 5 #"links"
-0 0 24 3 2 #"))"
-0 0 24 29 1 #"\n"
-0 0 24 29 1 #"\n"
-0 0 20 3 48 #"Finish with brief summary, lead in to next stop."
-0 0 24 29 1 #"\n"
-0 0 24 29 1 #"\n"
-0 0 24 29 1 #"\n"
-0 0 24 29 1 #"\n"
-0 0 24 3 1 #"}"
-0 0 24 29 1 #"\n"
-0 0 24 29 1 #"\n"
-0 9         355 28           0 0           0 58 0 14 3 4 #"TEXT"
-0 0 24 3 1 #" "
-0 0 14 3 4 #"from"
-0 0 24 3 1 #" "
-0 0 14 3 10 #"previously"
-0 0 24 3 1 #" "
-0 0 14 3 7 #"written"
-0 0 24 3 1 #" "
-0 0 14 3 7 #"stories"
-0 0 24 29 1 #"\n"
-0 0 24 29 1 #"\n"
-0 0 14 3 4 #"This"
-0 0 24 3 1 #" "
-0 0 14 3 2 #"is"
-0 0 24 3 1 #" "
-0 0 14 3 5 #"Bruce"
-0 0 21 3 1 #"'"
-0 0 14 3 1 #"s"
-0 0 24 3 1 #" "
-0 0 14 3 5 #"first"
-0 0 24 3 1 #" "
-0 0 14 3 4 #"time"
-0 0 24 3 1 #" "
-0 0 14 3 2 #"at"
-0 0 24 3 1 #" "
-0 0 14 3 4 #"this"
-0 0 24 3 1 #" "
-0 0 14 3 8 #"location"
-0 0 28 3 1 #","
-0 0 24 3 1 #" "
-0 0 14 3 7 #"however"
-0 0 24 3 1 #" "
-0 0 14 3 4 #"Meta"
-0 0 24 3 1 #" "
-0 0 14 3 6 #"Coders"
-0 0 24 3 1 #" "
-0 0 14 3 3 #"has"
-0 0 24 3 1 #" "
-0 0 14 3 4 #"been"
-0 0 24 3 1 #" "
-0 0 14 3 4 #"here"
-0 0 24 3 1 #" "
-0 0 14 3 6 #"before"
-0 0 24 29 1 #"\n"
-0 0 24 3 1 #"("
-0 0 14 3 4 #"Ruby"
-0 0 24 3 1 #" "
-0 0 14 3 6 #"taught"
-0 0 24 3 1 #" "
-0 0 14 3 4 #"here"
-0 0 24 3 1 #" "
-0 0 14 3 4 #"last"
-0 0 24 3 1 #" "
-0 0 14 3 8 #"session!"
-0 0 24 3 1 #")"
-0 0 28 3 1 #"."
-0 0 24 29 1 #"\n"
-0 0 24 29 1 #"\n"
-0           0 0 0 24 29 1 #"\n"
-0 0 24 29 1 #"\n"
-0           0
+(require "../flash-cards.rkt")
+
+@paras{
+  The parking lot of Lovelace Elementary is full and a bit crowded -- because it's the end of the school day.  Kids are hopping aboard yellow buses and getting into their parents cars.  You walk into the school, opposite the flow of kids going out.  
+
+  Because of the flow of children and end-of-day excitement, you can't really get a good look at the plaque below the painting of Ada Lovelace as a seven-year-old child hanging on the wall:
+
+  @(img src: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Ada_Lovelace_child_portrait_Somerville_College.jpg/440px-Ada_Lovelace_child_portrait_Somerville_College.jpg")
+
+  You decide to press on and ask at the office where the MetaCoders after school program meets.  The lady at the front desk asks if you're the MetaCoders coach.  You tell her that you're training to be a coach, and that you're here to observe class. 
+  She checks her computer screen.  "Ah, yes," she says, tilting her computer toward you.  "Is this your name?  MetaCoders Head Quarters called last week to arrange your visit."
+
+  "That's me," you say.
+ 
+  She has you show your ID and sign in.   "It's room 10A -- just down the hall and to the right."
+
+  You head over there and arive about 10 minutes before the class is supposed to start.  You recognize the coach immediately because he is wearing a MetaCoders hoodie.  His nametag says "Bruce".  And he's the only one in the room.
+
+  He is setting up small laptops, one on each desk.  "Hi!" he says.  "Can you help me out?  The kids will be coming soon.  Just take those computers in the cart over there and put one on each desk.  Then launch DrRacket."
+
+  He shows you the desktop icon, which looks like this:
+
+  @(img width: 100 
+        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Racket-logo.svg/512px-Racket-logo.svg.png")
+
+  As you begin distributing computers and launching DrRacket on each one, you ask, "So did you have to install DrRacket on all of these computers before coming to class?"
+
+  "Oh, no," he says.  "The MetaCoders technology coordinators do that.  Kate is the local TC.  She lives down the street.  We coaches just make a quick stop at a TC's house before each class.  We pick up the computers and drop them off again when we're done.  The TCs make sure everything is installed -- including whatever programming languages we'll be teaching.  Ahem, sorry: 'Coaching' not 'teaching'."
+
+  "Have you been coaching long?"
+
+  "Nope!" he says, grinning.  "This is my first day.  Can you tell I'm super nervous?  I always talk a lot when I'm nervous."
+
+  "That should come in handy for Story Mode," you say.
+
+  "That's exactly what I keep telling myself!"  
+
+  When all 10 of the computers are set up, Bruce breathes a sigh of relief.  "Still 5 minutes before class starts." But at that exact moment, a student of about 7 or 8 years old walks in.  
+
+  "Ummm," she says.  "Is this..."  She gulps, a bit shy.  "Uh... the... coding class?"
+
+  "It sure is," says Bruce, with a huge smile.  "Come on in!  Leave your backpack by the door.  You can have a seat right here, in the front row."
+
+  Once she is seated, Bruce says to her and to you, "At MetaCoders we always say: Class doesn't start at the scheduled time.  It starts the moment you see the first student.  So let's start with Game Mode while we wait for everyone."
+
+  "What's Game Mode?" she asks.  
+
+  "It's when we play games," he says.
+
+  "I play Fortnite with my dad."
+
+  "Cool!" says Bruce.  "This game is a memory game.  We'll each say something we like about computers or coding.  For example, you just said 'Fortnite'.  Now it's my turn, so I have to remember what you said -- 'Fortnite' -- and then add my own thing that @i{I} like about computers or coding.  I like..." He thinks for a moment.  "DrRacket -- which is the program we'll be using today to write programs in."  He looks at you.
+
+  "Umm.  Sophie likes Fortnite.  Bruce likes DrRacket.  I like..." The first thing that pops into your head is: "Github." 
+
+  "What's Github?" says Sophie. 
+
+  "It's a website," says Bruce, "where coders put their code so that they can work with other coders on the same code."
+
+  Inwardly, your impressed at how quickly Bruce managed to explain that concept to a 7-year-old.  
+
+  "Okay, Sophie," says Bruce.  "Now you have to remember all three things and then add another."
+
+  Sophie <<starts>> <<Another student walks in.>> 
+
+  <<Bruce re-starts the game...>> 
+
+  <<So it goes as more kids filter in.  Attendance?>>
+
+   
+
+Outline:
+ 
+Lovelace Introduction -- how long has Meta Coders been here, what we do here
+
+Coach Intro -- Bruce, first class ever, new, nervous?
+
+Introduce students? who has been here before? how they feel about class?
+
+Map -- using Class Launch map
+
+See stories in action:
+
+Collapse?
+___
+Stop 1a in STORIES quest
+
+Outline:
+
+All coaches creates their own introductory story
+
+You will be asked to soon!
+
+Examples of topics for intro stories
+
+Text (Video?!) of Bruce's intro story.
+
+INCLUDE RETURNER STUDENT -- asking about previous coach?
+
+TEXT FROM PREVIOUSLY WRITTEN STORIES
+
+Bruce gathers the students, encouraging the stragglers to quickly put their snacks away and join
+ him, seated on the classroom rug. Once circled up, Bruce introduces himself (again!) and
+ launches into his Introductory Story that he practiced in training:
+ 
+@quotation{Hello everyone! My name is Bruce and I am your Coding Coach. I am brand new to being
+  a Code Coach and I only started coding a few months ago! I bet some of you have been coding
+  longer than that -- was anyone part of this class in the Winter? Yu? and Efan! Well that means
+  you two have been coders longer than I have!}
+
+ @quotation{A lot of my work is with my hands -- I do carpentry, painting, fixing for people
+  around their house. I always thought coding was cool but I didn't think it was something I
+  could do. I love to play video games. Does anyone else like video games? Yes! I love video
+  games and always wanted to make my own, but thought it was really really hard. So I never
+  even tried! But, when my friend Ruby told me about how she became a Coding Coach and learned
+  how to code with students like you, I thought I would give it a try!}
+            
+@quotation{It hasn't always been easy. I have made a lot of mistakes and had a hard time getting
+  all the parentheses right (we will learn about those in a bit!), but I am glad I have been
+  sticking with it because now I get to meet all of you and work with you!}
+___
+Stop 1b in STORIES quest
+
+Outline:
+
+See parts of or all of the Code of Awesomeness Fables
+
+INCLUDE RETURNER STUDENT(S) -- acknowledge presence and experience
+
+TEXT FROM PREV WRITTEN STORIES
+
+Bruce moves on to the Code of Awesomeness story!
+
+@quotation{It's time to make you all Official Members of Lovelace Elementary's Meta Coders Team!
+  Now, this team is awesome, and as a member of our team, you are also awesome! We have a Code
+  of Awesomeness that helps set us up for success and make us the best coders we can be.}
+
+@quotation{Who has been a member of our Coding Team before? Yu and Aurelia? Welcome back! Now,
+  you may remember the Code of Awesomeness and your mottos from last time, but this time we are
+  going to create new mottos for our new team. Let's start with learning the 3 Codes, then we
+  will work as a team to create our very own team's motto for each Code...}
+
+Bruce launches into the 3 Code of Awesomeness stories. He forgets
+ some of the details, but he has his cheat sheet to reference to help him get back on track.
+___
+Stop 1c in the STORIES quest
+
+Outline:
+
+... Not sure
+
+some sort of short-n-sweet intro story to any hello world kata, using disintergrating code.
+___
+
+Stop 1d in STORIES quest
+
+Outline:
+
+End of class, Coach encourages students to reflect on what they did today
+
+given a specific prompt, tied to the introduction story, possibly?
+
+Example: What was one challenge you faced and overcame today in class?
+Example: What was one new thing you did today in class?
+
+Several if not all students respond.
+
+INCLUDE RETURN STUDENT
+
+Bruce congratulates the students on their great work today -- working as a team to create their
+ Code of Awesome mottos, coding (some of them for the very first time!), and earning their
+ first two katas!
+
+Bruce asks if any one can think of a challenge that they overcame in class today -- relating
+ it back to the stories and introductions they did at the beginning of class. After some
+ additional prompting, a couple students share difficulties, including using the mouse,
+ trying to remember the Hello World kata, and not getting the motto he wanted.
+
+Bruce tells them they should all be very proud of the work they did today -- he knows that he
+is very proud of them all!
+___
+
+
+Finish with brief summary, lead in to next stop.
+
+
+
+}
+
+
