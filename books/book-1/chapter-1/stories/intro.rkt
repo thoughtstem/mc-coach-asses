@@ -4,8 +4,8 @@
 (define place         places:metapolis-welcome-center)
 (define characters    (list ))
 (define time          (unnamed-time
-                        (moment 2021 6 28)
-                        (moment 2021 8 13)))
+                        (moment 2021 4 24 12)
+                        (moment 2021 4 24 12)))
 (define links   (list))
 
 (require "../flash-cards.rkt")

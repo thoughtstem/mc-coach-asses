@@ -4,8 +4,8 @@
 (define place         places:metapolis-welcome-center)
 (define characters    (list ))
 (define time          (unnamed-time
-                        (moment 2021 1 1)
-                        (moment 2021 1 1)))
+                        (moment 2021 4 30)
+                        (moment 2021 4 30)))
 (define links   (list))
 
 (require "../flash-cards.rkt")
@@ -14,7 +14,7 @@
 
   You're back!  If you did the right thing, your progress bar should now be full.  If not, you may have missed something.  But we're not here to micromanage your tours through Metapolis.   
 
-  What you should do now is assess yourself.  Since this will be your first official assessment, we'll remind you of a few things:
+  Next up is the self-assessment.  Since this will be your first official assessment, we'll remind you of a few things:
 
   @ol{
     @li{If you don't know how to start an assessment, you missed something in the previous chapter (the Intro Chapter).  Go back and learn how to install the software and run a deck of flashcards.}
@@ -30,9 +30,9 @@
    @li{The flashcards will not be a surprise.  You may study the fronts and backs as much as you wish before submitting your video.}
   }
 
-  As is always the case at MetaCoders, we never ask anyone to do anything without knowing @b{Why?}.  So if you happen to be nervous about recording yourself and happen to be asking "But why can't I just write my answers down and send them in?"  The answer is: We don't do things at MetaCoders the way traditional educational instututions do things.  That's because when you step into a classroom, we need you to not just "know stuff".  We need you do be deeply @b{fluent} in the things we're teaching you.
+  As is always the case at MetaCoders, we never ask anyone to do anything without knowing @b{why}.  So if you happen to be nervous about recording yourself and happen to be asking "But why can't I just write my answers down and send them in?"  The answer is simple: to be truely fluent, timing matters.  When you step into a classroom, we need you to not just "know stuff."  We need you do be deeply @b{fluent} in the things we're teaching you; so the information is ready for you when you need it.
 
-  Traditional education usually assesses you on what you are able to write down and turn in.  But this means that students often never get assessed on how quickly or effortlessly you are able to recall that information.  As we'll discuss in more detail in later chapters, that's part of the definition of "fluency": an ability to recall things quickly and effortlessly.  
+  Traditional education usually assesses you on what you are able to write down and turn in.  But this means that students often never get assessed on how quickly or effortlessly you are able to recall that information.  As we'll discuss in more detail in later chapters, that's part of the definition of "fluency" -- an ability to recall things quickly and effortlessly.  
 
   We hold our coding coaches to a high standard -- both as coders and as coaches.  That's why we assess fluency instead of knowledge.  Knowledge is slow; fluency is fast.
 
@@ -47,7 +47,7 @@
 
   In cases like these, the flashcards are not broken.  We've just designed them in a very particular way -- a way that we genuinely believe will make you more fluent faster.  
 
-  Ultimately, that's what we care about at MetaCoders -- fluent coaches that train fluent students who go on to become fluent coaches.  We've seen it happen.  We know you can do it.  But we need your help.  If at any time you need ours, don't hesitate to email us at training@"@"metacoders.org.  But also, don't be the kind of student who raises your hand (via email) every time you get stuck.  Practice grit.  Practice problem-solving.
+  Ultimately, that's what we care about at MetaCoders -- fluent coaches that train fluent students.  We've seen it happen.  We know you can do it.  But we need your help.  If at any time you need ours, don't hesitate to email us at training@"@"metacoders.org.  But also, don't be the kind of student who raises your hand (via email) every time you get stuck.  Practice grit.  Practice problem-solving.
 
   Become the most fluent coder/coach you can.  Do it for yourself -- because coding is one of the most sought-after skills on this planet today.  Do it for your students for the same reason.
 
