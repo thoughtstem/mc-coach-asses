@@ -21,6 +21,8 @@
  Story as a learning tool (touched on in Welcome chapter)
 
  Why we use story
+
+<<In the outro, tips for generating a story -- why? chain.  Story too short?  Ask another why...>>
 }
 
 

@@ -13,11 +13,9 @@
     places:lovelace-elementary
     stories:about-story
 
-    places:kick-butt-martial-arts
-    stories:more-on-stories
-
     places:babbage-university
     stories:story-science
+
 
     ;TODO check against flashcards
     

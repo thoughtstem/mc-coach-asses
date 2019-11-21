@@ -133,7 +133,7 @@
   something long enough to get really, really good at it.  It takes a lot of strength to keep learning something day after day, 
   month after month, and year after year.  
   But I learned how to become a strong person.  All of that is stored in my brain now.  And because of everything stored in my brain,
-  I can literally build an entire house with my own two hands."
+  I can literally build an entire house with my hands."
 
   Some of the kids murmer in awe.
 
@@ -152,8 +152,6 @@
   Bruce makes a very theatrical bow.  The students giggle.  Dylan claps, which causes the rest to join in applause.
 
   @(hr)
-
-
 
   "That was Story Mode," says Bruce.  "In MetaCoders classes, we have two modes that we switch 
   between -- Game Mode and Story Mode."  He references the screen of a laptop he has set aside for himself.
@@ -256,67 +254,117 @@
   getting bigger faster.  Sometimes your mistakes don't seem like mistakes at first.  
   It takes discipline and practice to live by certain morals, it's always tempting to take 
   shortcuts.  I @i{knew} to measure twice and cut once for years before I started actually
-  @i{living} by that rule.  So this Game Mode will be your first test to see if you not only 
+  @i{doing} it.  So this Game Mode will be your first test to see if you not only 
   understand the morals of the stories, but also know how to live by them."
 
-  He checks his computer screen.
+  He checks his computer screen.  "Okay, I'm going to write some code on the board."
+  He shuffles through a deck of hexagonal cards until he finds one that he likes.
 
-  "The upcoming Game Mode is called @b{Disintegrating Code}.  Basically, I'm going to write some code 
-  on the whiteboard behind me.  I'm going to ask
-  you all to type it in to DrRacket and run it by pressing the green 'Run' button.
+  Looking at the code on the card, he narrates while he writes so that there is never
+  empty silence:
+
+  @pre{
+    @code{
+      #lang adventure
+ 
+      (adventure-game
+         #:avatar (basic-avatar #:sprite pirateboy-sprite))
+    }
+  }
+
+  "In this class, we're going to make more and more complicated adventure games using
+  a programming language for making adventure games.  Can anyone guess what that language is
+  named?"
+
+  Sophie and Dylan both raise their hands.
+
+  "Sophie?"
+
+  "Lang adventure?"
+
+  "Exactly!" says Bruce, pointing to where he wrote @pre{#lang adventure}. "It's a cool
+  language that I've already made several games in.  And I'm excited to see the creative
+  games that all of you make.  But we're not just here to learn how to code, we're here
+  to learn how to learn how to code.  The upcoming Game Mode is called @b{Disintegrating Code}, 
+  and it's a technique I've used myself to become
+  a better coder. I'm going to set a 5 minute timer and ask you all to type the code in to 
+  DrRacket and run it by pressing the green 'Run' button.  A game is going to pop up, and you're welcome to play it.
+  But don't get too excited, because...
   Then, I'm going to ask you to delete your code, and I'm going to @i{erase} part of the code on the board.
-  You'l have to write it again, without being able to see that part.  Eventually, there won't
+  You'll have to write it again, without being able to see that part.  Eventually, there won't
   be any code on the board at all.  And you'll have to write it @b{all} from memory, and you'll have
   to debug it if you write part of it wrong.  So you'll get a chance to practice hunting those bugs!"
 
-  Bruce takes a deep breath -- a dramatic pause.  "Okay, Game Mode begins when I start writing on the board.
-  You can start typing the moment I start writing.  No one is allowed to talk during this Game Mode
-  except me.  Clap twice if you're ready." 
+  Bruce takes a deep breath -- a dramatic pause.  "Okay, Game Mode begins when I start my timer.
+  You can start typing the moment it does.  No one is allowed to talk during this Game Mode
+  except me.  Clap twice if you're ready."  
 
-  Everyone claps twice.
+  Everyone claps twice.  He starts his coach timer.  @i{Beep! Beep!}
+
+  @(hr)
+
+  Bruce runs the Disintegrating Code Game Mode, which takes up the majority of the rest of the class.
+  Although Bruce does gather everyone's attention whenever he announces that he is erasing another
+  part of the code, it's never long enough to really feel like a Story Mode.  The most common sounds
+  in the class are typing, the beeping of the timer, and Bruce announcing things like: "1 minute left"
+  and "This time I'm only giving you @i{two} minutes".  He is very skillful at modulating the
+  difficulty level of the game as he observes how much students are struggling.
+
+  You look forward to learning the art of running a good Game Mode in Chapter 5.
 
   @(hr)
 
-  Bruce runs the Disintegrating Code Game Mode <<brief overview...>>
+  When there are about 10 minutes left in class, Bruce begins a final Story Mode to wrap up.
+
+  You realize, as he goes on, that this story is meta: It's the story of what happened that day.
+
+  "You all did @i{great}!" announces Bruce.  "I'm really impressed.  Not only did all of
+  you learn some really important attitudes for being a coder -- like being bug hunters.
+  You also learned how to code an adventure game.  And not only that, you learned one of my
+  favorite techniques for learning how to code.  What was that Game Mode called again?" 
+
+  Everyone's hands go up, but Sophie is the fastest.
+
+  "Sophie?"
+
+  "Disintegrating Code."
+
+  "Exactly!  And look at the whiteboard." He points at the now blank board.  "It's all
+  disintegrated.  You were all able to write that code with your own two hands, based only
+  on what is inside your brain.  I'm really impressed with what all of you did with your
+  brains today.  Can anyone tell me a short story about a challenge you faced today while
+  coding?"
+
+  And so it goes for the rest of class -- with Bruce guiding the class to collectively
+  tell their stories of what they learned that day.  Every student has something to
+  share.  
+
+  When class is officially over, he tells them all he is proud of them and gives them each a
+  fistbump as they leave the classroom with their backpacks.
 
   @(hr)
-___
 
-Stop 1d in STORIES quest
+  When only you and Bruce are left, he says: "MetaCoders has some first day traditions.
+  We always run the same classmap on the first day of any class.  It gives returning
+  students a chance to establish themselves as leaders, and it gives new students a 
+  chance to to get oriented.  It was my first time doing it.  You'll do it too one day.
+  Maybe Dylan, if he becomes a junior coach will do it."
+  
+  "How much of it did you have memorized?" you ask.
 
-Outline:
+  "My own coach story," he says. "I had to write that and upload a video of me telling it
+  back when I first started my MetaCoders coach training.  The bug hunting fables are
+  pretty easy to remember -- so I didn't really 'memorize' them.  I just tried to understand
+  their structure and their moral.  You probably noticed that I was referencing the screen
+  a few times."
 
-End of class, Coach encourages students to reflect on what they did today
+  "Yeah," you say.  "The kids didn't seem to mind."
 
-given a specific prompt, tied to the introduction story, possibly?
+  "Brains like stories," Bruce says.  "It's science."
 
-Example: What was one challenge you faced and overcame today in class?
-Example: What was one new thing you did today in class?
-
-Several if not all students respond.
-
-INCLUDE RETURN STUDENT
-
-Bruce congratulates the students on their great work today -- working as a team to create their
- Code of Awesome mottos, coding (some of them for the very first time!), and earning their
- first two katas!
-
-Bruce asks if any one can think of a challenge that they overcame in class today -- relating
- it back to the stories and introductions they did at the beginning of class. After some
- additional prompting, a couple students share difficulties, including using the mouse,
- trying to remember the Hello World kata, and not getting the motto he wanted.
-
-Bruce tells them they should all be very proud of the work they did today -- he knows that he
-is very proud of them all!
-___
-
-
-Finish with brief summary, lead in to next stop.
-
-
-<<Show the Map -- Bruce would be using the Class Launch map.>>
-<<Direct links to images can break...  Move into project...>>
-<<In the outro, tips for generating a story -- why? chain.  Story too short?  Ask another why...>>
+  This reminds you that you're supposed to be heading over to Babbage University to learn about
+  the science of storytelling from one of the university's esteemed professors.
+  
 
 }
 
