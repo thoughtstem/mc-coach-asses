@@ -10,49 +10,51 @@
                              characters:ava-cortez
                              ))
 (define time          (unnamed-time 
-                        (moment 2021 3 25) 
-                        (moment 2021 3 25)))
+                        (moment 2021 3 25 14) 
+                        (moment 2021 3 25 15)))
 
 (define links   (list ))
 
-(require "../flash-cards.rkt")
+(require "../flash-cards.rkt"
+         mc-coach-assess/lib/main
+         mc-coach-assess/images)
 
 @paras{
-  The parking lot of Lovelace Elementary is full and a bit crowded -- because it's the end of the school day.  Kids are hopping aboard yellow buses and getting into their parents cars.  You walk into the school, opposite the flow of kids going out.  
+  The parking lot of Lovelace Elementary is full and a bit crowded at the end of the school day.  Kids are hopping aboard yellow buses and getting into their parents cars.  You walk into the school, swimming upstream of the kids, parents, and teachers escaping out of the gates.  
 
-  Because of the flow of children and end-of-day excitement, you can't really get a good look at the plaque below the painting of Ada Lovelace as a seven-year-old child hanging on the wall:
+  Because of the flow of children and end-of-day excitement, you can't really get a good look at the plaque below the painting of Ada Lovelace as a four-year-old child hanging on the wall:
 
-  @(img src: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Ada_Lovelace_child_portrait_Somerville_College.jpg/440px-Ada_Lovelace_child_portrait_Somerville_College.jpg")
+  @story-img[ada-lovelace-four]
 
-  You decide to press on and ask at the office where the MetaCoders after school program meets.  The lady at the front desk asks if you're the MetaCoders coach.  You tell her that you're training to be a coach, and that you're here to observe class. 
-  She checks her computer screen.  "Ah, yes," she says, tilting her computer toward you.  "Is this your name?  MetaCoders Head Quarters called last week to arrange your visit."
+  You decide to press on and ask at the office where the MetaCoders after school program meets.  The woman at the front desk asks if you're the MetaCoders coach.  You tell her that you're training to be a coach, and that you're here to observe class.
+  
+  She checks her computer screen.  "Ah, yes," she says, tilting her computer toward you.  "Is this your name?  MetaCoders called last week to arrange your visit."
 
   "That's me," you say.
  
-  She has you show your ID and sign in.   "It's room 10A -- just down the hall and to the right."
+  She shows you where to sign in, then answers your original question:   "You're in room 19 -- just down the hall and to the right."
 
-  You head over there and arive about 10 minutes before the class is supposed to start.  You recognize the coach immediately because he is wearing a MetaCoders hoodie.  His nametag says "Bruce".  And he's the only one in the room.
+  You arrive in the room about 10 minutes before the class is supposed to start.  You recognize the coach immediately because he is wearing a MetaCoders hoodie.  His nametag says "Bruce." 
 
-  He is setting up small laptops, one on each desk.  "Hi!" he says.  "Can you help me out?  The kids will be coming soon.  Just take those computers in the cart over there and put one on each desk.  Then launch DrRacket."
+  Bruce is setting up small laptops.  "Hi!" He says.  "Can you help me out?  The kids will be coming soon.  Just take those computers in the cart over there and put one on each desk.  Open them up and launch DrRacket."
 
   He shows you the desktop icon, which looks like this:
 
-  @(img width: 100 
-        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Racket-logo.svg/512px-Racket-logo.svg.png")
+  @story-img[drracket-logo]
 
-  As you begin distributing computers and launching DrRacket on each one, you ask, "So did you have to install DrRacket on all of these computers before coming to class?"
+  As you begin your task, you ask, "So did you have to install DrRacket on all of these computers before coming to class?"
 
-  "Oh, no," he says.  "The MetaCoders technology coordinators do that.  Kate is the local TC.  She lives down the street.  We coaches just make a quick stop at a TC's house before each class.  We pick up the computers and drop them off again when we're done.  The TCs make sure everything is installed -- including whatever programming languages we'll be teaching.  Ahem, sorry: 'Coaching' not 'teaching'."
+  "Oh, no," he says.  "The MetaCoders technology coordinators do that.  Kate is the local TC.  She lives down the street.  Coaches just make a quick stop at a TC's house before each class.  We pick up the computers and drop them off again when we're done.  The TCs make sure everything is installed and working right -- including whatever programming languages we'll be teaching.  Ahem, sorry: 'Coaching' not 'teaching.'"
 
   "Have you been coaching long?"
 
-  "Nope!" he says, grinning.  "This is my first day.  Can you tell I'm super nervous?  I always talk a lot when I'm nervous."
+  "Nope!" Bruce says, grinning.  "This is my first day.  Can you tell I'm super nervous?  I always talk a lot when I'm nervous."
 
   "That should come in handy for Story Mode," you say.
 
   "That's exactly what I keep telling myself!"  
 
-  When all 10 of the computers are set up, Bruce breathes a sigh of relief.  "Still 5 minutes before class starts." But at that exact moment, a student of about 7 years old walks in.  
+  When all 7 of the computers are set up, Bruce breathes a sigh of relief.  "Still 5 minutes before class starts." But at that exact moment, a student of about 7 years old walks in.  
 
   "Ummm," she says.  "Is this..."  She gulps, a bit shy.  "Uh... the... coding class?"
 

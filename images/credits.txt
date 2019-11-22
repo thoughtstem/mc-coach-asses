@@ -9,3 +9,5 @@ git-mug-2 -- product at https://eyeskady.com/product/in-case-of-fire-software-de
 
 ada-lovelace-four -- By Unknown (John Murray Publishers London) - Scanned from Byron and his World by Derek Parker., Public Domain, 
 https://commons.wikimedia.org/w/index.php?curid=19076847
+
+drrackeet-logo -- By Matthew Butterick - Racket's source code., LGPL, https://commons.wikimedia.org/w/index.php?curid=75234136
