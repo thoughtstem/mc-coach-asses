@@ -14,7 +14,7 @@
    stories:game-mode-intro
 
    places:babbage-university
-   stories:more-on-games
+   stories:game-science
    
    ;adv-student-engagement-2
    ;game-vocab-1
@@ -25,8 +25,6 @@
    ;game-reading-2
    ;game-reading-3
    ;game-reading-4
-
-   ;To Babbage university for the science...
    ;game-science
 
    ;your-game

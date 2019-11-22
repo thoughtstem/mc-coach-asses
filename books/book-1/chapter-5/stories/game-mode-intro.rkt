@@ -7,10 +7,7 @@
                      (unnamed-time 
                         (moment 2021 1 19)
                         (moment 2021 3 9)))
-(define links   (list 
-                  (story-from "game-mode-intro/name-game.rkt")
-                  (story-from "game-mode-intro/coa-mottos.rkt")
-                  (story-from "game-mode-intro/code-game.rkt")))
+(define links   (list ))
 
 (require "../flash-cards.rkt")
 
@@ -27,9 +24,35 @@ Definition of Game: Fun with an Objective?
 
 See Day 1 games in action....
 
-@(link-to-story (first links))
-@(link-to-story (second links))
-@(link-to-story (third links))
+___
+
+Coach is experienced, picks a new name game, not on map
+
+reference coaches intro story
+
+goal: introduce each student?
+
+see coach intro game, guide students through it
+
+___
+
+Coach chooses how to lead this game (lead brainstorm of custom mottos)
+
+Reference other options (take from premade list and vote, teams brainstorm)
+
+See coach leading the brainstorm, directing student focus, handling diappointment when motto not chosen, etc
+
+Coach reviews final mottos with students 3 times
+
+Celebrate!
+
+___
+
+Disinegrating code tactic? or Code Anatomy?
+
+Reference returning student
+
+___
 
 summary?
 

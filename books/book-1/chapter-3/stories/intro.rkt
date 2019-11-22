@@ -23,7 +23,6 @@
 
   @ol{
     @li{@b{Lovelace Elementary} Where we'll see how Story Mode works on day 1 of any MetaCoders class.}
-    @li{@b{Kick Butt Martial Arts} Where we'll see even more ways that Story Modes can unfold.}
     @li{@b{Babbage Universtiy} Where we'll learn about the science of storytelling.}   
   }
 }
