@@ -10,7 +10,7 @@
                              characters:ava-cortez
                              ))
 (define time          (unnamed-time 
-                        (moment 2021 3 25 14) 
+                        (moment 2021 3 25 13 45) 
                         (moment 2021 3 25 15)))
 
 (define links   (list ))
@@ -20,6 +20,9 @@
          mc-coach-assess/images)
 
 @paras{
+
+       @heading{1:45pm -- 15 minutes before class}
+        
   The parking lot of Lovelace Elementary is full and a bit crowded at the end of the school day.  Kids are hopping aboard yellow buses and getting into their parents cars.  You walk into the school, swimming upstream of the kids, parents, and teachers escaping out of the gates.  
 
   Because of the flow of children and end-of-day excitement, you can't really get a good look at the plaque below the painting of Ada Lovelace as a four-year-old child hanging on the wall:
@@ -36,15 +39,11 @@
 
   You arrive in the room about 10 minutes before the class is supposed to start.  You recognize the coach immediately because he is wearing a MetaCoders hoodie.  His nametag says "Bruce." 
 
-  Bruce is setting up small laptops.  "Hi!" He says.  "Can you help me out?  The kids will be coming soon.  Just take those computers in the cart over there and put one on each desk.  Open them up and launch DrRacket."
+  Bruce placing small laptops out on desks.  "Hi!" He says.  "Can you help me out?  The kids will be coming soon.  There is a bag of mice over there -- if you could plug one in to each of these computers, that'd be great."
 
-  He shows you the desktop icon, which looks like this:
+  As you dole out mice, you ask, "Do these computers belong to the school?"
 
-  @story-img[drracket-logo]
-
-  As you begin your task, you ask, "So did you have to install DrRacket on all of these computers before coming to class?"
-
-  "Oh, no," he says.  "The MetaCoders technology coordinators do that.  Kate is the local TC.  She lives down the street.  Coaches just make a quick stop at a TC's house before each class.  We pick up the computers and drop them off again when we're done.  The TCs make sure everything is installed and working right -- including whatever programming languages we'll be teaching.  Ahem, sorry: 'Coaching' not 'teaching.'"
+  "Oh, no," he says.  "These are MetaCoders computers. Coaches pick up all equipment from the local Technology Coordinator before each class and return it after. I got this stuff from Kate; she lives down the street.  The TCs take care of all the equipment, including computers, and make sure they have all the tech we need -- including whatever programming languages we'll be teaching.  Ahem, sorry: 'Coaching' not 'teaching.'"
 
   "Have you been coaching long?"
 
@@ -54,37 +53,41 @@
 
   "That's exactly what I keep telling myself!"  
 
-  When all 7 of the computers are set up, Bruce breathes a sigh of relief.  "Still 5 minutes before class starts." But at that exact moment, a student of about 7 years old walks in.  
+  Bruce does a lap of the room, setting out a few more things before stepping back and breathing a sigh of relief.  "Still five minutes before class starts. Let's step outside to help students find us." But at that exact moment, a student who looks to be about eight years old walks in the room.
 
   "Ummm," she says.  "Is this..."  She gulps, a bit shy.  "Uh... the... coding class?"
 
-  "It sure is," says Bruce, with a huge smile.  "Come on in!  Leave your backpack by the door.  You can join me and my new friend right over here."
+  "It sure is," says Bruce, with a huge smile.  "My name is Coach Bruce, what's your name?"
 
-  Once she has joined, Bruce says to her and to you, "At MetaCoders we always say: Class starts the moment you see the first student.  So let's start with Game Mode while we wait for everyone."
+  "I'm Ava."
 
-  "What's Game Mode?" she asks.  
+  "Nice to meet you, Ava!"  Bruce pulls out his phone.  "I am going to tell MetaCoders HQ that you are in class.  My new friend and I were about to wait outside for the rest of your classmates; you can drop off you bag by the rug over there and join us!" 
+
+  While you step just outside the classroom, Bruce says to her and to you, "At MetaCoders we always say: Class starts the moment you see the first student.  So let's start with Game Mode while we wait for everyone."
+
+  "What's Game Mode?" Ava asks.  
 
   "It's when we play games," he says.
 
   "I play Fortnite with my dad."
 
-  "Cool!" says Bruce.  "This game is a memory game.  We'll each say something we like about computers or coding.  For example, you just said 'Fortnite'.  Now it's my turn, so I have to remember what you said -- 'Fortnite' -- and then add my own thing that @i{I} like about computers or coding.  I like..." He thinks for a moment.  "DrRacket -- which is the program we'll be using today to write programs in."  He looks at you.
+  "Cool!" says Bruce.  "This game is a memory game.  We'll each say something we like about computers or coding.  For example, you just said 'Fortnite' -- that's a computer game built with code!  Now it's my turn, so I have to remember what you said, 'Fortnite,' and then add my own thing that @i{I} like about computers or coding.  I like..." He thinks for a moment.  "DrRacket -- which is the program we'll be using in class to write programs in."  He looks at you.  "You're up!"
 
-  You say, "Umm.  Sophie likes Fortnite.  Bruce likes DrRacket.  I like..." The first thing that pops into your head is: "Github." 
+  "Umm, Fortnite, DrRacket." You say.  "And I like..." The first thing that pops into your head is: "Github." 
 
-  "What's Github?" says Sophie. 
+  "What's Github?" says Ava. 
 
   "It's a website," says Bruce, "where coders put their code so that they can work with other coders on the same code."
 
-  Inwardly, you're impressed at how quickly Bruce managed to explain that concept to a 7-year-old.  
+  You're impressed at how easily Bruce managed to explain Github and decide to mentally file that description away in case you ever need to do the same.  
 
-  "Okay, Sophie," says Bruce.  "Now you have to remember all three things and then add another."
+  "Okay, Ava," says Bruce.  "Now you have to remember all three things and then add another."
 
-  Sophie says, "Fortnite, DrRacket, Github, and..." But just as she is about to add something, another student walks in.
+  Ava says, "Fortnite, DrRacket, Github, and..." But just as she is about to add something, another student walks up.
 
-  Bruce tells her to wait so that they can all play.  "Put your backpack by the door and come join us."  When the fourth student, a boy named Marco joins the growing circle and introductions have gone around, Bruce explains the game, and they begin again.
+  Bruce tells her to wait so that they can all play.  He goes through the same process of welcoming and ontroducing himself, checking the student -- Colin -- in through his phone and explaining what they are doing.
  
-  "Fortnite," says Sophie.
+  "Fortnite," says Ava.
 
   "Fortnite, DrRacket," says Bruce.
   
@@ -92,7 +95,9 @@
   
   "Fortnite, DrRacket, Github.  And... I like YouTube."
 
-  So it goes as the rest of the students filter in.  Bruce restarts the game whenever new students arrive.  Occasionally, he switches topics.  For example, after a few rounds of "things you like about coding and computers", he does the "name game" where everyone takes turns saying their names and remembering the names of the people who went earlier.  Then he chooses the topic to "things that have computers inside of them" -- like air planes, thermostats, cell phones.  It's all the same game -- a memory game -- but the change of topic keeps it interesting both for the students and for you. 
+  So it goes as the rest of the students filter in.  Bruce restarts the game whenever new students arrive.  Occasionally, he switches topics.  For example, after a few rounds of "things you like about coding and computers", he does the "name game" where everyone takes turns saying their names and remembering the names of the people who went earlier.  Then he chooses the topic to "things that have computers inside of them" -- like air planes, thermostats, cell phones.  It's all the same game -- a memory game -- but the change of topic keeps it interesting both for the students and for you over the next 10 minutes.
+
+  @heading{2:05pm}
 
   When class time finally arrives, Bruces asks everyone to sit down.  "Okay!  What we were just doing was Game Mode.  But now, we're going to switch to Story Mode.  But first, I want to ask, has anyone here taken a MetaCoders class before?"
 
@@ -115,7 +120,7 @@
   "Thanks," says Bruce.  "I've been practicing that joke for weeks.  Anyway, here's my story."  He clears his throat.  
 "I am brand new to being a coach.  I bet some of you may have been coding longer than I have -- like Dylan.  Has anyone else done some coding before?"
 
-  A few of the students raise their hands.  "I coded in Scratch with my mom," says Sophie. 
+  A few of the students raise their hands.  "I coded in Scratch with my mom," says Ava. 
 
   "Well that means you have been coders longer than I have!  But at MetaCoders, we don't just teach you how to code.  We teach you how to... Dylan, do you know?"
 
@@ -278,9 +283,9 @@
   a programming language for making adventure games.  Can anyone guess what that language is
   named?"
 
-  Sophie and Dylan both raise their hands.
+  Ava and Dylan both raise their hands.
 
-  "Sophie?"
+  "Ava?"
 
   "Lang adventure?"
 
@@ -325,9 +330,9 @@
   You also learned how to code an adventure game.  And not only that, you learned one of my
   favorite techniques for learning how to code.  What was that Game Mode called again?" 
 
-  Everyone's hands go up, but Sophie is the fastest.
+  Everyone's hands go up, but Ava is the fastest.
 
-  "Sophie?"
+  "Ava?"
 
   "Disintegrating Code."
 

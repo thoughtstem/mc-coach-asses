@@ -1,7 +1,5 @@
 Image sources:
 
-inside-coder-cafe -- Photo by Helena Lopes on Unsplash
-                     https://unsplash.com/photos/Pd8tLVGx2O4
 
 git-mug-1 -- product at https://www.zazzle.com/git_add_coffee_mug-168175981210414277
 
@@ -10,4 +8,4 @@ git-mug-2 -- product at https://eyeskady.com/product/in-case-of-fire-software-de
 ada-lovelace-four -- By Unknown (John Murray Publishers London) - Scanned from Byron and his World by Derek Parker., Public Domain, 
 https://commons.wikimedia.org/w/index.php?curid=19076847
 
-drrackeet-logo -- By Matthew Butterick - Racket's source code., LGPL, https://commons.wikimedia.org/w/index.php?curid=75234136
+drracket-logo -- By Matthew Butterick - Racket's source code., LGPL, https://commons.wikimedia.org/w/index.php?curid=75234136

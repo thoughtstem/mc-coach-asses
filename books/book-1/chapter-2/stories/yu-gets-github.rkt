@@ -18,8 +18,6 @@
 
   As you walk into Coder Cafe, bells over the door chime to announce your entrance, but no one looks up from their computers.  Everyone is coding.
 
-  @story-img[inside-coder-cafe]
-
   At first, you wonder how you will find Yu around here.  But then you notice someone waving to you from a nook in the corner.  When you reach the nook, Yu pushes across the table a coffee mug.
 
   @story-img[git-mug-1]
