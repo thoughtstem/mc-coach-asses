@@ -4,8 +4,8 @@
 (define place         places:metapolis-welcome-center)
 (define characters    (list ))
 (define time          (unnamed-time
-                        (moment 2021 6 28)
-                        (moment 2021 8 13)))
+                        (moment 2021 3 25 9)
+                        (moment 2021 3 25 9)))
 (define links   (list))
 
 (require "../flash-cards.rkt")
@@ -15,15 +15,15 @@
 
   The theme of this chapter is the importance of Story.  By the end of it (if you complete the assessment), you will have created and uploaded your own, critically important, Coach Story video to Youtube and pushed your coach webpage to Github.
 
-  We'll also stop by Babbage University to learn about the science of how stories accelerate learning.
+  You will see stories in action on the first day of a new class and we'll also stop by Babbage University to learn the science of how stories accelerate learning.
 
-  This is like the "Hello, World!" of being a MetaCoders coach.  It's a right of passage.  So, in advance: We officially welcome you to MetaCoders.
+  This is like the @(link-to "https://en.wikipedia.org/wiki/%22Hello,_World!%22_program" "Hello, World!") of being a MetaCoders coach.  So, in advance: We officially welcome you to MetaCoders.
 
   The schedule is:
 
   @ol{
     @li{@b{Lovelace Elementary} Where we'll see how Story Mode works on day 1 of any MetaCoders class.}
-    @li{@b{Kick Butt Martial Arts} Where we'll see even more ways that Story Modes can unfold.}
+    @;li{@b{Kick Butt Martial Arts} Where we'll see even more ways that Story Modes can unfold.}
     @li{@b{Babbage Universtiy} Where we'll learn about the science of storytelling.}   
   }
 }
