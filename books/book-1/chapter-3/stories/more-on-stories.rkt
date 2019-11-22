@@ -7,8 +7,7 @@
                         (moment 2021 3 25)
                         (moment 2021 5 14)))
 (define links
-  (list (story-from "more-on-stories/story-example-1.rkt")
-        (story-from "more-on-stories/story-example-2.rkt")))
+  (list ))
 
 (require "../flash-cards.rkt")
 
