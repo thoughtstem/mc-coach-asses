@@ -7,12 +7,11 @@
          metacoders-dot-org-lib/impress)
 
 (define (preview stops)
-  (render 
+  (render #:to "out"   
     (list
       (impress-files)
       (bootstrap-files)
       (page index.html
             (content
               (container
-                (impress-metapolis #:quest stops)))))
-    #:to "out"))
+                (impress-metapolis #:quest stops)))))))

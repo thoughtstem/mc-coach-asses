@@ -13,17 +13,30 @@
 (require "../flash-cards.rkt")
 
 @paras{
-Stop 2 in STORIES Quest
 
-Intro location -- new, partnership with location business
+You park in the parking lot of Kick Butt Martial Arts, a karate
+dojo that has trouble filling classes during weekdays at certain hours.
+MetaCoders rents the space for a coding class for junior high students.  
 
-Intro coach -- experienced coach, inventive with maps, stories
+As you walk in, you see six kids, shoes off, in beanbag chairs on the mats.
+Ruby is at the "front" of the room holding a whiteboard marker and running
+Story Mode. There is code written on the wall-length mirror behind her.
 
-From beginning, redefine what makes a story (reference "reflection" in prev stop)
+You quietly take a place on the benches near the door, unnoticed.
 
-Also can play with ways of telling story
+These kids are older, and you can tell that Ruby is using more sophisticated
+language.  In fact, she's talking to them like adults.
 
-@(link-to-story (first links))
-@(link-to-story (second links))
+""
+
+___
+Stop 2a in STORIES Quest
+
+Storytelling example with older group
+
+Engaging students as storytellers? Props? Interactive? No clue
+___
+
        
+<<In the outro, tips for generating a story -- why? chain.  Story too short?  Ask another why...>>
 }
