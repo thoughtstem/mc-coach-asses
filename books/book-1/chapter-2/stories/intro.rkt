@@ -4,8 +4,8 @@
 (define place         places:metapolis-welcome-center)
 (define characters    (list ))
 (define time          (unnamed-time
-                        (moment 2021 6 28)
-                        (moment 2021 8 13)))
+                        (moment 2021 1 4 9)
+                        (moment 2021 1 4 9)))
 (define links   (list))
 
 (require "../flash-cards.rkt")
@@ -15,9 +15,9 @@
 
   In this chapter, we'll be following Yu, who (much like you) is going through the MetaCoders coach training for the first time.
 
-  Yu will be creating their Github account and their very first repo.  So will you.  But at MetaCoders we never ask anyone to do something without a clear understanding of @b{Why}.
+  Yu will be creating their Github account and their very first repo.  So will you.  But at MetaCoders we never ask anyone to do something without a clear understanding of @b{why}.
 
-  So in this chapter, the one stop is @b{Coder Cafe} where Yu is currently sitting... waiting for you.  Yu will give a quick overview of Git and Github.  Go!
+  So in this chapter, the one stop is @b{Coder Cafe} where Yu is currently sitting... waiting for you.  Yu will give a quick overview of Git and Github as well as that very important @b{why}.  Go on, get coding!
 }
 
 
