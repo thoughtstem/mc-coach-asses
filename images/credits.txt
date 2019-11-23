@@ -9,3 +9,5 @@ ada-lovelace-four -- By Unknown (John Murray Publishers London) - Scanned from B
 https://commons.wikimedia.org/w/index.php?curid=19076847
 
 drracket-logo -- By Matthew Butterick - Racket's source code., LGPL, https://commons.wikimedia.org/w/index.php?curid=75234136
+
+bruce-finding-nemo (gif hosted on amazon s3) -- Disney/Pixar's Finding Nemo
