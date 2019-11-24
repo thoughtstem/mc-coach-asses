@@ -69,7 +69,7 @@
         @ul{
           @li{@b{Focal Points} All students share a common point of focus -- usually the coach, sometimes other students}
           @li{@b{Energy Level} Students are engaged and interested -- but heartrates are low (compared to playing games).  It's the kind of energy you experence when you watch an interesting show on television, or read an interesting book.}
-          @li{@b{Comfort Zone} Students are inside their comfort zone and able to pick up new information because they are relaxed.}
+          @li{@b{Comfort Zone} Students are inside their comfort zone and able to pick up new information because they are relaxed and, ideally, in a state of "narrative transportation".}
           @li{@b{Learning Gains} During Story Mode, students may learn many things -- but the @b{type} of thing that stories teach is always the same.  Stories communicate @b{information and values}.}
         }
 

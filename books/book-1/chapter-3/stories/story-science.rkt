@@ -22,7 +22,7 @@
 
   @(img src: "https://history-computer.com/Babbage/Images/Punched_cards.jpg")
 
-  You're not here for the art, though.  You're here to meet with Professor Istoría, whose office is on the third floor of the Department of Neuroscience.  You take the stairs.
+  You're not here for the art, though.  You're here to meet with Professor Istoria, whose office is on the third floor of the Department of Neuroscience.  You take the stairs.
 
   @(hr)
 
@@ -131,11 +131,13 @@
 
   "I certainly can't think of any." 
 
-  He tugs his beard, causing him to nod and grunt in approval.  "This is the Department of Neuroscience at Babbage University.  One of the things my colleague down the hall studies is something that scientists call '@(link-to "https://en.wikipedia.org/wiki/Transportation_theory_(psychology)" "Narrative Transportation").'  It's the fancy word for what we all experience when we lose ourselves in a story.  He puts people into fMRIs and watches what lights up in the brain when they are seeing or hearing stories.  Why do you think that human brains from early childhood to old age have inside us a capacity to be transported by story?"
+  He tugs his beard, causing him to nod and grunt in approval.  "This is the Department of Neuroscience at Babbage University.  One of the things my colleague down the hall studies is something that scientists call '@(link-to "https://en.wikipedia.org/wiki/Transportation_theory_(psychology)" "Narrative Transportation").'  It's the fancy word for what we all experience when we lose ourselves in a story, when we begin to actually experience the story as if we were there -- with all its positive and negative emotional texture.  He puts people into fMRIs and watches what lights up in the brain when they are seeing or hearing stories.  Why do you think that human brains from early childhood to old age have inside us a capacity to be transported by stories?"
 
-  "I guess the brains that couldn't... well... died."
+  "I guess the brains that couldn't... well... died.  To get the full value of a story, we have to hear it through to the end -- and we have to imagine at least some of the horror of being eaten by a crocodile, so that we sufficiently internalize the story." 
    
-  "Would it surprise you to know that scientists have shown that reading information packaged as a narrative @(link-to "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4183170/" "increase recall, ease of comprehension, and shorter reading times")?" "No, I suppose that's not really a surprise."
+  "Would it surprise you to know that scientists have shown that reading information packaged as a narrative @(link-to "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4183170/" "increase recall, ease of comprehension, and shorter reading times")?" 
+  
+  "No, I suppose that's not really a surprise."
 
   He hands you a card with some information on it.  "Here, test the theory.  This
   information is not packaged as a narrative.  It's from what I hyperlinked you in my last line of dialog."
@@ -148,7 +150,7 @@
    }
  }
 
-  When he notices that you've finished reading, he says, "Kind of meta, isn't it?  A piece of expository writing that exposits to you that a more narrative style would have been read twice as fast and recalled twice as well."
+  When he notices that you've finished reading, he says, "Kind of meta, isn't it?  A piece of expository writing that exposits to you that a more narrative style would have been read twice as fast and recalled twice as well.  That's science writing for you."
 
   "It @i{is} kind of meta," you say.  "I'm getting used to that."
 
@@ -162,7 +164,7 @@
 
   "Yeah, I figured," he says, mildly perturbed as he takes it back, wipes your fingerprints off of it and returns it to its place.  "In that case, let me give you some more accessible material."
 
-  From memory, he hands you the URLs for the following YouTube videos.  "That third one has some adult jokes in it," he warns.
+  From memory, he writes down you the URLs for the following YouTube videos.  "That third one has some adult jokes in it," he warns.
 
   @card{
     @card-body{
