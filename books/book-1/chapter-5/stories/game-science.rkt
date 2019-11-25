@@ -76,11 +76,11 @@
 
   "It's also a game piece," he says.  "In this game we're playing right now.  Three stars gets you a fidget spinner.  One figet spinner..."
 
-  "Get's me what?" you ask.  
+  "Gets me what?" you ask.  
 
-  "If you get stuck on a question," he says, "you can exchange the fidget spinner for a chance to peek into any of my books."
+  "Gets you nothing," he says.  "But @i{two} fidget spinners can be exchanged for a secret prize."
 
-  "Like a phone-a-friend?"
+  "Are you trying to teach me about gamification?"
 
   He ignores you.  "Study this for a moment."  He hands you a card with information on it.  "It's direct from Wikipedia."
 
@@ -102,7 +102,7 @@
 
   Another gold star goes into the trashcan.
 
-  You try a third time.  "I would ____" As he begins to waste another perfectly good gold star, you protest, "I can't be that far off.  I mean, games are fun and engaging, and you just showed me a card that suggests that there's science behind flow states and performance gains.   If flow states can be woven into a classroom, why wouldn't you do it?"
+  You try a third time.  "I would give stars to students who successfully get into a flow ..." As he begins to waste another perfectly good gold star, you protest, "I can't be that far off.  I mean, games are fun and engaging, and you just showed me a card that suggests that there's science behind flow states and performance gains.   If flow states can be woven into a classroom, why wouldn't you do it?"
 
   The gold star sticks to his finger and won't go into the trashcan.  He shakes it, but it stays.  Still trying to shake it off, he says, "This is the problem with non-scientists.  You hear 'flow states are good' and immediately think 'give kids more flow states'.  It's not wrong, but it's crude and reductive.  What @i{kind} of flow states?  How will you induce them?  How do you make sure that what students learn during flow states are what you wanted them to learn in the first place?"
 
@@ -135,11 +135,15 @@
 
   "Immediate feedback," you say.
 
-  "Those error messages on the computer are a constant stream of one of the key ingredients of flow," he says.  "Saying that they take you out of the flow state is like a tennis player saying that the net breaks the flow state, or a basketball player saying that the tiny hoop takes them out of flow state.  As you said, the Olypmics has been running for thousands of years.  Did you ever wonder why sports games are such powerful flow state inducers?"
+  "Let me ask you," he says.  "When you run a program with errors in it, how quickly do you get back an error message?"
+
+  "Immediately, I guess."
+
+  "Those error messages on the computer are a constant stream of one of the key ingredients of flow," he says.  "Saying that they take you @i{out} of the flow state is like a tennis player saying that the net breaks the flow state, or a basketball player saying that the tiny hoop does.  As you said, the Olypmics has been running for thousands of years.  Did you ever wonder why sports games are such powerful flow state inducers?"
 
   "I guess the world around us gives us immediate feedback on our performance.  We can see the ball go in the hoop with our own eyes; we don't have to wait a week for a teacher to hand us back our basketball grades to know if we made our shots."
 
-  "And what would a coach say to a young player who complained that the hoop was too small."
+  "And what would a coach say to a young player who complained that the hoop was distracting from their state of flow."
 
   Voluntarily, you peal off the gold star and give it back to him.  "You're right," you say.  
 
@@ -147,56 +151,105 @@
 
   "How you see the error messages is a matter of perspective.  Bugs are evidence of our own lack of fluency, things we did wrong but didn't know at the time.  If you look at it with a positive spin, the computer is politely informing us that we didn't understand something.  It's like a parent correcting a child when they misspeak.  If you look at it that way, the errors don't have to take you out of your flow state."
 
-  He gives you back your gold star.  "So we've covered that Game Mode is less about games and more about a state of mind -- getting everyone to be fully absorbed.    <<misconceptions about games>>"
+  He gives you back your gold star.  "So we've covered that Game Mode is less about games and more about a state of mind.  Why do you think MetaCoders calls it Game Mode?"
 
-  <<Clarify that Game Mode is less about games and more about a kind of engagement.  The word Game Mode is simply there to help communicate with children...>>
-  <<Can you be in both states?  transported/flow -- Games that have stories.  Stories that contain games...>>
+  "We do play games during Game Mode," you point out.  "But we also do drills and activities.  I guess they're all game-@i{like}."
 
-  Get kids to understand what flow state is, how it can be induced, why they should induce it.
-    * Specifically with coding -- interaction with computer...
-    * But also with important social games, etc...
+  "So Game Mode is for game-like things?"
 
-  Wiki:
+  You spin the fidget spinner, lost in thought.  Istoria patiently waits.  His sheet of gold stars is almost empty, only two left.
 
-  Knowing that the task is doable; a balance between skill level and the challenge presented
+  Finally, you say, "Maybe it's also to help students understand what we want from them.  We want them to learn how to become engaged with coding in the same way that they engage with video games or sports.  But they don't all realize that they can -- because doing so is an inner cognitive task.  So we call it Game Mode, to help them understand that their brains should be in the same mode as when they play games.  If we asked kids to 'put their brains into a flow state' -- they wouldn't necessarily know what we're talking about.  But -- put your brains in 'game mode' is an easier starting point for what we're asking them to do."
 
-  "Cognitive load"
+  He gives you the second-to-last star.  You put it on your hand with the other one.  You're suddenly curious what two fidget spinners will get you.  Will it be a some kind of gag gift?  Maybe a book?  Maybe just a card full of information? 
+
+  "Cognitive load," he says.  "If you hang out in the Department of Neuroscience and just listen, you'll hear my colleagues and I use that phrase quite often -- more often than 'flow state' in fact.  What do you think it means?" 
+
+  "The load on your mind at any given time, I would guess.  Like if you're strolling through the park, you might have less on your mind than if you're, say, doing a math problem in your head or juggling.  Or doing both at once."
+
+  "Psychologists have been studying cognitive load and the limitations of working memory since the 1960s," he says.  "How many things can the human mind keep in its working memory at one time?"
+
+  "I think I remember this one from Intro to Psychology," you say.  "It's seven, plus or minus two.  Right?"
+
+  He nods but doesn't give you the gold star.  "And how does cognitive load relate to the inducing of flow states." 
+
+  "I would guess that if your cognitive load is too low, then you're bored -- so no flow.  In fact, the definition of flow is total absorption in the task at hand, so I suppose that cognitive load should be high.  When I'm in the zone in a game or sport, I feel like my entire self is focused on that one thing."
+
+  "So if you raise cognitive load, you induce flow?" he asks, beginning to hand you the last star.
+
+  You sense it's a trap.  You don't answer.  Istoria pauses. 
+
+  "No," you say. "If a child's mind is on his math test he failed earlier and the fact that his best friend has strep throat and the fact that his computer keeps giving him error messages -- that's a lot of cognitive load, but none of it aids the task at hand.  So it's all just inner noise that distracts from any flow state they might experience."
+
+  Istoria gives you a rare smile.  "Go on," he says.  "How can one provide metacognitive coaching that helps students like that get into a flow state?"
+
+  You want the gold star, but you find yourself coming up blank.  After a moment's though you say, "I don't know.  It depends on the student.  For some, maybe it's enough to explain that Game Mode involves putting distractions out of your mind.  For some, you might have to notice that they're distracted, listen to what they say, and help them choose to set their problems aside for a moment.  This feels like the part of coaching that's the most subtle.  I really don't know..."
+
+  You half-hope that Istoria will give you card that contains the secret to making any student inspired and focused.  But instead, he simply gives you the final gold star.  "Well done," he says.  "Would you like to trade in your stars for another fidget spinner?"
+
+  You nod, pealing off the stars.  When the exchange is complete, you have a red fidget spinner in one hand and a blue one in the other. 
+
+  "Now," he says, "I'm about to give you the option of trading in the two spinners for something else.  But first, I must ask you -- did these gold stars and fidget spinners help you achieve a flow state during our conversation?"
+
+  "Um... I guess maybe..."
+
+  "Stop being polite."
+
+  "Not really," you say.  "It was fun, but it didn't exactly put me into a flow state."  
+
+  He tugs his beard in approval.  "Gamification," he says. "It's a hot topic these days.  There are teachers gamifying their classrooms with experience points and badges.  There are businesses gamifying commerce with point systems and rewards.  There are scientists who create ed tech software with points, badges, digital marketplaces, unlockable content, and so on.  There's gamification everywhere.  Even MetaCoders gives badges to their students -- much like the Boy Scouts or Girl Scouts.  But I must ask you..."
+
+  You lean forward, waiting for the question.   
+
+  "Gameification and Game Mode both have the g-word in them," he says.  "How are the two related?  Or are they?"
+
+  "I haven't personally seen a MetaCodesr coach giving out a badge yet," you say.  "But I've seen the badges on their coach and junior coach hoodies.  But to be honest, I feel like the badges are less about Game Mode and more about Story Mode."
+
+  "Say more," he says.
+
+  "Well, if a kid is getting a badge," you reason, "they probably aren't in a state of flow.  You have to stop what you're doing and receive the badge from the coach.  Plus, when a coach hands out a badge, I doubt they're being silent.  I can imagine them saying things like, 'Nice job.  You're getting this badge because of all the hard work you've been doing.'  That's a story.  Badges mean more when people know why they're getting them.  And then the badge on their hoodies gives them an external symbol of the story.  Students can point to the badges and tell the story of their growth as a MetaCoder."
+
+  "Games and stories," says Istoria.  "They're two activities that almost every human being currently alive and every human being who has ever lived has participated in.  What a coincidence!  It's enough to make anyone ask -- are games and stories really so separate?  You yourself asked if narrative transportation and flow state are the same.  Maybe they are.  That's the kind of thing we study here at the Department of Neuroscience."  He holds out his hands.  "Do you want to trade your spinners?"
+
+  You give him your spinners, reluctantly, thinking it unlikely that you will receive something of equal or greater value back.
+
+  He holds both spinners up, one red, one blue.  He pauses dramatically, as if to let you know that this is the final question, the moment of truth.  "You can tell stories about games.  And you can play games that involve telling stories.  There are even things that blur the lines between games and stories.  A choose-your-own-adventure book is a story where you make choices -- so is it a game too?  In a roleplaying game, the Dungeon Master tells stories, but the players take part in the narrative -- is it a story or a game?  As a coach," he says, "some of your Story Modes may have some gamification involved and some of your Game Modes may have a storytelling component.  How can you tell the difference between a Game Mode and a Story Mode when the lines start getting blury?"
+
+  "I guess it all comes down to narrative transportation versus flow state.  And maybe that comes down to cognitive load -- stories don't need to be cognitively difficult to understand in order to transport you.  Simple stories can still be powerful.  Even stories we've experienced before can still transport us.  Games, on the other hand -- they @i{should} to pose some cognitive difficulties if they are intended to induce a state of flow." 
   
-  <<Diffuse the "only video games are fun"...
-    Social games ftw!>>
+  Without telling you if you're right or wrong, he writes down from memory the urls for the following YouTube videos on a card and hands it to you:
 
-  <<Game values: Failure is okay, leveling.>>
-     <<Returning students need to get status.>>
+  @card{
+    @card-body{
+      @card-text{
+        @b{On working Memory}
+        @(yt "UWKvpFZJwcE")
 
-  <<status access power stuff.
-    Returning students like status, power, acceess.
-    New students like stuff.>>
+        @b{Neurochemistry of Flow States}
+        @(yt "aHp2hkue8RQ")
 
-  <<Frame games?  Gamification.  Badges?  Rewards.  (Gold star effect.)>>
+        @b{Classroom Gamification}
+        @(yt "4qlYGX0H6Ec")
 
-  <<Not separate from stories at all.  In any game, you experience a story.  Many games explicity tell a story.  They are like story generators.
-  "Ludology" vs "Narratology" >>
+        @b{Positive Psychology (begins talking about flow about 13 minutes in)}
+        @(yt "9FBxfd7DL3E")
 
-  <<Some videos.>> 
+        @b{A talk about flow by the first psychologist to study it}
+        @(yt "9FBxfd7DL3E")
+      }
+    }
+  }
 
-  Working Memory
-    https://www.youtube.com/watch?v=UWKvpFZJwcE
+  He also hands you a book from his shelf.  You assume that these are your prises for the fidget spinners.  "It's less dense than the last one," he says.  
 
-  (Not TED) Neurochemistry of Flow (source code of intrinsic motivation) (this one is great!)
-    https://www.youtube.com/watch?v=aHp2hkue8RQ
-
-  Same guy as above.  Ted.
-    https://www.youtube.com/watch?v=x4ZKJrz4oJo
-
-  Positive Psychology (on topic enough? ~13, talks about flow)
-    https://www.youtube.com/watch?v=9FBxfd7DL3E
-
-  Flow - Mihaly (Hard to understand)
-    https://www.youtube.com/watch?v=fXIeFJCqsPs
-
-  Classroom Game Design: Paul Andersen at TEDxBozeman
-    https://www.youtube.com/watch?v=4qlYGX0H6Ec
+  @html/inline{<iframe type="text/html" width="336" height="550" frameborder="0" allowfullscreen style="max-width:100%" src="https://read.amazon.com/kp/card?asin=B000W94FE6&preview=inline&linkCode=kpe&ref_=cm_sw_r_kb_dp_psb3DbNFFN0P1" ></iframe>}
   
-  Just remember that games are fun, and addictive.  Stories inspire.   Stories help us play the right games for the right reasons.  They help us come back to the right games again and again, and avoid the wrong ones.
+  "Thanks," you say, feeling a tiny bit cheated -- two solid fidget spinners in exchange for mere information.  It didn't seem like a fair trade.  As you get up to leave, to your surprise, he hands you a fresh sheet of gold stars and both fidget spinners back, along with a green one and a yellow one.   His desk drawer must be full of them. 
+  
+  "Coach," he says.  "Use them wisely.  In the hands of a good coach, a fidget spinner is not a fidget spinner, and a star is not a star."
 }
+
+
+
+
 
