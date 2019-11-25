@@ -110,9 +110,44 @@
 
   He hands over the gold star.  Strangely proud, you put it on your hand and give your fidget spinner a whirl.  You go on: "Or... because at MetaCoders we also train teamwork and leadership, a Game Mode that induces a flow state around working with other students has the byproduct that students learn to work in teams, or in leadership roles.  This opens up options for more complex Game Modes in later classes." 
 
-   
+  "A coding flow state," says Istoria.  "Have you ever experienced it?"
 
+  "Maybe," you say.  "I made my coach bio, which I coded and pushed to Github.  But I don't know."
 
+  "How would you induce a coding flowstate for yourself?"
+
+  "I guess with coding, it depends on whether my skill in the language at hand matches the task I'm trying to do in the language at hand.  One thing that takes me out of the flow state is all the error messages, though."
+
+  He grunts in disapproval.   He hands you a card.  "Read me the third criteria for flow states." 
+
+  @card{
+    @card-body{
+      @card-text{
+        @b{Incredients for Flow States}
+        @ul{
+          @li{Feeling the potential to succeed.}
+          @li{Feeling so engrossed in the experience, that other needs become negligible.}
+          @li{Immediate feedback.}
+        }
+      }
+    }
+  }
+
+  "Immediate feedback," you say.
+
+  "Those error messages on the computer are a constant stream of one of the key ingredients of flow," he says.  "Saying that they take you out of the flow state is like a tennis player saying that the net breaks the flow state, or a basketball player saying that the tiny hoop takes them out of flow state.  As you said, the Olypmics has been running for thousands of years.  Did you ever wonder why sports games are such powerful flow state inducers?"
+
+  "I guess the world around us gives us immediate feedback on our performance.  We can see the ball go in the hoop with our own eyes; we don't have to wait a week for a teacher to hand us back our basketball grades to know if we made our shots."
+
+  "And what would a coach say to a young player who complained that the hoop was too small."
+
+  Voluntarily, you peal off the gold star and give it back to him.  "You're right," you say.  
+
+  But he is not letting you off the hook, "Right about what?"
+
+  "How you see the error messages is a matter of perspective.  Bugs are evidence of our own lack of fluency, things we did wrong but didn't know at the time.  If you look at it with a positive spin, the computer is politely informing us that we didn't understand something.  It's like a parent correcting a child when they misspeak.  If you look at it that way, the errors don't have to take you out of your flow state."
+
+  He gives you back your gold star.  "So we've covered that Game Mode is less about games and more about a state of mind -- getting everyone to be fully absorbed.    <<misconceptions about games>>"
 
   <<Clarify that Game Mode is less about games and more about a kind of engagement.  The word Game Mode is simply there to help communicate with children...>>
   <<Can you be in both states?  transported/flow -- Games that have stories.  Stories that contain games...>>
@@ -123,25 +158,10 @@
 
   Wiki:
 
-  * Immediate feedback[3]
-  * Feeling the potential to succeed
-  * Feeling so engrossed in the experience, that other needs become negligible
-  Clear goals that, while challenging, are still attainable
-  Strong concentration and focused attention
-  The activity is intrinsically rewarding
-  Feelings of serenity; a loss of feelings of self-consciousness
-  Timelessness; a distorted sense of time; feeling so focused on the present that you lose track of time passing
-  Immediate feedback
   Knowing that the task is doable; a balance between skill level and the challenge presented
-  Feelings of personal control over the situation and the outcome
-  Lack of awareness of physical needs
-  Complete focus on the activity itself
 
   "Cognitive load"
-  ...
-
   
-  <<Some history of Games.  But not just games for fun -- serious games -- learning games -- drills.>>
   <<Diffuse the "only video games are fun"...
     Social games ftw!>>
 
@@ -155,8 +175,7 @@
   <<Frame games?  Gamification.  Badges?  Rewards.  (Gold star effect.)>>
 
   <<Not separate from stories at all.  In any game, you experience a story.  Many games explicity tell a story.  They are like story generators.
-  "Ludology" vs "Narratology"
-    >>
+  "Ludology" vs "Narratology" >>
 
   <<Some videos.>> 
 
