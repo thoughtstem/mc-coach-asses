@@ -114,39 +114,43 @@
 
   "For your upcoming course, there's the launch map at the beginning, the jam map at the end, and six maps in between?" you say.  "Can you show me all 8 maps together?"
 
-  <<All together...>>
+  @(classmaps->html
+    (class-launch-map)
+    (day-2-map)
+    (day-3-map)
+    (day-4-map))
 
-  "I'm noticing that the six maps in between have a similar structure to them," you say.
+  @(classmaps->html
+    (day-5-map)
+    (day-6-map)
+    (day-7-map)
+    (day-8-map))
+
+  "I'm noticing that several maps have a similar structure to them," you say.
 
   "Yep," he says.  "The exact Story Modes and Game Modes change from map to map -- but the overall structure of the class is the same on days 2 and 5, 3 and 6, and 4 and 7."
 
-  "So it's even less to remember," you say.  
+  "So you don't need to learn a completely different classmap every time you coach?" you say.  
   
   "Exactly. You just need to understand the big picture, and then be able to execute on the details -- like running effective Story Modes, Game Modes, and transitions between them."
 
-  After a few more minutes of small talk with Bruce, you stand up to leave, feeling confident that you can do this -- inspired in part by Bruce's own confidence.  VBefore you leave the room, another question pops into your mind.
+  After a few more minutes of small talk with Bruce, you stand up to leave, feeling confident that you can do this -- inspired in part by Bruce's own confidence.  Before you leave the room, another question pops into your mind.
 
   "Ruby's upcoming classes at Turing Rec Center are all one and a half hours long.  Your class at Lovelace Elementary is one hour long," you say.  "Plus, you're teaching #lang adventure and she's teaching #lang survival --  Are you using different maps?"
 
-  He eyes you suspiciously.  "You seem remarkably well-informed for someone who's just visiting Metapolis.  Have we met before?"
+  He eyes you suspiciously.  "You seem remarkably well-informed for someone who's just visiting Metapolis."
 
-  You don't have the heart to tell him that he's just a character in a story, and you worry that explaining time travel to him will take too long, so you just say, "MetaCoders HQ gave me the details."
+  You don't have the heart to tell him that he's just a character in a story, and you worry that explaining time travel to him will take too long, so you just say, "MetaCoders HQ sent me the details on Slack."
 
-  "You're right though, classmaps are designed to stretch or compress," he says.  "Look."  He shows you that you can fill in the start and end time of a classmap using a widget near the top.  Doing so assigns different time values to each Story Mode and Game Mode in the class.
+  "You're right though, classes aren't always the same length.  Classmaps are designed to stretch or compress," he says.  "Look."  He shows you that you can fill in the start and end time of a classmap using a widget near the top.
 
-  "If Ruby and I were using the same launch map, hers might look like this," he says.
-   
-  @(classmap->html (class-launch-map #:start "2:00pm" #:end "3:30pm"))
-
-  "... and mine," he says, adjusting the numbers, "... might look like this."
-
-  @(classmap->html (class-launch-map #:start "4:00pm" #:end "5:00pm"))
+  "If Ruby and I were using the same launch map, hers might look like this," he says.  "... and mine," he says, adjusting the numbers, "... might look like this."
 
   "Makes sense," you say.  "Expanding and compressing the classmap just expands and compresses the number of minutes assigned to each Story Mode and Game Mode."
 
-  "Exactly," he says.  "For small variations in class length, the overall structure doesn't need to change.  If it were a 3 hour class, of course, you might want to make a new map with an extra Story Mode or an extra Game Mode.  But again, that's for more advanced coaches." 
+  "Exactly," he says.  "For small variations in class length, the overall structure doesn't need to change.  If it were a 3 hour class, of course, you might want to make a new map with an extra Story Mode or an extra Game Mode.  But again, that's for advanced coaches to decide.  If they can use the extra time in meaningful, non-boring ways... that's their call." 
 
-  "And the language," you say.  "Does if I'm teaching #lang survival, do I need to use a special map?"
+  "And the language," you say.  "If I'm teaching #lang survival, do I need to use a special map?"
 
   Bruce clicks into the @b{Disintegrating Code} Game Mode in the class launch map.  "Many of these Game Modes are written independently of a specific language.  Notice how it reads 'Select a hex card from your language deck'.  If you were teaching #lang surivival, you would select one of those cards.  If you where teaching a #lang 3d-exploration, you would select one of those.  The idea is that languages are languages -- and fluency is fluency.  It doesn't matter if it's #lang survival, Java, Racket, Spanish, or Chinese -- there are certain activities that have language learning benefits.  Classmaps that include these kinds of Game Modes have reusability across classes."
 
@@ -158,7 +162,7 @@
 
   "Again?" he says.
 
-  "Sorry.  Never mind," you say.  He leads you out through the garage.
+  "I meant, see you again soon," you say as he leads you out through the garage.
 }
 
 
