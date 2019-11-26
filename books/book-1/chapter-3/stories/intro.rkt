@@ -11,7 +11,7 @@
 (require "../flash-cards.rkt")
 
 @paras{
-  Welcome back to Metapolis!
+  Welcome back to Metapolis! This chapter brings us to early Spring -- late March -- in Metapolis. MetaCoders Spring Session programs are starting up now, so we will be able to see a first day in a MetaCoders Class!
 
   The theme of this chapter is the importance of Story.  By the end of it (if you complete the assessment), you will have created and uploaded your own, critically important, Coach Story video to Youtube and pushed your coach webpage to Github.
 
