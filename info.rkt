@@ -5,6 +5,7 @@
                "https://github.com/thoughtstem/ts-printing.git"
                "https://github.com/thoughtstem/website.git"
                "https://github.com/thoughtstem/define-assets-from.git"
+               "https://github.com/thoughtstem/mc-classmaps.git"
                "reprovide-lang-lib"))
 (define compile-omit-paths '("cards/"))
 (define build-deps '("scribble-lib" "racket-doc" "rackunit-lib"))
