@@ -20,7 +20,7 @@
 
   "Of course, of course," he says, grinning and shaking your hand.  He then leads you inside, shows you to his home office, where you take a seat in a chair beside his desk.  
   
-  When he returns from washing his hands and boots up his computer, he says, "I'm nervous.  I'll be honest."  As he navigates to @(link-to "metacoders.org/coaches/maps.html" "/coaches/maps.html"), he tells you, "The nice thing, though, is that you don't have to come up with your own classmaps when you first start.  Do you know what a classmap is?"
+  When he returns from washing his hands and boots up his computer, he says, "I'm nervous.  I'll be honest."  As he navigates to @(link-to "coaches/maps.html" "/coaches/maps.html"), he tells you, "The nice thing, though, is that you don't have to come up with your own classmaps when you first start.  Do you know what a classmap is?"
 
   "Like a lesson plan," you say.
 
