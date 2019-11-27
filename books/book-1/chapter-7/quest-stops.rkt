@@ -13,8 +13,6 @@
    places:bruces-house
    stories:maps-intro
 
-   ;Any "science stop" needed?
-   
    ;map-use
    ;why-maps
    ;find-and-read-map-1
