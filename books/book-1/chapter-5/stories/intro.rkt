@@ -4,23 +4,27 @@
 (define place         places:metapolis-welcome-center)
 (define characters    (list ))
 (define time          (unnamed-time
-                        (moment 2021 6 28)
-                        (moment 2021 8 13)))
+                        (moment 2021 4 6 12)
+                        (moment 2021 4 6 12)))
 (define links   (list))
 
 (require "../flash-cards.rkt")
 
+
 @paras{
-  Welcome back to Metapolis!
+  Welcome back to Metapolis!  We are back in early Spring, seeing the MetaCoders' classes starting up for a new session.
 
-  The theme of this chapter is the importance of games.  
+  The theme of this chapter is Game Mode! We'll dive in and see Games in action, as well as make another stop at Babbage University to gain a scientific perspective.  By the end of this chapter, you will also write up a game, using code, to add to your Github repo.
 
-  We'll stop by Babbage University to learn about the science of games in education.
+  On the docket today:
 
-  You'll also write and upload your own game to your github repo.
+@ol{
+    @li{@b{Turing Recreational Center} Where we'll observe a few Game Modes on the first day of a new session.}
+    @;li{@b{Kick Butt Martial Arts} Where we'll see even more ways that Story Modes can unfold.}
+    @li{@b{Babbage University} Where we'll learn about the science of games in education.}
+ }
+
 }
-
-
 
 
 

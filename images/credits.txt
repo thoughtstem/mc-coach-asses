@@ -10,8 +10,13 @@ https://commons.wikimedia.org/w/index.php?curid=19076847
 
 drracket-logo -- By Matthew Butterick - Racket's source code., LGPL, https://commons.wikimedia.org/w/index.php?curid=75234136
 
-bruce-finding-nemo (gif hosted on amazon s3) -- Disney/Pixar's Finding Nemo
+bruce-finding-nemo (gif hosted on amazon s3) -- Walt Disney Pictures' Finding Nemo
 
 analytical-engine -- By Science Museum London / Science and Society Picture Library - Babbage's Analytical Engine, 1834-1871.Uploaded by Mrjohncummings, CC BY-SA 2.0, https://commons.wikimedia.org/w/index.php?curid=28024313
 
 punched-cards -- By Karoly Lorentey - originally posted to Flickr as Punched cards for programming the Analytical Engine, 1834-71, CC BY 2.0, https://commons.wikimedia.org/w/index.php?curid=11833648
+
+cumberbatch -- Benedict Cumberbatch in The Weinstein Company's The Imitation Game
+
+turing-running -- photo credit unknown 
+
