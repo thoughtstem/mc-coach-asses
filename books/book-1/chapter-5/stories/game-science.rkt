@@ -20,7 +20,7 @@
 
   "I suppose you know why I'm here," you say, taking a seat.
 
-  "Sitting there in your chair, surrounded by books, listening to me talk, and wondering what wisdom I'm going to impart to you today -- I have a question about all of that.  Are you in a state of flow?" he asks.
+  "Are you in a state of flow?" he asks.
 
   "I don't know.  Maybe, I guesss."
 

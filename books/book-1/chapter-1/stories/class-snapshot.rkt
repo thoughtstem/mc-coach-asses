@@ -9,7 +9,8 @@
                         (moment 2021 4 24 11 30)))
 (define links   '())
 
-(require "../flash-cards.rkt" 2htdp/image)
+(require "../flash-cards.rkt" 2htdp/image
+          mc-classmaps)
 
 
 @paras{
@@ -64,25 +65,15 @@
 
        @card{
         @card-body{
-        @card-text{
-        @b{Story Mode}
-        @ul{
-          @li{@b{Focal Points} All students share a common point of focus -- usually the coach, sometimes other students}
-          @li{@b{Energy Level} Students are engaged and interested -- but heartrates are low (compared to playing games).  It's the kind of energy you experence when you watch an interesting show on television, or read an interesting book.}
-          @li{@b{Comfort Zone} Students are inside their comfort zone and able to pick up new information because they are relaxed and, ideally, in a state of "narrative transportation".}
-          @li{@b{Learning Gains} During Story Mode, students may learn many things -- but the @b{type} of thing that stories teach is always the same.  Stories communicate @b{information and values}.}
-        }
+          @card-text{
+            @b{Story Mode}
+            @(story-mode-main-points)
 
-        @b{Game Mode}
-        @ul{
-          @li{@b{Focal Points} Students have multiple points of focus -- a few may be focused on one computer and activity here, and someone working solo on another task over there, these two working with a coach here...}
-          @li{@b{Energy Level} Students are striving to achieve a well-defined goal -- and heartrates may be higher (compared to listening to stories).  It's the kind of energy you experence when you have to finish a difficult but acheivable task under time pressure.}
-          @li{@b{Comfort Zone} Students are slightly outside of their comfort zone.  Psychologists use the term "flow state" to describe what we experience when we play games -- when we are doing something that is not too easy (so we need to focus) and not too hard (so we stay engaged), challenging but acheivable.}
-          @li{@b{Learning Gains} During Game Mode, students may learn many things -- but the @b{type} of thing they teach is always the same.  Games train @b{skills and fluencies}.}
+            @b{Game Mode}
+            @(game-mode-main-points)
+          }
         }
-       }
       }
-     }
 
       "Can I keep this?" you ask.
 
