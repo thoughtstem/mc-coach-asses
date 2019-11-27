@@ -262,9 +262,7 @@
   }
  }
 
- "In this class, we're going to make more and more complicated adventure games using
- a programming language for making @i{adventure} games.  Can anyone guess what that language is
- named?"
+ "In this class, we're going to make more and more complicated adventure games using a programming language for making @i{adventure} games.  Can anyone guess what that language is named?"
 
  Bai starts to shout his answer out as Aurelia raises her hand.
 
