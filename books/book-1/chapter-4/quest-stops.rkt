@@ -13,6 +13,9 @@
     places:babbage-university
     stories:software-engineering-students-learn-git-too-late
 
+    places:tech-squared
+    stories:git-in-industry
+
     places:coder-cafe
     stories:yus-bio-goes-live
     

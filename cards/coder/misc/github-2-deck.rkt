@@ -16,8 +16,7 @@
    10)
 
 (define-card vocab:git
-   @text-front{
-     Define "git" 
+   @text-front{ Define "git" 
    }
    @text-back{
      Version control software 

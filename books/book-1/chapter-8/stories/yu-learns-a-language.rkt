@@ -1,6 +1,6 @@
 #lang at-exp metapolis-stories/lang/story
   
-(define title         "Yu's Bio Goes Live")
+(define title         "Yu Learns a Language")
 (define place         places:coder-cafe)
 (define characters    (list characters:yu))
 (define time          (unnamed-time
@@ -11,10 +11,17 @@
 (require "../flash-cards.rkt")
 
 @paras{
-  <<A super short chapter.  Push your bio.  It'll look like this.>>
+  <<A few parts>>
 
-  First push!
+   <<The story of a language.>>
 
-  TODO: 
-  coach-bio-commit
+   <<The story of learning a langauge...>>
+
+           <<The drilling, testing, quizzing, learning process.>>
+             <<Game modes.  Flow states...>>
+
+
+           <<The creativity stuff.>>
+             <<Game Jam>>
+     
 }

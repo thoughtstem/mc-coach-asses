@@ -11,8 +11,15 @@
 (require "../flash-cards.rkt")
 
 @paras{
+  <<Dr Joy takes you to an fMRI lab, explains the Siegmund studies to you...>>
+
+  <<Then she takes you to a SLA classroom to discuss theory of SLA...  A "Krash" course.>>
 
   TODO:
   vocab:brocas-region 
-  More?
+
+  vocab:acquisition 
+  vocab:learning 
+  vocab:SLA 
+  vocab:krashens-input-hypothesis 
 }

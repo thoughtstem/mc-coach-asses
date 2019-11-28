@@ -11,6 +11,7 @@
 (require "../flash-cards.rkt")
 
 @paras{
+  <<The former MetaCoders coach meets you again.  This time, it's an in-depth look at some source code.  You get to sit with some devs and watch what they do.>>
 
   TODO:
   vocab:function-definition 

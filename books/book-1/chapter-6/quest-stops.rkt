@@ -12,7 +12,6 @@
 
     places:babbage-university
     stories:language-lab-studies-coders
-    stories:sla-classroom
 
     places:tech-squared
     stories:software-engineering-team
