@@ -10,7 +10,9 @@
    places:metapolis-welcome-center
    stories:intro
 
-   ;We go to various classes to witness the transitions 
+   places:babbage-university
+   stories:transitions-lab
+
 
    ;coach-vocab-1
    ;why-transitions

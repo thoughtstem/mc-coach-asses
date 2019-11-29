@@ -11,10 +11,7 @@
 (require "../flash-cards.rkt")
 
 @paras{
-  Github account time!!
-
-  TODO: 
-  why-github-account? 
-  purpose-of-mc-coach-repo?
-  mc-coach-repo-exists?
+  <<Super short chapter.  Yu discusses how you apply all the science stuff you just learned to your own task of learning language.>>
+ 
+  <<Introduce the "Language learning story", if that's what we're calling it...>>
 }

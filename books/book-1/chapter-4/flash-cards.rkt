@@ -2,124 +2,108 @@
 
 (require mc-coach-assess/cards/lib)
 
+(define-card vocab:repo
+   @text-front{
+     Define "repo" 
+   }
+   @text-back{
+     Short for "code repository".  
 
-(define-card adv-student-engagement-2
-  @text-front{
- What is one way to engage returning
- students in Game Mode?
-}
-  @text-back{
- Acknowledge and celebrate
- their expertise.
-} 
-  15)
+     A place where one or more coders 
+     organize and collaborate to
+     author source code.
+   }
+   10)
 
-(define-card game-vocab-1
-  @text-front{
- What makes a game?
-}
-  @text-back{
- A fun activity with an objective.
-} 
-  10)
+(define-card vocab:git
+   @text-front{ Define "git" 
+   }
+   @text-back{
+     Version control software 
+     created by Linus Torvalds -- 
+     after whom the Linux operating 
+     system is named.  It helps coders
+     organize changes to code in repos. 
+   }
+   10)
 
-(define-card game-vocab-2
-  @text-front{
- What is the objective of a game of tag?
-}
-  @text-back{
- To avoid being tagged and becoming "it."
-} 
-  10)
+(define-card vocab:Github
+   @text-front{
+     Define "Github" 
+   }
+   @text-back{
+     One of several online services that
+     hosts git repos for coders.
 
-(define-card game-vocab-3
-  @text-front{
- What is the objective of the board game
- Clue/Cluedo?
-}
-  @text-back{
- To figure out the Who, Where and What
- of the crime.
-} 
-  10)
+     In 2018, it was acquired by Microsoft.
+   }
+   10)
 
-(define-card game-vocab-4
-  @text-front{
- What is the objective of Disintegrating Code?
-}
-  @text-back{
- To be able to code the designated kata with as
- few hints as possible.
-} 
-  15)
-
-;have more examples and randomly cycle through them?
-
-(define-card game-reading-1
-  @text-front{
- Pull up a game from the Games Collection
- with this objective:
- __________________________
-}
-  @text-back{ TBD } 
-  20)
-
-(define-card game-reading-2
-  @text-front{
- Pull up a game from the Games Collection
- that requires X or more players.
-}
-  @text-back{ TBD } 
-  20)
-
-(define-card game-reading-3
-  @text-front{
- Pull up a game from the Games Collection
- that takes less than X minutes to play.
-}
-  @text-back{ TBD } 
-  20)
-
-(define-card game-reading-4
-  @text-front{
- Pull up a game from the Games Collection
- that works well for K-2nd graders.
-}
-  @text-back{ TBD } 
-  20)
-
-;have multiple of the game-reading types, to be created when games collection is created.
-
-(define-card game-science
-  @text-front{
- Name X ways that science supports
- the use of games in learning.
- }
-  @(go-look-it-up)
-  60)
-
-(define-card your-game
-  @text-front{
- Pull up the code you wrote to create a new game
- on github.com and explain the title and objective.
-}
-  @text-back{ ... } 
-  20)
+(define-card vocab:commit
+   @text-front{
+     Define "commit" 
+   }
+   @text-back{
+     A change a coder made to code to
+     in a repo. 
+   }
+   10)
 
 
+(define-card when-git-taught?
+   @text-front{
+     When is git typically taught to
+     college computer science
+     majors?
+   }
+   @text-back{
+     It varies.  But often near the 
+     end of their four years in college,
+     in a class called "Sofware Engineering."
+   }
+   10)
+
+(define-card story-of-version-control?
+   @text-front{
+     What is the brief story of version control?
+   }
+   @text-back{
+     https://www.red-gate.com/blog/database-devops/history-of-version-control
+   }
+   10)
+
+(define-card why-you-learn-git-early?
+   @text-front{
+     Why, at MetaCoders, do coaches learn
+     git early (even though it is taught to many
+     computer science majors after four
+     years of education?)
+   }
+   @(go-look-it-up)
+   10)
+
+(define-card coach-bio-commit
+   @text-front{
+     Run bio.rkt
+
+     Show your coach bio after it renders
+     in your browser.
+
+     Show your commited bio.rkt file
+     in your coach repo on Github.
+   }
+   @(go-look-it-up)
+   30)
 
 
-(define/provide-deck (game1-deck)
-  "Game I Deck"
-  adv-student-engagement-2
-  game-vocab-1
-  game-vocab-2
-  game-vocab-3
-  game-vocab-4
-  game-reading-1
-  game-reading-2
-  game-reading-3
-  game-reading-4
-  game-science
-  your-game
-  )
+(define/provide-deck (github-2-deck)
+  "2nd Github Deck"
+  vocab:repo
+  vocab:commit
+  vocab:git
+  vocab:Github
+  when-git-taught? 
+  story-of-version-control?
+  why-you-learn-git-early?
+  coach-bio-commit)
+

@@ -12,6 +12,12 @@
 
 @paras{
 
+  <<Dr. Joy is working with a Pascal elementary school teacher (not a MetaCoders classroom) to incorporate some SRS science...>>
+
+  <<Mainly this is a context to talk about the slowness with which schools adapt -- and the distance between science and practice...>>
+
+  <<But MetaCoders does it right!>>
+
   TODO:
   vocab:spaced-repetition 
   vocab:fluency  
