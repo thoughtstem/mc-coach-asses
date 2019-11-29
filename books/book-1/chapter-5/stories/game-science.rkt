@@ -1,28 +1,35 @@
 #lang at-exp metapolis-stories/lang/story
   
-(define title         "Chapter 3: The Science behind Gameplaying")
+(define title         "Chapter 3: The Science behind Games")
 (define place         places:babbage-university)
-(define characters    ;who?
-                      (list ))
-(define time          ;when?
-                      (unnamed-time
-                        (moment 2021 6 28)
-                        (moment 2021 8 13)))
+(define characters    (list characters:professor-istoria))
+(define time          (unnamed-time
+                        (moment 2021 4 6 18)
+                        (moment 2021 4 6 19)))
 (define links   (list))
 
 (require "../flash-cards.rkt" impress)
 
 @paras{
 
-  You pass the now familiar model of Babbage's Analytical Engine and take the stairs up to Professor Istoria's office.  
+  You pass the now familiar model of Babbage's Analytical Enginenin in the Neuroscience wing of Babbage University and take the stairs up to Professor Istoria's office.  
 
-  "Back for the second time, I see," says Istoria, as you walk in.  "Have a seat."
+  "Back again, I see," says Istoria, as you walk in.  "Have a seat."
 
   "I suppose you know why I'm here," you say, taking a seat.
 
-  "Sitting there in your chair, surrounded by books, listening to me talk, and wondering what wisdom I'm going to impart to you today -- I have a question about all of that.  Are you in a state of flow?" he asks.
+  "Well let's get to it, shall we?  Games, games, games..." He mutters, before stopping suddenly and fixing you with a piercing gaze.  "Are you in a state of flow right now?" 
 
-  "I don't know.  Maybe, I guesss."
+  "Um, I don't know."  You say.  "I have heard that phrase a couple times -- 'state of flow' or 'flow state' -- what does that mean?"
+
+  "I'm asking the questions, you are answering them.  You remember this game, yes?"
+
+  You sigh inwardly.
+
+  .....
+  ...
+  ..
+  . EDITING PAUSED HERE!
 
   "So polite," he said.  "How long has it been since you sat down?"
   
