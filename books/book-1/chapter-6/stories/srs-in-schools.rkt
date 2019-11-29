@@ -24,4 +24,14 @@
   vocab:recall  
   vocab:effortful-recall  
   srs-story 
+
+  no-grammar 
+  language-myths 
+  coders-as-translators 
+  where-to-find-katas 
+  language-learning 
+  story-of-brocas 
+  vocab-story-1 
+  vocab-story-2 
+  explain-how-to-learn-a-language
 }

@@ -13,12 +13,6 @@
     places:babbage-university
     stories:language-lab-studies-coders
 
-    places:tech-squared
-    stories:software-engineering-team
-
-    places:pascal-elementary
-    stories:srs-in-schools 
-
     places:coder-cafe
     stories:yu-gears-up-to-learn-a-language))
 

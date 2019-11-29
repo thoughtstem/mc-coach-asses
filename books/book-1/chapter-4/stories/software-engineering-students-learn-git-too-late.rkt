@@ -19,27 +19,27 @@
 
   A student one row ahead of you finishes a game of League of Legends at that moment and raises his hand to ask, "But... like... what does that @i{mean}?"  
 
-  "Let's suppose," said Dr. Siegmund, "that your group decides to make an educational video game to teach algebra to struggling middle schoolers."  More students begin to shift in their seats.  "Part of your grade will come from whether or not your game meets its requirements.  Part of your grade will come from how well-organized and well-documented your code is."
+  "Let's suppose," says the lecturer, "that your group decides to make an educational video game to teach algebra to struggling middle schoolers."  More students begin to shift in their seats.  "Part of your grade will come from whether or not your game meets its requirements.  Part of your grade will come from how well-organized and well-documented your code is."
 
   "But... like..." says a student a few rows ahead of you, his laptop open to Facebook.  "How will you know if the code is... like... well-organized and stuff?"
 
-  "My TAs and I will look at your group's Github repositories," says Dr. Joy.
+  "My TAs and I will look at your group's Github repositories," she says.
 
   There is murmering throughout the auditorium.  Another student asks, "Can we work alone if we --" 
 
-  "No," says Dr. Joy.
+  "No," she says.
 
   Another tries: "But, like, suppose we have a group that isn't getting stuff done, can we join another --"
 
-  "No," says Dr. Joy.
+  "No," she says.
   
-  Another tries: "So, like, what if our group can't schedule times to meet?"
+  Another student tries: "So, like, what if our group can't schedule times to meet?"
 
-  "Then you'd better get good at coding without meeting," says Dr. Joy.   
+  "Then you'd better get good at coding without meeting," she says.
 
   "What if we've never used Github before?" asks another.  
 
-  "There's a tutorial on my website," says Dr. Joy.  "And there are literally a million tutorials online."
+  "There's a tutorial on my website," says the lecturer.  "And there are literally a million tutorials online."
 
   The League of Legends boy in front of you asks: "What if one person in the group ends up doing all the work?"
 
@@ -47,7 +47,7 @@
 
   This doesn't satistfy him.  "But what if we plan everything right, and then like... one person just never does their part.  And what if I have to stay up late the night before --" 
 
-  "Let me stop you right there," says Dr. Joy.  She takes a deep breath, and you can tell that assigning high-stakes group projects to twenty-year-old coders is not the thing she loves most about her job.   "Raise your hand if you hate group projects." 
+  "Let me stop you right there," the lecturer.  She takes a deep breath, and you can tell that assigning high-stakes group projects to twenty-year-old coders is not the thing she loves most about her job.   "Raise your hand if you hate group projects." 
 
   Everyones hands go up.
 
@@ -85,27 +85,27 @@
 
   "By the way," she says, "I hope you're all writing this down.  That other 10% of your grade is the final exam.  All of this will be on it."  This alone causes League of Legends, Facebook, Instagram, Youtube, and various other pieces of software to disappear from laptop screens -- replaced by programs like Notepad, Sublime, Vim, Emacs, and Evernote.  
   
-  As Dr. Joy continues to talk about how the field of software engineering has grown into an increasingly people-focused discipline, you find yourself wondering how these young coders with allergies to group projects will fair in the "real world".    They all have 4 years of training as coders -- yet most are novices software engineers.  Most have never used Git to manage a project with more than one person.  Many will drop the @i{one} class that seeks to teach them these skills.
+  As she continues to talk about how the field of software engineering has grown into an increasingly people-focused discipline, you find yourself wondering how these young coders with allergies to group projects will fair in the "real world".    They all have 4 years of training as coders -- yet most are novices software engineers.  Most have never used Git to manage a project with more than one person.  Many will drop the @i{one} class that seeks to teach them these skills.
 
-  The class finishes and students shuffle out.  When you are the last one in the room, Dr. Joy notices you as she is packing up her laptop.
+  The class finishes and students shuffle out.  When you are the last one in the room, Dr. Joy Siegmund notices you as she is packing up her laptop.
 
   "Are you the coach from MetaCoders?" she asks.
 
-  You get up and join her on the stage.  "Coach in training," you say as you shake her hand.  "That seemed like a struggle."
+  You get up and join her on the stage.  "Coach in training," you say as you shake her hand.  "That seemed like a struggle, Dr. Siegmund."
   
-  "It's not their fault," she says.  "They've gone through so many years of coding education where they only thing they were assessed on was whether or not they could get the computer to do what the homework assignment said.  By this stage in their college career, they've completed hundreds of isolated, self-contained assignments -- none of which were for the benefit of humanity.  It's a style of education that leads to a paradox: They are all great coders, but with no sense of what is actually @i{worth} coding.  Most of them don't know what it means to code something for someone else.  They just know how to get their code to do what their professor asked them to do.  If it were up to me, they would all have learned Git a long time ago.  And they would have begun learning how to write code in teams from day one."
+  "Call me Dr. Joy.  It's not their fault," she says.  "They've gone through so many years of coding education where they only thing they were assessed on was whether or not they could get the computer to do what the homework assignment said.  By this stage in their college career, they've completed hundreds of isolated, self-contained assignments -- none of which were for the benefit of humanity.  It's a style of education that leads to a paradox: They are all great coders, but with no sense of what is actually @i{worth} coding.  Most of them don't know what it means to code something for someone else.  They just know how to get their code to do what their professor asked them to do.  If it were up to me, they would all have learned Git a long time ago.  And they would have begun learning how to write code in teams from day one."
 
   "I'm guessing that's why MetaCoders HQ wanted me to come here," you say.
 
-  "You've already used Git more than some of these college seniors," she says.  "I do think that matters."
+  "You've already used Git more than some of these college seniors," Dr. Joy says.  "I do think that matters."
 
   "Why not fix it?" you ask.  "Can't you get them to collaborate earlier?"
 
-  "Education is hard to change," she says.  "We only have 4 years with some of these kids.  Many of them come from high schools that don't teach computer science.  And -- as you saw -- college kids get angry when you try to make them do group projects.  It doesn't matter how much you tell them that life is a group project.  They still don't want to do them.  They have 12 years of prior education -- most of which did not involve group projects.  Many of them expect 4 more years of the same."
+  "Education is hard to change," says Dr. Joy.  "We only have 4 years with some of these kids.  Many of them come from high schools that don't teach computer science.  And -- as you saw -- college kids get angry when you try to make them do group projects.  It doesn't matter how much you tell them that life is a group project.  They still don't want to do them.  They have 12 years of prior education -- most of which did not involve group projects.  Many of them expect 4 more years of the same."
 
   "I always hated group projects too," you say.  "There's something about your grade depending on what other people do that feels wrong." 
 
-  "Ironically," she says, "you coaches are in a better position to make things right than I am.  At MetaCoders, you don't give grades.  And you coach instead of teach."
+  "Ironically," says Dr. Joy, "you coaches are in a better position to make things right than I am.  At MetaCoders, you don't give grades.  And you coach instead of teach."
 
   "I'm not sure what that has to do with it."
 
