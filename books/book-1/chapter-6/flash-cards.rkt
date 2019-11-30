@@ -265,7 +265,7 @@
 
      Take 60 seconds to explain the
      Language Learning Story.
-   }
+   } ;Mention using MC Game Modes on your own time...
    @(go-look-it-up)
    60)
 
@@ -278,30 +278,32 @@
   vocab:SLA 
   vocab:krashens-input-hypothesis 
 
-  vocab:function-definition 
-  vocab:function-call 
-  vocab:parameter 
-  vocab:argument 
-  vocab:package 
-  vocab:code/test-cycle 
-  vocab:specification 
-  vocab:implementation 
+  ;vocab:function-definition 
+  ;vocab:function-call 
+  ;vocab:parameter 
+  ;vocab:argument 
+  ;vocab:package 
+  ;vocab:code/test-cycle 
+  ;vocab:specification 
+  ;vocab:implementation 
 
+  ;vocab:learning-science 
 
-  vocab:learning-science 
   vocab:fluency  
   vocab:recall  
   vocab:effortful-recall  
-  vocab:spaced-repetition 
-  srs-story 
+
+  ;vocab:spaced-repetition 
+  ;srs-story 
 
   no-grammar 
-  language-myths 
+  ;language-myths 
   coders-as-translators 
   where-to-find-katas 
   language-learning 
   story-of-brocas 
   vocab-story-1 
   vocab-story-2 
-  explain-how-to-learn-a-language)
+  explain-how-to-learn-a-language
+  )
 
