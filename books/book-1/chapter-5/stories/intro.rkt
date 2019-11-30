@@ -20,8 +20,8 @@
 
 @ol{
     @li{@b{Turing Recreational Center} Where we'll observe a few Game Modes on the first day of a new session.}
-    @;li{@b{Kick Butt Martial Arts} Where we'll see even more ways that Story Modes can unfold.}
     @li{@b{Babbage University} Where we'll learn about the science of games in education.}
+    @li{Lastly, we will jump forward in time, and revisit @b{Turing Recreational Center} to see a special Game Mode -- the last day's Game Jam.}
  }
 
 }

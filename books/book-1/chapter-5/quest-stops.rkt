@@ -15,6 +15,9 @@
 
    places:babbage-university
    stories:game-science
+
+   places:turing-recreational-center
+   stories:game-jam
    
    ;adv-student-engagement-2
    ;game-vocab-1
