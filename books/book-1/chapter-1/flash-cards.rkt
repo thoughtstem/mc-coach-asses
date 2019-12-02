@@ -41,7 +41,7 @@
    (go-look-it-up)
    60)
 
-(define/provide-deck (intro-deck)
+(define/provide-deck (flash-cards)
   "Intro Deck"
   hello-world-1
   hello-world-2
