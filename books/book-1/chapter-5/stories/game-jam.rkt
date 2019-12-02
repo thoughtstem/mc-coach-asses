@@ -101,14 +101,20 @@
 
  "Alright, but if I start seeing you two getting off topic again, I will split you up." Ruby says.
 
- Ruby goes on to review how the Jam will work. Twice, one of the returning students you remember from last time interrupts to tell Ruby that they "didn't do that last Game Jam." Ruby responds that different Game Jams can have different rules, and that @i{these} are the rules of the Jam @i{this} time. 
+ Ruby gives each pair an index card and a marker and instucts them to come up with a team name for the Jam. She sets the timer for 2 minutes, and when it beeps, gathers back the markers and continues explaining the Game Jam.
+
+ Twice, one of the returning students you remember from last time interrupts to tell Ruby that they "didn't do that last Game Jam." Ruby responds that different Game Jams can have different rules, and that @i{these} are the rules of the Jam @i{this} time.
+
+ Ruby outlines the rules:
 
  @ul{
+     @li{The Jam will be about 45 minutes long.}
   @li{Every pair will have 1 computer. One partner will type at a time. Every 3 minutes when the timer beeps, they will "swap drivers" and change who is typing.}
   @li{The "non-driving" partner is still part of the coding process, working with their teammate to look for bugs, make creative choices and sometimes checking out resources.}
   @li{Every pair will be given two hexagonal cards as inspiration; it is not required to use the inspirate, it is optional help if anyone needs help getting started. These cards are to remain code-side down, unless a hint is purchased. }
   @li{Various resources/hints will be available -- some for free and some cost "dollars:" paper money that each student has. The price for any resource can change at anytime Ruby wishes.}
   @li{Games will be scored at the end of the Jam. Scores are dependant on the complexity and amount of working code. Ruby doesn't explain the exact formula just yet. The whole class score will be added up and compared to other MetaCoders classes in the past!}
+  @li{Pairs can also get bonus points for exceptional teamwork, practicing good coding habits, or creativity.}
   @li{Games must @i{run} by the end of the Jam to get any points.} 
  }
 
@@ -121,7 +127,7 @@
 
  Ruby hints at the potential for other resources to be "released" later in the Jam. For now, she writes up the two options, and their curent prices, on the white board. Then, Ruby sets the timer for 3 minutes and announces that she will take up to 3 minutes of questions.
 
- You notice that Ruby listens to each question carefully, but doesn't always answer them. Sometimes she refers to a rule she already reviewed, sometimes she responds with a question of her own, sometimes she just shrugs with a "I guess we'll find out!" It reminds you of Professor Istoria's frustrating way of avoiding questions. The kids are a bit frustrated by Ruby's ambiguity, you note, but also intriged and even entertained.
+ You notice that Ruby listens to each question carefully, but doesn't always answer them right out. Sometimes she refers to a rule she already reviewed, sometimes she responds with a question of her own, sometimes she just shrugs with a "I guess we'll find out!" It reminds you of Professor Istoria's frustrating way of avoiding questions. The kids @i{are} a bit frustrated by Ruby's ambiguity, you note, but also intriged and even entertained.
 
  @heading{4:12 pm}
 
@@ -151,9 +157,17 @@
 
  "Absolutely."
 
- "What about the resources and rules? At the very least I image you change the 'prices' of those resources."
+ "What about the resources and rules? At the very least, I imagine you change the 'prices' of those resources."
 
- "Yeah, I definitely do that. I try to hit a point that I think will encourage students to try to debug without help first. But I always give myself that option of changing the price; that's been a life saver!" Ruby laughs. "If I see students relying on a resource too much, I'll hike up the price. When we are in the final stretch, if I am seeing any struggling, I will lower the prices or make special resources available. Like 'call in the coach' where they can get my help for debugging."
+ "Yeah, I definitely do that. I try to hit a point that I think will encourage students to try to debug without help first. But I always give myself that option of changing the price; that's been a life saver!" Ruby laughs. "If I see students relying on a resource too much, I'll hike up the price. And when we are in the final stretch, if I am seeing struggling pairs, I will lower the prices or make special resources available."
+
+ Ruby invites you to join as she makes a lap around the room, checking in to see how each pair is getting started. When the timer in her hand beeps, she instucts everyone to switch drivers before restarting the timer.
+
+ @heading{4:30pm}
+
+ You observe Ruby as she goes group to group, offering words of encouragement. She find yourself comparing her to a cheerleader as you notice her high, positive energy.  This energy peaks as Ruby places a gold star sticker on a team's index card, annoucing loudly that team 'Code-tastic Candy Corns' has earned a bonus point for being really creative in designing a story behind their game.
+
+ "Bonus points are great," Ruby says, after joining you on the side. 
  
 }
 
