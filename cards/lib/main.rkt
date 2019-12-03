@@ -54,7 +54,7 @@
 
 (define (go-look-it-up)
   @text-back{
-    Review the text.
+    Review. 
     Think.
     Ponder.
   })

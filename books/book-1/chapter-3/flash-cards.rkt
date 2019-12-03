@@ -23,6 +23,27 @@
   @(go-look-it-up)
   60)
 
+(define-card story-vocab-0
+  @text-front{
+   Take 30 seconds to discuss what Story
+   Mode means at MetaCoders.
+   
+   Describe it as if to someone
+   who has never heard the term.
+  }
+  @(go-look-it-up)
+  30)
+
+(define-card story-vocab-0.5
+  @text-front{
+   Take 30 seconds to discuss narrative 
+   transportation in light of a story 
+   with which you've personally
+   experienced it.
+  }
+  @(go-look-it-up)
+  30)
+
 (define-card story-vocab-1
   @text-front{
    Take 30 seconds to discuss how eye 
@@ -54,7 +75,7 @@
   @text-front{
     Take one minute to discuss how
     science supports the use of stories
-    in education.
+    for learning.
   }
   @(go-look-it-up)
   60)
@@ -99,12 +120,11 @@
   @text-back{Upload it...}
   600)
 
-
-
 (define/provide-deck (flash-cards)
   "Chapter 3"
   adv-student-engagement-1
   why-coach-story
+  story-vocab-0
   story-vocab-1
   story-vocab-2
   story-vocab-3

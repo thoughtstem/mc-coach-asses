@@ -7,68 +7,45 @@
      What does Broca's region do?
    }
    @text-back{
-    ...
+     An area of the brain related to
+     language.  Recent science shows that
+     it plays a role in the comprehension
+     of code. 
    })
 
-(define-vocab-card vocab:spaced-repetition
-   @text-front{
-     Define "Spaced Repetition"
-   }
-   @text-back{
-     ... 
-   })
 
 (define-vocab-card vocab:learning-science
    @text-front{
      Define "Learning Science"
    }
    @text-back{
-     ... 
+     A field of scientific study that
+     examines how people learn and how
+     to use those insights in real
+     classrooms.
    })
 
 (define-vocab-card vocab:fluency 
    @text-front{
      Define "fluency"
-     (as used in learning science)
+     (as used in second language
+     acquisition)
    }
    @text-back{
-     ... 
+     The degree to which someone has
+     fast, automatic recall over some
+     language.
    })
-
-(define-vocab-card vocab:recall 
-   @text-front{
-     Define "recall"
-     (as used in learning science)
-   }
-   @text-back{
-     ... 
-   })
-
-(define-vocab-card vocab:effortful-recall 
-   @text-front{
-     Define "effortful recall"
-     (as used in learning science)
-   }
-   @text-back{
-     ... 
-   })
-
-(define-vocab-card srs-story
-   @text-front{
-     In your own words, tell the story of 
-     the spaced repetition scientific result
-     and its (continued) absence in American 
-     education systems.
-   }
-   @(go-look-it-up))
-
 
 (define-vocab-card vocab:acquisition
    @text-front{
      Define "acquisition"
    }
    @text-back{
-    ...
+     An unconscious process of "absorbing"
+     a language through meaningful 
+     interactions in that language.
+     (More effective than "learning")
    })
 
 (define-vocab-card vocab:learning
@@ -77,15 +54,20 @@
      (Context: SLA)
    }
    @text-back{
-    ...
+     The conscious process of explicitly
+     being taught some language's rules 
+     and structure.
+     (Less effective than "acquisition")
    })
 
 (define-vocab-card vocab:SLA
    @text-front{
-     Define "second language acquisition"
+     Define "Second Language Acquisition"
    }
    @text-back{
-    ...
+     A branch of learning sciences that
+     studies how brains acquire fluencies in
+     various languages.
    })
 
 (define-vocab-card vocab:krashens-input-hypothesis
@@ -93,7 +75,12 @@
      Define "Krashen's Input Hypothesis"
    }
    @text-back{
-    ...
+     A scientifically well-supported
+     hypothesis by Stephen Krashen.  
+
+     It states that meaningful interactions in
+     a target language are what lead to 
+     acquisition.
    })
 
 
@@ -104,7 +91,14 @@
      Define "function definition"
    }
    @text-back{
-    ...
+     The adding of a new vocabulary word to
+     a programming language.  They look roughly
+     like this:
+
+     @code-image{
+       (define (new-word ...)
+         ...)
+     }
    })
 
 (define-vocab-card vocab:function-call
@@ -112,39 +106,14 @@
      Define "function call"
    }
    @text-back{
-    ...
-   })
+     The use of a previously defined 
+     vocabulary word in a program.
 
-(define-vocab-card vocab:parameter
-   @text-front{
-     Define "parameter"
-   }
-   @text-back{
-    ...
-   })
+     It looks roughly like this:
 
-(define-vocab-card vocab:argument
-   @text-front{
-     Define "argument"
-   }
-   @text-back{
-    ...
-   })
-
-(define-vocab-card vocab:package
-   @text-front{
-     Define "package"
-   }
-   @text-back{
-    ...
-   })
-
-(define-vocab-card vocab:code/test-cycle
-   @text-front{
-     Define "code/test cycle" 
-   }
-   @text-back{
-    ...
+     @code-image{
+       (new-word)
+     }
    })
 
 (define-vocab-card vocab:specification
@@ -154,7 +123,10 @@
       engineering)
    }
    @text-back{
-    ...
+     An English description of what
+     some code ought to do -- i.e.
+     "Code a game with an avatar that
+     looks like brocolli."
    })
 
 (define-vocab-card vocab:implementation
@@ -164,11 +136,9 @@
       engineering)
    }
    @text-back{
-    ...
+     The code written to conform
+     to some specification.
    })
-
-
-
 
 
 (define-card no-grammar
@@ -179,16 +149,6 @@
      is not an optimal way to learn
      a language.
    }
-   @text-back{
-    ...
-   }
-   60)
-
-(define-card language-myths
-   @text-front{
-     Take 60 seconds to discus some
-     common myths about language learning.
-   }
    @(go-look-it-up)
    60)
 
@@ -196,23 +156,13 @@
    @text-front{
      Take 60 seconds to explain in your own
      words why being a coder is like
-     being a translator.
-   }
-   @text-back{
-    ...
-   }
-   60)
+     being a language translator.
 
-(define-card where-to-find-katas
-   @text-front{
-     Where can our list of MetaCoders
-     programming languages be found?
-
-     Navigate there in your browser.
+     (Use the terms "specification" and
+     "implementation".)
    }
    @(go-look-it-up)
-   30)
-
+   60)
 
 (define-card language-learning
    @text-front{
@@ -221,51 +171,31 @@
      learning is relevant to teaching and 
      learning coding.
    }
-   @text-back{
-    ...
-   }
+   @(go-look-it-up)
    60)
 
 (define-card story-of-brocas
    @text-front{
-     Tell the story of Broca's region ending
-     with the recent discoveries about coding.
+     Take 1 minute to tell the story of Broca's 
+     region ending with the recent discoveries 
+     about coding.
    }
-   @(go-look-it-up)
+   @text-back{
+     Main points: Who was Paul Broca? What does
+     Broca's region do?  What did scientists learn
+     in 2014?  What did they learn in 2017?
+     What does this mean for coding coaches today? 
+   }
    120)
-
-(define-card vocab-story-1
-   @text-front{
-     Use the following vocabulary words in 
-     a short story that would help someone understand
-     their meanings:
-
-     function, library, coder, dev/test cycle
-   }
-   @(go-look-it-up)
-   60)
-
-(define-card vocab-story-2
-   @text-front{
-     Use the following vocabulary words in 
-     a short story that would help someone understand
-     their meanings:
-
-     Broca's region, specification, implementation,
-     software engineer(ing)
-   }
-   @(go-look-it-up)
-   60)
 
 (define-card explain-how-to-learn-a-language
    @text-front{
-     For a language of your choice
-     (or one you will be using 
-      in an upcoming class):
-
-     Take 60 seconds to explain the
-     Language Learning Story.
-   } ;Mention using MC Game Modes on your own time...
+     Take 60 seconds to explain (as if to a
+     student) how they can use the principles of 
+     second language acquisition to create a 
+     self-study plan for some programming language.  
+     Give some concrete advice.
+   } 
    @(go-look-it-up)
    60)
 
@@ -278,32 +208,11 @@
   vocab:SLA 
   vocab:krashens-input-hypothesis 
 
-  ;vocab:function-definition 
-  ;vocab:function-call 
-  ;vocab:parameter 
-  ;vocab:argument 
-  ;vocab:package 
-  ;vocab:code/test-cycle 
-  ;vocab:specification 
-  ;vocab:implementation 
-
-  ;vocab:learning-science 
-
   vocab:fluency  
-  vocab:recall  
-  vocab:effortful-recall  
-
-  ;vocab:spaced-repetition 
-  ;srs-story 
 
   no-grammar 
-  ;language-myths 
   coders-as-translators 
-  where-to-find-katas 
   language-learning 
   story-of-brocas 
-  vocab-story-1 
-  vocab-story-2 
-  explain-how-to-learn-a-language
-  )
+  explain-how-to-learn-a-language)
 
