@@ -4,8 +4,8 @@
 (define place         places:metapolis-welcome-center)
 (define characters    (list ))
 (define time          (unnamed-time
-                        (moment 2021 6 28)
-                        (moment 2021 8 13)))
+                        (moment 2021 3 18 9)
+                        (moment 2021 3 18 9)))
 (define links   (list))
 
 (require "../flash-cards.rkt")
@@ -13,13 +13,11 @@
 @paras{
   Welcome back to Metapolis!
 
-  The theme of this chapter is classmaps.  You'll learn how to find and read the classmaps that we provide.  This will immediately enable you to run a smooth coding class -- and it will begin to prepare you to create your own classmaps in the future.
+  In this chapter we will focus on @b{classmaps}.  You'll learn how to find and read the classmaps that we provide.  This will immediately enable you to run a smooth coding class -- and it will begin to prepare you to create your own classmaps in the future.
 
   There's only one stop: @b{Bruce's House}.
 
-  Oh, and as we've said before: Metapolis is a city that exists outside of the normal space and time of your world.  It matters because today, you'll be doing some time traveling. 
-  
-  You'll be visiting Bruce at a time before his first class has started.  He won't remember you because he won't meet you until that first day of class at @b{Lovelace Elementary} in Chapter 3.  The point is to show you how coaches prepare for their first day, in part by selecting the appropriate class launch map.
+  We are visiting Bruce before his first day at @b{Lovelace Elementary} (which we saw in Chapter 3!).  This brings us to mid March in Metapolis, so bring a jacket to fend off the last of the winter chill!
 }
 
 
