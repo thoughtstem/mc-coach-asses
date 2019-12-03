@@ -9,7 +9,9 @@
                             characters:daniela-melendez
                             characters:isabel-patel
                             characters:robert-mckinney
-                            characters:samiya-kanaan))
+                            characters:samiya-kanaan
+                            characters:skylar-thompson
+                            characters:rahul-kohli))
 (define time         (unnamed-time 
                       (moment 2021 6 5 16)
                       (moment 2021 6 5 17 30)))
@@ -108,7 +110,6 @@
  Ruby outlines the rules:
 
  @ul{
-     @li{The Jam will be about 45 minutes long.}
   @li{Every pair will have 1 computer. One partner will type at a time. Every 3 minutes when the timer beeps, they will "swap drivers" and change who is typing.}
   @li{The "non-driving" partner is still part of the coding process, working with their teammate to look for bugs, make creative choices and sometimes checking out resources.}
   @li{Every pair will be given two hexagonal cards as inspiration; it is not required to use the inspirate, it is optional help if anyone needs help getting started. These cards are to remain code-side down, unless a hint is purchased. }
@@ -122,7 +123,7 @@
 
  @ul{
   @li{A lone computer against the wall is designated as the @b{sprite computer} -- holding a list of all available characters to put in the game. Ruby says that this is free to access (at least in the beginning!)}
-  @li{At any time, a pair can purchase a @b{flip} -- access to the code-side of one of their two cards or, for a small additional fee, Ruby will choose another card that she believes will help a partnership achieve whatever they are attempting to code at that time. Ruby sets the price for a flip at 5 "dollars" to start.}
+  @li{At any time, a pair can purchase a @b{flip} -- access to the code-side of one of their two cards or, for a small additional fee, Ruby will choose another card that she believes will help a partnership achieve whatever they are attempting to code at that time. Ruby sets the price for a flip at 5 "dollars" to start, and 7 "dollars" for a coach-selected card.}
  }
 
  Ruby hints at the potential for other resources to be "released" later in the Jam. For now, she writes up the two options, and their curent prices, on the white board. Then, Ruby sets the timer for 3 minutes and announces that she will take up to 3 minutes of questions.
@@ -133,15 +134,15 @@
 
  When the timer beeps, Ruby finishes not-answering a question before moving on. She spends the next 10 minutes reviewing some code -- the "crafter" she must have been referring to earlier. When she is done, there is a significant chunk of code written on the white board, much of it in the handwritting of the students she called on to help. She erases this code -- to the dramatized dismay of some of the students.
 
- @heading{4:22 pm}
+ @heading{4:25 pm}
 
  "Alright, are we ready?" Ruby asks the students, whose mixed responses range from confident cheers to nervous maybes. One student, you remember his name is Jayden, squeals "no," but his grinning face and bouncing in place betray his excitement.
 
- "You all can do this. In one moment I am going to transform from Coach Ruby into Judge Ruby -- that means I won't be helping you all out -- at least not for free! Coach Ruby is going to leave you with one super valuable piece of advice though. Want to hear it?" The students obviously do. "Here it is: start small and test often. Write one little bit of code at a time and test test test every line you write. Start small, test often." Ruby writes those words in big letters on the white board.
+ "You all can do this. The Game Jam will be about 45 minutes today -- that's a long time! In one moment I am going to transform from Coach Ruby into Judge Ruby -- that means I won't be helping you all out -- at least not for free! Coach Ruby is going to leave you with one super valuable piece of advice though. Want to hear it?" The students obviously do. "Here it is: @i{start small and test often}. Write one little bit of code at a time and test, test, test every line you write. Start small, test often." Ruby writes those words in big letters on the white board.
 
  "Ready? Set...." Ruby holds the timer in the air, finger poised over the start button. "Start Jammin'!"
 
- Each pair runs to a computer. Ruby watches for a moment, seeing them all settle in, before walking over to you.
+ Each pair runs to a computer. Ruby gives each team two of the code cards, reminding the students that these are for ispiration if they need it, and not to look at the code on the opposite side unless they buy a flip. After every pair has the cards, Ruby watches for another moment, before walking over to you.
 
  "Phew!" Ruby sighs and smiles. "Getting them pumped up in the beginning is a lot, but it's fun! Do you have any questions so far?"
 
@@ -165,11 +166,117 @@
 
  @heading{4:30pm}
 
- You observe Ruby as she goes group to group, offering words of encouragement. She find yourself comparing her to a cheerleader as you notice her high, positive energy.  This energy peaks as Ruby places a gold star sticker on a team's index card, annoucing loudly that team 'Code-tastic Candy Corns' has earned a bonus point for being really creative in designing a story behind their game.
+ You observe Ruby as she goes group to group, offering words of encouragement, creative inspiration, and rule reminders. She find yourself comparing her to a cheerleader as you notice her high, positive energy.  Her energy peaks as Ruby places a gold star sticker on a team's index card, annoucing loudly that team 'Club Of Dangerously Evil Rabbits (C.O.D.E.R)' has earned a bonus point for being really creative in designing a story behind their game.
 
- "Bonus points are great," Ruby says, after joining you on the side. 
- 
-}
+ A moment later, Isabel raises her hand and Ruby goes over to where Isabel is sitting with her partner, Samiya.
+
+ "There's a bug and we don't know how to fix it," says Isabel.
+
+ Ruby takes a look at the pair's computer, and, after a moment, says: "Hmmm, well I think I see your problem. @i{But} since I am Judge Ruby, not Coach Ruby, I can't be giving you the answers! But I can remind you of a few things you already know:"
+
+ Ruby encourages the students to check common places for errors -- like parentheses and spelling errors -- and lists a few de-bugging techniques they have used in previous classes -- like reading the error out loud or looking for the red-highlighted text.
+
+ "If you are still stuck in a minute or two, remember you can always purchase a card flip!" Ruby says, pointing at the resources list on the whiteboard.
+
+  Ruby continues to circle the room, and has gives out two more bonus point stickers: one to team "Ravenclaw" for excellent teamwork and the other to "The Llama Coders" (Isabel and Samiya) for working really hard to debug their code without help!
+
+ @heading{4:40pm}
+
+ Ruby continues to address student questions, not by giving them answers, but offering advice or general reminders. In one case, Carlos and Robert's code was giving an error and Ruby did go in and fix something on their computer. You ask why she fixed this bug and Ruby replies:
+
+ "That error had to do with our tech on the computer, just a minor compile conflict. I know how to fix that one, since I have seen it a handful of times in my own coding. Since that's not related to their code, I don't expect the students to know how to fix that! So I step in there."
+
+ "I will also sometimes swap a computer out if there is something going on that I don't understand." Ruby continues. Then I will also help the students catch up with the code they have written so far, since they are starting from scratch in the middle of the Jam."
+
+ "That make sense," you say.
+
+ Just then, Jayden and his partner, Skylar, raise their hands. You follow Ruby to their table.
+
+ "How can I help you..." Ruby checks their index card for their team name, "'BEST TEAM OF WINNERS'?"
+
+ "We want to buy a flip!" Jayden says.
+
+ "Alrighty, would you like to flip one of your cards, pick another card, or get my advice for an extra two dollars?"
+
+ "We know what card we want," says Skylar.
+
+ Ruby pulls the deck from the pocket of her coach hoodie, helping the students find the card they are looking for. They pick out one of the cards on the crafters that Ruby reviewed with the group earlier. Ruby trades the card for 5 of their fake dollars.
+
+ "You now have this for the rest of the Jam," says Ruby. "Good luck!"
+
+ @heading{4:45pm}
+
+ Ruby announces to the whole class that they are approximately halfway through the Game Jam. She sets a timer on her phone for 15 minutes -- "I will give them a 10 minute warning when this goes off," Ruby explains.
+
+ "Are Game Jams always 45 minutes long?" You ask, remembering a question you had earlier.
+
+ "No, it really depends on how much time you have in the whole class, and how much time you use in the beginning for rules, prep and review." Ruby says. "I aim for at least 30 minutes, but if I have a short class of only one hour and an especially nervous group that needs extra review, I have gone as short as 20 minutes."
+
+ "And that still works?" You ask.
+
+ "Absolutely! There isn't a benchmark for the amount of coding that the students need to complete, they just should code something and feel acomplished by what they did!" Ruby says.
+
+ "Right." You remember the 3 goals of Game Jam.
+
+ "You also want to make sure you leave time for scoring and awarding of prizes at the end of class," Ruby says. "That can depend on the number of students you have because it takes longer with bigger groups. I am leaving myself 20 minutes today for this group. So I check the time when all the rules and reviewing is done, subtract 20 minutes from the end of class and Voila! That's how long my Jam is that day."
+
+ The coach timer beeps. "Switch drivers!" Ruby announces loudly to the class. "Everyone switch drivers!"
+
+ @heading{5:00pm}
+
+ Ruby's phone timer goes off. Before she announces the 10 minutes warning, she turns back to you:
+
+ "Entering the final stretch now! You want to focus on getting all teams' games running. I might lower the cost of a resource, or add in a 'call in the coach' option -- when students can buy my help for 2 minutes or so to debug their code with them. They only get points for running games, so I want to help them get to that goal."
+
+ Ruby gives the students the 10 minute warning and the excitement in the room jumps up another notch.
+
+ You find yourself noticing, or trying to guess, the state of flow for each student. You and Ruby both notice a student that seems particularly "out of flow" at the same time. You follow Ruby over to the student in question.
+
+ Ruby checks in with Rahul, who is sitting silently next to his partner, Daniela, not working with her or even paying attention as she types away. With some gentle prodding from Ruby, Rahul reveals that he and Daniela have not been agreeing on which sprites to add to their game, and Daniela just changed all @i{his} characters in the code to what @i{she} wanted them to be. Ruby pauses Daniela's coding to talk to the pair:
+
+ "Working with a partner can be difficult," says Ruby, "especially when we disagree. Daniela, did you change the code you two wrote together without discussing it with Rahul?" Daniela nods. "Is that the kind of teamwork we strive for in this class? Was that 'Energizing your Team?'" Ruby asks, quoting the Code of Awesomeness.
+
+ "No, but it wasn't fair, he didn't ask @i{me} what @i{I} wanted when @i{he} was coding!"
+
+ And so it went back and forth for a few minutes. Ruby didn't spend too much time on who did or didn't do what, but asked questions and instructed the students on a compromise: Rahul got to pick some of the characters, and Daniela the others. She also brought them both over to the 'sprite computer' and looked through the list together until she found one that she could get both students moderately excited about. Ruby sent the pair back to their computer together with the decision that this would be their main player.
+
+ You congratulate Ruby on her handling of the tough situation.
+
+ "When the kids work in pairs there will always be disagreements. It's not a problem, it's part of the learning experience -- it's not like adults don't ever disagree with their coworkers, friends, or spouses!" Ruby laughs.
+
+ Another timer goes off and Ruby announces "Five minutes remaining: makes sure you are testing your games and fixing any bugs now!"
+
+ @heading{5:07pm}
+
+ "Three minutes left! If you code isn't running, raise your hand. I may be able to offer some advice or a special resource discount..."
+
+ Ruby hops from pair to pair, giving last minute bonus points and words of advice. Some of the students are confident and chatting excitedly about the game they have coded, and some others are more nervous -- stuck on a last bug or wanting to finish up one last addition to their game. Ruby has an encouraging word for each of them.
+
+ @heading{5:10pm}
+
+ When the last timer goes off, Ruby does one more lap around the room, making sure everyone has a running game on their screen. Many of the students want to keep coding, but Ruby is firm that the time is up. She does spend one extra minute with team "Ravenclaw" to help them get their game running.
+
+ "Congratulations everyone!" Ruby says, leading the group in a round of applause. "You all did amazing work! Ready to count up your points and see our class total?"
+
+ Ruby leads the students through a scoring process that involves counting up parentheses and keywords, dividing the total and adding bonus points. Ruby asks you to help check the student's math. You notice that everyone ends up with a sum between 15 and 30.
+
+ When every team has an approved total, Ruby adds up everyone's total and writes it on the board. She congratulates the whole group on one of the largest point totals she has seen! The students are estatic!
+
+ @heading{5:20pm}
+
+ Ruby hands out "dollars" according to the points each pair earned. Ruby give each pair a small tidy-up task -- collecting the computer mice, collecting the hexagonal cards, erasing the whiteboard, shutting down the computers -- while she takes out a small collection of toys she dubs the "market." When each pair proves they have completed their task, Ruby lets them come to the market and use their fake money to buy a toy or two. After which, she send them to sit at one of the tables.
+
+ After the last student was encouraged to make their pick from the market, Ruby joins everyone at the table.
+
+ "Congratulations again, on a Game Jam well Jammed, coders!" Ruby says. "I have a final badge for you -- this is the Game Jam Badge that you only get for completing a Survival Language Game Jam. It shows all other MetaCoders that you have taken on this challenge and emerged triumphant!"
+
+ Ruby bestows a badge on each student, with as much pomp and circumstance the limited time allows.
+
+ @story-img[survival-badge]
+ }
+
+;potential add, Ruby describing point process?
+
 
 
 

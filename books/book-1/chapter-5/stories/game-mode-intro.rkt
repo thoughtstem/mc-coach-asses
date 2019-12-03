@@ -9,7 +9,9 @@
                             characters:daniela-melendez
                             characters:isabel-patel
                             characters:robert-mckinney
-                            characters:samiya-kanaan))
+                            characters:samiya-kanaan
+                            characters:skylar-thompson
+                            characters:rahul-kohli))
 (define time         (unnamed-time 
                       (moment 2021 4 6 16)
                       (moment 2021 4 6 17 30)))
