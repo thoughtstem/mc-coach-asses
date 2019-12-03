@@ -39,7 +39,7 @@
   60)
 
 (define/provide-deck (flash-cards)
-  "1st Github Deck"
+  "Chapter 2"
   mc-coach-repo-exists?
   purpose-of-mc-coach-repo? 
   why-github-account?

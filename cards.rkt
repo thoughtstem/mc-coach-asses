@@ -2,7 +2,14 @@
 
 (provide 
   (all-from-out "./books/book-1/chapter-1/flash-cards.rkt")
-  (all-from-out "./books/book-1/chapter-2/flash-cards.rkt"))
+  (all-from-out "./books/book-1/chapter-2/flash-cards.rkt")
+  (all-from-out "./books/book-1/chapter-3/flash-cards.rkt")
+  (all-from-out "./books/book-1/chapter-4/flash-cards.rkt")
+  (all-from-out "./books/book-1/chapter-5/flash-cards.rkt")
+  (all-from-out "./books/book-1/chapter-6/flash-cards.rkt")
+  (all-from-out "./books/book-1/chapter-7/flash-cards.rkt")
+  (all-from-out "./books/book-1/chapter-8/flash-cards.rkt")
+  (all-from-out "./books/book-1/chapter-9/flash-cards.rkt"))
 
 (require (rename-in
            "./books/book-1/chapter-1/flash-cards.rkt"
@@ -10,6 +17,28 @@
 (require (rename-in
            "./books/book-1/chapter-2/flash-cards.rkt"
            [flash-cards chapter-2]))
+(require (rename-in
+           "./books/book-1/chapter-3/flash-cards.rkt"
+           [flash-cards chapter-3]))
+(require (rename-in
+           "./books/book-1/chapter-4/flash-cards.rkt"
+           [flash-cards chapter-4]))
+(require (rename-in
+           "./books/book-1/chapter-5/flash-cards.rkt"
+           [flash-cards chapter-5]))
+(require (rename-in
+           "./books/book-1/chapter-6/flash-cards.rkt"
+           [flash-cards chapter-6]))
+(require (rename-in
+           "./books/book-1/chapter-7/flash-cards.rkt"
+           [flash-cards chapter-7]))
+(require (rename-in
+           "./books/book-1/chapter-8/flash-cards.rkt"
+           [flash-cards chapter-8]))
+(require (rename-in
+           "./books/book-1/chapter-9/flash-cards.rkt"
+           [flash-cards chapter-9]))
+
 
 ;TODO: intro-deck
 (require flash-card)

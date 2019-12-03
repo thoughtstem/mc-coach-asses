@@ -49,8 +49,8 @@
   60)
 
 
-(define/provide-deck (maps1-deck)
-  "Class Maps I Deck"
+(define/provide-deck (flash-cards)
+  "Chapter 7"
   map-use
   why-maps
   find-and-read-map-1

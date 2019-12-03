@@ -269,8 +269,8 @@
    @(go-look-it-up)
    60)
 
-(define/provide-deck (language-learning-deck)
-  "Language Learning Deck"
+(define/provide-deck (flash-cards)
+  "Chapter 6"
 
   vocab:brocas-region 
   vocab:acquisition 

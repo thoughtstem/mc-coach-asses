@@ -42,7 +42,7 @@
    60)
 
 (define/provide-deck (flash-cards)
-  "Intro Deck"
+  "Chapter 1"
   hello-world-1
   hello-world-2
   coding/coaching-together)

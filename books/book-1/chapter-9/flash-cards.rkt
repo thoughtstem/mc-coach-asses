@@ -86,8 +86,8 @@
 
 
 
-(define/provide-deck (transitions-deck)
-  "Transitions Deck"
+(define/provide-deck (flash-cards)
+  "Chapter 9"
   coach-vocab-1
   why-transitions
   good-transition
