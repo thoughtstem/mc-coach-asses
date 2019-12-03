@@ -1,6 +1,6 @@
 #lang at-exp metapolis-stories/lang/story
 
-(define title         "Game Jam")
+(define title         "Final Jam")
 (define place         places:turing-recreational-center)
 (define characters    (list characters:ruby
                             characters:jasmine-choi
@@ -28,7 +28,7 @@
 
  You enter the Center and head straight to the Arts and Crafts room, where Ruby is setting up for the class.
 
- "Hello again!" Ruby says. "Glad you made it back for Game Jam!"
+ "Hello again!" Ruby says. "Glad you made it back for our Final Jam!"
 
  "Glad to be back."
 
@@ -40,17 +40,17 @@
 
  "Well, I think this is going to be a great one -- this team has been working hard to prepare for it!"
 
- "What kind of prep do you have to do for a Game Jam?" You ask.
+ "What kind of prep do you have to do for a Final Jam?" You ask.
 
- "Everything we do from day one is to get ready for Game Jam. As I tell my students, Game Jam is the 'big game' our team is practicing for. Every class is like a sports practice for that big game -- all Story and Game Modes are helping us build the skills we need to be successful at Game Jam."
+ "Everything we do from day one is to get ready for Final Jam. As I tell my students, Final Jam is the 'big game' our team is practicing for. Every class is like a sports practice for that big game -- all Story and Game Modes are helping us build the skills we need to be successful at Final Jam."
 
- "Okay, but what exactly is a Game Jam? What do the students do?"
+ "Okay, but what exactly is a Final Jam? What do the students do?"
 
- "Right, that would help to know, wouldn't it?" Ruby laughs. "During Game Jam, students write a whole game, from scratch, in an hour or so. They are awarded points based on the complexity of their game. "
+ "Right, that would help to know, wouldn't it?" Ruby laughs. "During Final Jam, students write a whole game or system, from scratch, in an hour or so. This Final Jam is a Game Jam; the students will be building a video game. They are awarded points based on the complexity of their game. "
 
  "Haven't they been writing games this whole time? During Game Mode?"
 
- "Yes," Ruby continues, "we've been practicing! Just like drills in basketball practice, the Game Modes are time to learn and practice different snippets of code -- ways to customize our game. There are many supports -- scaffolding is the official educational term -- as students learn new things. In Game Jam we remove that scaffolding, and the students take everything they have learned, and their own creative imaginations, and build a game using only what they remember. No hints!"
+ "Yes," Ruby continues, "we've been practicing! Just like drills in basketball practice, the Game Modes are time to learn and practice different snippets of code -- ways to customize our game. There are many supports -- scaffolding is the official educational term -- as students learn new things. In Final Jam we remove that scaffolding, and the students take everything they have learned, and their own creative imaginations, and build a game using only what they remember. No hints!"
 
  "Wow," you say. "And the kids can do that? Without any hints?"
 
@@ -58,24 +58,24 @@
 
  "Cognitive load?" You offer.
 
- "Yes! That's right, you were probably just talking to him about flow state, right?" You nod and Ruby goes on, "In Game Jam we really want to get those students into that flow state for a lot longer than we usually have Game Modes. So our job as coaches is to balance the cognitive load we are asking our students to undertake so they get into that sweet spot between 'boring' and 'that's impossible, I give up.'"
+ "Yes! That's right, you were probably just talking to him about flow state, right?" You nod and Ruby goes on, "In Final Jam we really want to get those students into that flow state for a lot longer than we usually have Game Modes. So our job as coaches is to balance the cognitive load we are asking our students to undertake so they get into that sweet spot between 'boring' and 'that's impossible, I give up.'"
 
  Two students come in the room. They are talking excitedly and when they see Ruby, one of them says: "Coach Ruby! I have a question about Game Jam!"
 
- "One moment, Samiya." Ruby turns back to you. "I will try to check in with you more than I did last time; there are lots of little ways that a coach can tweak a Game Jam to make it the best for a particular team so I'll try to loop you in on those choices I am making along the way. While I am getting started here, check this out..."
+ "One moment, Samiya." Ruby turns back to you. "I will try to check in with you more than I did last time; there are lots of little ways that a coach can tweak a Final Jam to make it the best for a particular team so I'll try to loop you in on those choices I am making along the way. While I am getting started here, check this out..."
 
  Ruby hands you a piece of paper:
 
  @card{
   @card-body{
-   @b{Goals of a MetaCoders Game Jam:}
+   @b{Goals of a MetaCoders Final Jam:}
    @ul{
     @li{Today is @b{different} and @b{more exciting} than any other class day.}
     @li{Students @b{code a game}.}
     @li{Students feel @b{proud} and @b{accomplished} regarding what did in the Jam.}
    }
     
-   Rules, hints, resources and other scaffolding can, and should, be adjusted to accommodate the needs of a particular team of students; just remember the goals. Adding resources for students can make a potentially frustrating Game Jam into a success! However, too much help can undermine a feeling of actual accomplishment. It's all about balance!
+   Rules, hints, resources and other scaffolding can, and should, be adjusted to accommodate the needs of a particular team of students; just remember the goals. Adding resources for students can make a potentially frustrating Final Jam into a success! However, too much help can undermine a feeling of actual accomplishment. It's all about balance!
     @br
    Coach energy is a big element in making this day different from others – if you are excited, pumped, focused and wowed by student work, the students will be too.
   }
@@ -103,9 +103,9 @@
 
  "Alright, but if I start seeing you two getting off topic again, I will split you up." Ruby says.
 
- Ruby gives each pair an index card and a marker and instucts them to come up with a team name for the Jam. She sets the timer for 2 minutes, and when it beeps, gathers back the markers and continues explaining the Game Jam.
+ Ruby gives each pair an index card and a marker and instucts them to come up with a team name for the Jam. She sets the timer for 2 minutes, and when it beeps, gathers back the markers and continues explaining the Final Game Jam.
 
- Twice, one of the returning students you remember from last time interrupts to tell Ruby that they "didn't do that last Game Jam." Ruby responds that different Game Jams can have different rules, and that @i{these} are the rules of the Jam @i{this} time.
+ Twice, one of the returning students you remember from last time interrupts to tell Ruby that they "didn't do that last Game Jam." Ruby responds that different Final Jams can have different rules, and that @i{these} are the rules of the Jam @i{this} time.
 
  Ruby outlines the rules:
 
@@ -150,7 +150,7 @@
 
  "Good question. For starters, I don't always review code before a Jam. But if there is anything a particular group has struggled with -- crafters are tricky, but for some groups it is how to define something, or even parentheses -- I make time for a quick review. Sometimes I even leave a guide or code outline up on the whiteboard for the students to reference. But this team is too advanced for that; we've been working for 10 weeks and there are quite a few returners."
 
- "Do you always do Game Jam in partners?" You ask.
+ "Do you always do Final Jam in partners?" You ask.
 
  "Almost always, yes. It really increases every student's likelihood for success -- not only does each partner have different fluencies they bring to the table, but even the act of having to communicate about the code helps them catch bugs and solve issues that neither student would have caught solo."
 
@@ -208,7 +208,7 @@
 
  Ruby announces to the whole class that they are approximately halfway through the Game Jam. She sets a timer on her phone for 15 minutes -- "I will give them a 10 minute warning when this goes off," Ruby explains.
 
- "Are Game Jams always 45 minutes long?" You ask, remembering a question you had earlier.
+ "Are Final Jams always 45 minutes long?" You ask, remembering a question you had earlier.
 
  "No, it really depends on how much time you have in the whole class, and how much time you use in the beginning for rules, prep and review." Ruby says. "I aim for at least 30 minutes, but if I have a short class of only one hour and an especially nervous group that needs extra review, I have gone as short as 20 minutes."
 
@@ -216,7 +216,7 @@
 
  "Absolutely! There isn't a benchmark for the amount of coding that the students need to complete, they just should code something and feel acomplished by what they did!" Ruby says.
 
- "Right." You remember the 3 goals of Game Jam.
+ "Right." You remember the 3 goals of Final Jam.
 
  "You also want to make sure you leave time for scoring and awarding of prizes at the end of class," Ruby says. "That can depend on the number of students you have because it takes longer with bigger groups. I am leaving myself 20 minutes today for this group. So I check the time when all the rules and reviewing is done, subtract 20 minutes from the end of class and Voila! That's how long my Jam is that day."
 

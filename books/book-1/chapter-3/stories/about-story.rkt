@@ -37,9 +37,15 @@
  
  She shows you where to sign in, then answers your original question:   "You're in room 19 -- just down the hall and to the right."
 
- You arrive in the room about 10 minutes before the class is supposed to start.  You recognize the coach immediately because he is wearing a MetaCoders hoodie.  His nametag says "Bruce." 
+ @heading{1:50pm}
 
- Bruce placing small laptops out on desks.  "Hi!" He says.  "Can you help me out?  The kids will be coming soon.  There is a bag of mice over there -- if you could plug one in to each of these computers, that'd be great."
+ You arrive in the room about 10 minutes before the class is supposed to start.  You recognize the coach immediately because he is wearing a MetaCoders hoodie.  His nametag says "Bruce."
+
+ Bruce placing small laptops out on desks.  "Hello again!" He says.
+
+ "Again-?" You start to ask, but he continues:
+
+ "Can you help me out?  The kids will be coming soon.  There is a bag of mice over there -- if you could plug one in to each of these computers, that'd be great."
 
  As you dole out mice, you ask, "Do these computers belong to the school?"
 
