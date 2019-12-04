@@ -2,7 +2,6 @@
 
 (require mc-coach-assess/cards/lib)
 
-
 (define-card adv-student-engagement-2
   @text-front{
    Take 20 seconds to discuss when and how 

@@ -22,8 +22,8 @@
       in an upcoming class):
 
      Take 10 minutes and study that
-     language according to the 
-     Language Learning Story.
+     language with a Game Mode of your
+     choice.
    }
    @(go-look-it-up)
    (* 10 60))

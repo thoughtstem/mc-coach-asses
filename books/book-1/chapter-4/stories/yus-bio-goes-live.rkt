@@ -9,10 +9,7 @@
 (define links   (list))
 
 (require "../flash-cards.rkt"
-
-         ;does not exist??
-         ;mc-coach-assess/bio 
-         )
+         mc-coach/bio)
 
 @paras{
   Yu is sitting in the same place as last time, with the same coffee mugs.  "Are you ready?" Yu asks when you sit down.  "I'm still working on my bio, but check it out."
@@ -33,12 +30,10 @@
 
   Then Yu shows you the webpage that the code produces when it runs:
 
-  @;does not exist??
-    @;(bio
-      @;#:name  "Yu" 
-      @;#:profile-pic (square 40 'solid 'red)
-      @;#:coach-story "I've just begun training as a MetaCoders coach.  Here's my story..."
-     @;)
+  @(bio
+    #:name  "Yu" 
+    #:profile-pic (square 40 'solid 'red)
+    #:coach-story "I've just begun training as a MetaCoders coach.  Here's my story...")
   
   "You're welcome to join me.  I'm going to keep working on it," says Yu.  "I haven't even added my actual profile picture."
 

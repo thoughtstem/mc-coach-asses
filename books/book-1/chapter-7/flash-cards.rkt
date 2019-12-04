@@ -2,7 +2,6 @@
 
 (require mc-coach-assess/cards/lib)
 
-
 (define-card map-use
   @text-front{
     How often during a class should a coach

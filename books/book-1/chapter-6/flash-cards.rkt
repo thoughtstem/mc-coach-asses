@@ -176,7 +176,7 @@
 
 (define-card story-of-brocas
    @text-front{
-     Take 1 minute to tell the story of Broca's 
+     Take 2 minutes to tell the story of Broca's 
      region ending with the recent discoveries 
      about coding.
    }
@@ -207,8 +207,10 @@
   vocab:learning 
   vocab:SLA 
   vocab:krashens-input-hypothesis 
-
   vocab:fluency  
+
+  vocab:function-definition
+  vocab:function-call 
 
   no-grammar 
   coders-as-translators 
