@@ -42,7 +42,7 @@
    (* 10 60))
 
 (define/provide-deck (flash-cards)
-  ""
+  "Chapter 8"
   explain-a-language
   learn-a-language
   learn-a-language-2)

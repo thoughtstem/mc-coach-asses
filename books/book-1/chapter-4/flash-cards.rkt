@@ -63,21 +63,12 @@
    }
    10)
 
-(define-card story-of-version-control?
-   @text-front{
-     What is the brief story of version control?
-   }
-   @text-back{
-     https://www.red-gate.com/blog/database-devops/history-of-version-control
-   }
-   10)
-
 (define-card why-you-learn-git-early?
    @text-front{
      Why, at MetaCoders, do coaches learn
      git early (even though it is taught to many
      computer science majors after four
-     years of education?)
+     years of education)?
    }
    @(go-look-it-up)
    10)
@@ -96,14 +87,13 @@
    30)
 
 
-(define/provide-deck (github-2-deck)
-  "2nd Github Deck"
+(define/provide-deck (flash-cards)
+  "Chapter 4"
   vocab:repo
   vocab:commit
   vocab:git
   vocab:Github
   when-git-taught? 
-  story-of-version-control?
   why-you-learn-git-early?
   coach-bio-commit)
 

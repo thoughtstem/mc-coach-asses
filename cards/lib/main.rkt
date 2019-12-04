@@ -54,7 +54,9 @@
 
 (define (go-look-it-up)
   @text-back{
-    Review quest materials for answers.
+    Review. 
+    Think.
+    Ponder.
   })
 
 (define test-card
