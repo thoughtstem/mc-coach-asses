@@ -2,16 +2,16 @@
   
 (define title         "Chapter 9: Art and Science of Transition")
 (define place         places:babbage-university)
-(define characters    (list ))
+(define characters    (list characters:dr-joy))
 (define time          (unnamed-time
-                        (moment 2021 6 28)
-                        (moment 2021 8 13)))
+                        (moment 2021 6 18 13)
+                        (moment 2021 6 18 14)))
 (define links   (list))
 
 (require "../flash-cards.rkt" mc-classmaps/site/transitions)
 
 @paras{
-   Back at the Department of Neuroscience, you pass Professor Istoria's office and continue on to Dr. Joy Siegmund's lab.
+   Back at the Department of Neuroscience, you pass Professor Istoria's office and continue on to Dr. Joy's lab.
 
    Dr. Joy motions you in with one hand as she configures a coffee maker with her other hand. "Back for more?"
 
