@@ -4,22 +4,22 @@
 (define place         places:metapolis-welcome-center)
 (define characters    (list ))
 (define time          (unnamed-time
-                        (moment 2021 6 28)
-                        (moment 2021 8 13)))
+                        (moment 2021 6 18 12)
+                        (moment 2021 6 18 12)))
 (define links   (list))
 
 (require "../flash-cards.rkt")
 
 @paras{
-  Welcome back to Metapolis!
+  Welcome back to Metapolis!  This time, we find ourselves in the middle of June: all schools have let out for the summer and the long days are sunny and warm.  All citizens of Metapolis are spending as many hours in the beautiful outdoors as they are able!
 
-  In this chapter, the theme is classroom transitions -- how to switch from story mode to game mode, and vice versa. 
+  In this final chapter of Book 1, we will be learning about the glue that holds a MetaCoders class together, what connects independant Story Modes and Game Modes into one coherent class.  The theme of this chapter is @b{classroom transisitions} -- the final key to running a smooth and successful class. 
 
-  Believe it or not, you're more than ready to begin coaching your first class.
+  Believe it or not, you're more than ready to begin coaching your first MetaCoders course.
 
-  You have a github acount.  You've made multiple commits.  You've __, __, __, __, ....
-
-  There's always more to learn.  But that's for Book 2.  Take some time to reflect on what you've learned.  Feel good about yourself.  We're proud of you.
+  You have a github acount.  You've made multiple commits.  You've created your coach story. __, __, .... You've learned about Story Mode and narrative transportation; Game Mode and flow state; .... 
+  
+  There's always more to learn,  but that's for Book 2.  Take some time to reflect on what you've learned.  Feel good about yourself.  We're proud of you and excited to see what you will do!
 }
 
 
