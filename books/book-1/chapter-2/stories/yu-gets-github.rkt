@@ -86,10 +86,28 @@
 
   @(hr)
 
-  This is the last stop in this chapter.  Make your github account and repo.  The flashcards in this chapter's assessment will ask you to show that your account and repo exist, and also that you are able to push a blank file to your repo in under 60 seconds.  
+  This is the last stop in this chapter.  Make your github account and repo.  The flashcards in this chapter's assessment will ask you to show that your account and repo exist, and also that you are able to push a blank file to your repo in under 120 seconds.  
 
   We're going to ask you to make a lot of pushes, so it'll save time later if you get fluent now.
+
+  Also, we want you to succeed, so we've made some videos to help you.
+
+  @html/inline{
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/jnwbtIQngi4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  }
+
+  @html/inline{
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/TvlqxzjbskE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  }
+
+  @html/inline{
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/inKqE4L31hk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  }
+
 }
+
+
+
 
 
 

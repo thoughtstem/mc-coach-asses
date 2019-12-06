@@ -4,11 +4,12 @@
 
 (define-card why-github-account?
   @text-front{
-    Why are we asking you to have
-    a Github account?
+    Take 30 seconds to explain,
+    as if to a student,
+    why coders use Github.
   }  
   @(go-look-it-up)
-  60)
+  30)
 
 (define-card purpose-of-mc-coach-repo?
   @text-front{
@@ -16,7 +17,7 @@
     a coach repo?
   }  
   @(go-look-it-up)
-  60)
+  30)
 
 (define-card mc-coach-repo-exists?
   @text-front{
@@ -25,7 +26,7 @@
     Hightlight the URL.
   }  
   @(go-look-it-up)
-  30)
+  20)
 
 (define-card push-a-file
   @text-front{
@@ -36,7 +37,7 @@
     is there now.
   }  
   @(go-look-it-up)
-  60)
+  120)
 
 (define/provide-deck (flash-cards)
   "Chapter 2"
