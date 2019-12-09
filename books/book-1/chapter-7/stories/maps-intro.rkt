@@ -66,15 +66,15 @@
 
   He pulls up the second day map:
 
-  @(classmap->html (day-2-map))
+  @(classmap->html (first-badge-map))
 
-  "Here," he says, "this is the classmap for the second day of the course.  You can see just by glancing at the colors that it's a map with a higher proportion of Game Modes than Story Modes.  And then there's this map, for Day 3..."
+  "Here," he says, "this is the classmap for the third day of the course.  You can see just by glancing at the colors that it's a map with a higher proportion of Game Modes than Story Modes.  And then there's this map, for Day 4..."
 
-  @(classmap->html (day-3-map))
+  @(classmap->html (bugs-map))
 
   "... which flips the ratio -- more Story Mode time than Game Mode time."
 
-  "What's the badge ceremony?" you ask.  
+  "Wait, what was that about badges in the last map?" you ask.  
 
   "Hold on..."  Bruce steps out of the room and returns a moment later carrying a black MetaCoders hoodie.  He has already sewn three colorful badges onto it.
 
@@ -110,7 +110,7 @@
 
   "You got it," he says.  "Here's the Final Jam map I'll be using on the eighth and final class."
 
-  @(classmap->html (day-8-map))
+  @(classmap->html (final-jam-map))
 
   "And I suppose Ruby has her own fancy version?" you ask.
 
@@ -122,15 +122,15 @@
 
   @(classmaps->html
     (class-launch-map)
-    (day-2-map)
-    (day-3-map)
-    (day-4-map))
+    (coa-focus-map)
+    (first-badge-map)
+    (bugs-map))
 
   @(classmaps->html
-    (day-5-map)
-    (day-6-map)
-    (day-7-map)
-    (day-8-map))
+    ;(day-5-map)
+    ;(day-6-map)
+    ;(day-7-map)
+    (final-jam-map))
 
   "Some of these maps look very similar," you say.
 
