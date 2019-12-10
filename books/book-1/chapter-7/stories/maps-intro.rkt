@@ -173,6 +173,12 @@
   "Again?" he asks.
 
   "I meant, see you again soon." You smile and wave. Bruce looks a little puzzled as he waves back, before turning back to his project in the garage.
+
+  @(hr)
+
+  @html/inline{
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/l4fPg3RwXVk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  }
 }
 
 

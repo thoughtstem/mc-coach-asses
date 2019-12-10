@@ -41,4 +41,13 @@
   
   "You're welcome to join me.  I'm going to keep working on it," says Yu.  "I haven't even added my actual profile picture..."
 
+  @(hr)
+
+  @html/inline{
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ceAZu_xsVgU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  }
+
+  @html/inline{
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/oP0BCwo81_Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+  }
 }

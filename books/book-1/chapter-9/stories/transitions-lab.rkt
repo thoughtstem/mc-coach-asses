@@ -145,6 +145,11 @@
 
    As you pass Babbage's Analytical Engine on the way out, you stop to admire the mechanical complexities of the machine.  You find yourself thinking about classrooms as machines too -- built not from gears and rods, but from human brains and bodies.  The Analytical Engine has its modes and transitions too, no doubt; but it's impossible to tell what they are simply by looking at the contraption.  But you suspect that no matter how complex Babbage's machine is, it can't compare to the complexities of an 'educational machine' constructed out of a coach, a bunch of computers, and coding students.  The punchcards hanging in a plastic baggy on the wall remind you of classmaps -- programs, but for a more predictable machine.
   
+  @(hr)
+
+  @html/inline{
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/cwXhwQoSiCw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  }
 }
 
 

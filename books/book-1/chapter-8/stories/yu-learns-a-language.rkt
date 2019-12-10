@@ -19,4 +19,13 @@
 
   You're impressed with both the level of fluency that Yu has acquired to date, as well as Yu's ability to slip into a flow state while coding.  It's inspiring, and you realize that if you could code with the same level of fluency, you would feel quite confident walking into a coding classroom and announcing: "Hi, I'm your MetaCoders coding coach.  Here's my story..."
      
+  @(hr)
+
+  @html/inline{
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/fxPC1vRNzzA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  }
+
+  @html/inline{
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/vwNVapMD9ao" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  }
 }

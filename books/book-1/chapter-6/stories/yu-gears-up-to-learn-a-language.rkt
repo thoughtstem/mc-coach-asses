@@ -65,4 +65,14 @@
   "Flow state?" you ask.
 
   "Definitely," Yu says.  "Join me?"
+
+  @(hr)
+
+  @html/inline{
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/WEXLfiU3Mv8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  }
+
+  @html/inline{
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/1jPnWCTemGM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+  }
 }

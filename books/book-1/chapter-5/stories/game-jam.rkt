@@ -273,6 +273,12 @@
  Ruby bestows a badge on each student, with as much pomp and circumstance the limited time allows.
 
  @story-img[survival-badge]
+
+ @(hr)
+
+ @html/inline{
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/xzilDQ76UWM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+ }
  }
 
 ;potential add, Ruby describing point process?
