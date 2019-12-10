@@ -2,7 +2,6 @@
 (define collection "mc-coach-assess")
 (define deps '("base" 
                "https://github.com/thoughtstem/flash-card.git"
-               "https://github.com/thoughtstem/ts-printing.git"
                "https://github.com/thoughtstem/website.git"
                "https://github.com/thoughtstem/define-assets-from.git"
                "https://github.com/thoughtstem/mc-classmaps.git"
