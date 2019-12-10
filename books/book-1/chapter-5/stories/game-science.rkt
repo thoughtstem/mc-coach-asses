@@ -4,8 +4,8 @@
 (define place         places:babbage-university)
 (define characters    (list characters:professor-istoria))
 (define time          (unnamed-time
-                        (moment 2021 4 6 18)
-                        (moment 2021 4 6 19)))
+                        (moment 2021 3 31 18)
+                        (moment 2021 3 31 19)))
 (define links   (list))
 
 (require "../flash-cards.rkt" impress)

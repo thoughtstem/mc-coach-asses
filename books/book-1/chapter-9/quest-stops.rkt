@@ -10,8 +10,11 @@
    places:metapolis-welcome-center
    stories:intro
 
-   places:babbage-university
+   places:coder-cafe
    stories:transitions-lab
+
+   places:kick-butt-martial-arts
+   stories:transitions-in-action
 
 
    ;coach-vocab-1
