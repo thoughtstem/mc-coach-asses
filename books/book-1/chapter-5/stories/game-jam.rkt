@@ -13,8 +13,8 @@
                             characters:skylar-thompson
                             characters:rahul-kohli))
 (define time         (unnamed-time 
-                      (moment 2021 6 5 16)
-                      (moment 2021 6 5 17 30)))
+                      (moment 2021 6 8 16)
+                      (moment 2021 6 8 17 30)))
 (define links   (list ))
 
 (require "../flash-cards.rkt"
