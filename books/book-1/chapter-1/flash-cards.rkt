@@ -4,8 +4,8 @@
 
 (define-card hello-world-1
   @text-front{
-    Open DrRacket, write and run
-    a program that prints...
+    From a blank file, write/run
+    a program that prints:
     "Hello, World!"
   }
   @code-back{

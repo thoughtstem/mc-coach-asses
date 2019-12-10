@@ -39,17 +39,6 @@
    }
    10)
 
-(define-card vocab:commit
-   @text-front{
-     Define "commit" 
-   }
-   @text-back{
-     A change a coder made to code to
-     in a repo. 
-   }
-   10)
-
-
 (define-card when-git-taught?
    @text-front{
      When is git typically taught to
@@ -84,13 +73,12 @@
      in your coach repo on Github.
    }
    @(go-look-it-up)
-   30)
+   60)
 
 
 (define/provide-deck (flash-cards)
   "Chapter 4"
   vocab:repo
-  vocab:commit
   vocab:git
   vocab:Github
   when-git-taught? 

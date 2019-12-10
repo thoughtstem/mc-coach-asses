@@ -2,24 +2,19 @@
 
 (require mc-coach-assess/cards/lib)
 
-(define-card explain-a-language
+(define-card describe-a-language
    @text-front{
-     For a language of your choice
-     (or one you will be using 
-      in an upcoming class):
-
-     Take 60 seconds to tell the
-     story behind the language.
-     Discuss its major features.
+     For some #lang:
+  
+     Discuss its features and reason
+     for existence.
    }
    @(go-look-it-up)
-   60)
+   30)  
 
 (define-card learn-a-language
    @text-front{
-     For a language of your choice
-     (or one you will be using 
-      in an upcoming class):
+     For some #lang:
 
      Take 10 minutes and study that
      language with a Game Mode of your
@@ -30,9 +25,7 @@
 
 (define-card learn-a-language-2
    @text-front{
-     For a language of your choice
-     (or one you will be using 
-      in an upcoming class):
+     For some #lang:
 
      Take 10 minutes to do a mini
      "jam" -- do something
@@ -43,7 +36,7 @@
 
 (define/provide-deck (flash-cards)
   "Chapter 8"
-  explain-a-language
+  describe-a-language
   learn-a-language
   learn-a-language-2)
 

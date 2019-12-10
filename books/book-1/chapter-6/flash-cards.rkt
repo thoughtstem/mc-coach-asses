@@ -2,18 +2,6 @@
 
 (require mc-coach-assess/cards/lib)
 
-(define-vocab-card vocab:brocas-region
-   @text-front{
-     What does Broca's region do?
-   }
-   @text-back{
-     An area of the brain related to
-     language.  Recent science shows that
-     it plays a role in the comprehension
-     of code. 
-   })
-
-
 (define-vocab-card vocab:learning-science
    @text-front{
      Define "Learning Science"
@@ -25,66 +13,14 @@
      classrooms.
    })
 
-(define-vocab-card vocab:fluency 
+(define-card vocab:krashens-input-hypothesis
    @text-front{
-     Define "fluency"
-     (as used in second language
-     acquisition)
+     Take 60 seconds to discuss Krashen's Input Hypothesis
+     and what that means for explicit instruction
+     versus the alternatives.
    }
-   @text-back{
-     The degree to which someone has
-     fast, automatic recall over some
-     language.
-   })
-
-(define-vocab-card vocab:acquisition
-   @text-front{
-     Define "acquisition"
-   }
-   @text-back{
-     An unconscious process of "absorbing"
-     a language through meaningful 
-     interactions in that language.
-     (More effective than "learning")
-   })
-
-(define-vocab-card vocab:learning
-   @text-front{
-     Define "learning"
-     (Context: SLA)
-   }
-   @text-back{
-     The conscious process of explicitly
-     being taught some language's rules 
-     and structure.
-     (Less effective than "acquisition")
-   })
-
-(define-vocab-card vocab:SLA
-   @text-front{
-     Define "Second Language Acquisition"
-   }
-   @text-back{
-     A branch of learning sciences that
-     studies how brains acquire fluencies in
-     various languages.
-   })
-
-(define-vocab-card vocab:krashens-input-hypothesis
-   @text-front{
-     Define "Krashen's Input Hypothesis"
-   }
-   @text-back{
-     A scientifically well-supported
-     hypothesis by Stephen Krashen.  
-
-     It states that meaningful interactions in
-     a target language are what lead to 
-     acquisition.
-   })
-
-
-;SE vocab
+   @(go-look-it-up)
+   60)
 
 (define-vocab-card vocab:function-definition
    @text-front{
@@ -115,54 +51,6 @@
        (new-word)
      }
    })
-
-(define-vocab-card vocab:specification
-   @text-front{
-     Define "specification"
-     (In the context of software 
-      engineering)
-   }
-   @text-back{
-     An English description of what
-     some code ought to do -- i.e.
-     "Code a game with an avatar that
-     looks like brocolli."
-   })
-
-(define-vocab-card vocab:implementation
-   @text-front{
-     Define "implementation"
-     (In the context of software 
-      engineering)
-   }
-   @text-back{
-     The code written to conform
-     to some specification.
-   })
-
-
-(define-card no-grammar
-   @text-front{
-     Take 60 seconds to explain why
-     Krashen scientific research suggests
-     that explicit grammar instruction
-     is not an optimal way to learn
-     a language.
-   }
-   @(go-look-it-up)
-   60)
-
-(define-card coders-as-translators
-   @text-front{
-     Take 60 seconds to explain in your own
-     words why being a coder is like
-     being a language translator.
-
-     (Use the terms "specification" and
-     "implementation".)
-   }
-   @(go-look-it-up)
-   60)
 
 (define-card language-learning
    @text-front{
@@ -202,18 +90,12 @@
 (define/provide-deck (flash-cards)
   "Chapter 6"
 
-  vocab:brocas-region 
-  vocab:acquisition 
-  vocab:learning 
-  vocab:SLA 
+  vocab:learning-science
   vocab:krashens-input-hypothesis 
-  vocab:fluency  
 
   vocab:function-definition
   vocab:function-call 
 
-  no-grammar 
-  coders-as-translators 
   language-learning 
   story-of-brocas 
   explain-how-to-learn-a-language)

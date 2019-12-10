@@ -52,4 +52,12 @@
   Become the most fluent coder/coach you can.  Do it for yourself -- because coding is one of the most sought-after skills on this planet today.  Do it for your students for the same reason.
 
   We're lucky to have you.  Train hard so that your students will be lucky to have you too.  
+
+  @(hr) 
+
+  Here's a study guide video for this chapter.
+
+  @html/inline{
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ZE--okGFVyQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  }
 }
