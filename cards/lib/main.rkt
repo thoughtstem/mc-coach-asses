@@ -5,7 +5,6 @@
          text-back
          code-back
          go-look-it-up
-         test-card
          define/provide-deck
          define-card
          define-vocab-card)
@@ -58,13 +57,6 @@
     Think.
     Ponder.
   })
-
-(define test-card
-  (flash-card
-    @text-front{Test card...}
-    @text-back{It worked!}
-    30))
-
 
 (define-syntax-rule (define/provide-deck (name) stuff ...)
   (begin
