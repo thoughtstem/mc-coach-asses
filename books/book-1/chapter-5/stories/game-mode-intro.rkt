@@ -18,6 +18,7 @@
 (define links   (list ))
 
 (require "../flash-cards.rkt"
+         "../../common.rkt"
          mc-coach-assess/lib)
 
 @paras{
@@ -83,7 +84,7 @@
 
  It goes on and on, making you realize that Ruby could probably come up with variations on this "one" game for the entire class if she wanted to.  You know that she won't, though, because you can clearly see the @b{Class Frame & Code of Awesomeness Fables} Story Mode coming up after this.
 
- You notice one more interesting thing at the bottom of the @b{Compass Name Game} description.  It says, @b{"By Coach Ruby"} and contains a @b{"View the Source"} link. You have a feeling that link will take you to Ruby's @pre{mc-coach-ruby} repo, where you have a feeling she has pushed the source code that generated the content you're looking at right now.  
+ You notice one more interesting thing at the bottom of the @b{Compass Name Game} description.  It says, @b{"By Coach Ruby"} and contains a @b{"View the Source"} link. You have a feeling that link will take you to Ruby's @inline-pre{mc-coach-ruby} repo, where you have a feeling she has pushed the source code that generated the content you're looking at right now.  
 
  By the time Ruby wraps up the Game Mode, the students are highly fluent in each other's names.  They return to their seats with a new kind of excitement and camaraderie still under the magic spell ('flow state' effect) of Game Mode.
 

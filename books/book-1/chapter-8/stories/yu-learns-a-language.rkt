@@ -8,12 +8,13 @@
                         (moment 2021 8 13)))
 (define links   (list))
 
-(require "../flash-cards.rkt")
+(require "../flash-cards.rkt"
+         "../../common.rkt")
 
 @paras{
   When you join Yu at the usual table, you do so silently, realizing that Yu is in the middle of recording the same assessment video that you'll be recording for this chapter.  Not wanting to interrupt Yu's recording or flow state, you quietly sit where you can look over Yu's shoulder.
 
-  Yu speaks to the screen, "The language I'm learning is called @pre{#lang survival}.  It was created by MetaCoders as a domain specific language to allow students to create games that involve clearing a level of all enemies.  Weapons and enemy AI can be customized, as can the types of enemies, and the available powerups..."
+  Yu speaks to the screen, "The language I'm learning is called @inline-pre{#lang survival}.  It was created by MetaCoders as a domain specific language to allow students to create games that involve clearing a level of all enemies.  Weapons and enemy AI can be customized, as can the types of enemies, and the available powerups..."
 
   After finishing the story of the langauge itself, Yu continues to record a coding session driven by several self-selected Game Modes.  Some of them are skills and drills, others are more creative.  
 

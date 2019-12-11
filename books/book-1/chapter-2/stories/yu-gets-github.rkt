@@ -9,6 +9,7 @@
 (define links   (list))
 
 (require "../flash-cards.rkt"
+         "../../common.rkt"
          2htdp/image
          (only-in impress yt)
          mc-coach-assess/lib/main
@@ -36,7 +37,7 @@
 
   "Wait, how do you know so much already?" You ask.  "I thought I read that you were also going through training for the first time." 
 
-  "Well, I am, but I've done some coding before I joined MetaCoders; I went through a JavaScript coding bootcamp a couple of years ago, and I work in quality assurance over at TechSquared.  I have a Bitbucket account -- but not a Github account." Your blank stare causes Yu to laugh.  "Okay, don't worry about all that.  The only thing that matters is taking your first step.  And that means making a Github account today and pushing to your repo."  Yu points to the part of your mug that reads @pre{git push stomach}
+  "Well, I am, but I've done some coding before I joined MetaCoders; I went through a JavaScript coding bootcamp a couple of years ago, and I work in quality assurance over at TechSquared.  I have a Bitbucket account -- but not a Github account." Your blank stare causes Yu to laugh.  "Okay, don't worry about all that.  The only thing that matters is taking your first step.  And that means making a Github account today and pushing to your repo."  Yu points to the part of your mug that reads @inline-pre{git push stomach}
 
   You take a breath and say, "Okay, I'm ready."
 
@@ -61,7 +62,7 @@
       "some instructions") on how to do that.}
         @li{Having an account on Github gives you a way to push code out for the world to see.  But to do so, you'll also need the Git software on your computer.  Github Desktop is a GUI you can use to make this super easy. Take a look at the first four steps in @(link-to "https://help.github.com/en/desktop/getting-started-with-github-desktop/setting-up-github-desktop" "these instructions") to get started with Github Desktop.  If you are using Linux or another OS that does not support Github desktop, you can install Git using @(link-to "https://git-scm.com/book/en/v2/Getting-Started-Installing-Git" "these instructions").}
         @li{Create a Github repository called "mc-coach-NAME".  But replace NAME with your own name.  For example; Yu's repository will be mc-coach-yu.  Use steps 2, 3 and 4 in @(link-to "https://help.github.com/en/desktop/getting-started-with-github-desktop/creating-your-first-repository-using-github-desktop#step-2-create-a-new-repository" "these instructions") for help creating your repository.}
-        @li{Push a file called @pre{hello-world.txt} to your Github account.}
+        @li{Push a file called @inline-pre{hello-world.txt} to your Github account.}
       }
     }
   }

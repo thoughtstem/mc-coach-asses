@@ -16,6 +16,7 @@
 (define links   (list ))
 
 (require "../flash-cards.rkt"
+         "../../common.rkt"
          mc-coach-assess/lib/main
          mc-coach-assess/images)
 
@@ -276,7 +277,7 @@
 
  "Lang adventure?"
 
- "Exactly!" says Bruce, pointing to where he wrote @pre{#lang adventure}. "It's a cool language that I've already made several games in.  And I'm excited to see the creative games that all of you make.  But we're not just here to learn how to code, we're here to learn how to learn how to code.  The game we are about to play is called @b{Disintegrating Code}, and it's a technique I've used myself to become a better coder. I'm going to set a five minute timer and ask you all to type the code in to DrRacket and run it by pressing the green 'Run' button.  A game is going to pop up, and you're welcome to play it."
+ "Exactly!" says Bruce, pointing to where he wrote @inline-pre{#lang adventure}. "It's a cool language that I've already made several games in.  And I'm excited to see the creative games that all of you make.  But we're not just here to learn how to code, we're here to learn how to learn how to code.  The game we are about to play is called @b{Disintegrating Code}, and it's a technique I've used myself to become a better coder. I'm going to set a five minute timer and ask you all to type the code in to DrRacket and run it by pressing the green 'Run' button.  A game is going to pop up, and you're welcome to play it."
 
  "Then, I'm going to ask you to delete your @i{all} of your code!"  Bruce seems to expect the response of confusion from most of the students.  "I know, I know.  But we need to practice writing code over and over again! So, you are going to start fresh, and I'm going to @i{erase} part of the code on the board. Then, you'll write it again, without being able to see that part and using your memory to fill that part in.  Eventually, there won't be any code on the board at all.  You'll have to write it @b{all} from memory, and you'll have to debug it if you write part of it wrong.  So you'll get a chance to practice hunting those bugs!"
 

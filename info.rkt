@@ -6,6 +6,8 @@
                "https://github.com/thoughtstem/define-assets-from.git"
                "https://github.com/thoughtstem/mc-classmaps.git"
                "https://github.com/thoughtstem/mc-coach.git"
+               "https://github.com/thoughtstem/TS-GE-Katas.git?path=ts-kata-util"
+               "https://github.com/thoughtstem/TS-GE-Katas.git?path=ts-survival"
                "reprovide-lang-lib"))
 (define compile-omit-paths '("cards/"))
 (define build-deps '("scribble-lib" "racket-doc" "rackunit-lib"))
