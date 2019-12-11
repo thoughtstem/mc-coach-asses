@@ -7,6 +7,8 @@
                "https://github.com/thoughtstem/mc-classmaps.git"
                "https://github.com/thoughtstem/mc-coach.git"
                "https://github.com/thoughtstem/mc-coach-assess.git"
+               "https://github.com/thoughtstem/metapolis-stories.git"
+               "https://github.com/thoughtstem/metacoders-dot-org.git?path=metacoders-dot-org-lib"
                "https://github.com/thoughtstem/TS-GE-Katas.git?path=ts-kata-util"
                "https://github.com/thoughtstem/TS-GE-Katas.git?path=ts-survival"
                "reprovide-lang-lib"))
