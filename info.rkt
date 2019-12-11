@@ -5,6 +5,7 @@
                "https://github.com/thoughtstem/website.git"
                "https://github.com/thoughtstem/define-assets-from.git"
                "https://github.com/thoughtstem/mc-classmaps.git"
+               "https://github.com/thoughtstem/mc-languages.git"
                "https://github.com/thoughtstem/mc-coach.git"
                "https://github.com/thoughtstem/mc-coach-assess.git"
                "https://github.com/thoughtstem/metapolis-stories.git"
