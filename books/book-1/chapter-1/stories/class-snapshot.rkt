@@ -68,12 +68,18 @@
           @card-text{
             @b{Story Mode}
             @(story-mode-main-points)
+          }
+        }
+       }
 
+       @card{
+        @card-body{
+          @card-text{
             @b{Game Mode}
             @(game-mode-main-points)
           }
         }
-      }
+       }
 
       "Can I keep this?" you ask.
 
