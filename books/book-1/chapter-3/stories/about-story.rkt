@@ -17,6 +17,7 @@
 
 (require "../flash-cards.rkt"
          "../../common.rkt"
+         mc-classmaps
          mc-coach-assess/lib/main
          mc-coach-assess/images)
 
@@ -171,7 +172,11 @@
 
  @heading{2:15pm}
 
- After a fairly quick, fun game, Bruce gathers the students back on the classroom rug.  As they settle down, you see Bruce pick up a laptop that was set off to the side.  You peak over his shoulder to see what you assume is a classmap.  You see a section labeled "Coach Story", followed by a section labeled "Name Game." Bruce clicks on the following section, labeled "Class Frame Story & Code of Awesomeness Stories".  It is comforting to know that coaches do not have to have the classmaps memorized.  
+ After a fairly quick, fun game, Bruce gathers the students back on the classroom rug.  As they settle down, you see Bruce pick up a laptop that was set off to the side.  You peak over his shoulder to see what you assume is a classmap.  You see a section labeled "Coach Story", followed by a section labeled "Name Game." Bruce clicks on the following section, labeled "Class Frame Story & Code of Awesomeness Stories".  It is comforting to know that coaches do not have to have the classmaps memorized. 
+
+ The classmap looks like this:
+
+ @(classmap->html (class-launch-map))
 
  Bruce clears his throat. "Now we are back to Story Mode -- I'm going to start by telling you a bit more about this class and what we are going to be doing together over the next eight weeks! This may not feel like a story, but you will learn that Story Mode can look a lot of different ways."
 
