@@ -5,23 +5,22 @@
 
 (define-card adv-student-engagement-1
   @text-front{
-   Take 20 seconds to discuss how to make 
+   Take 30 seconds to discuss how to make 
    Story Mode valuable for returning
    students even if they have heard the
    story before.
   }
   @(go-look-it-up)
-  20)
+  30)
 
 (define-card why-coach-story
   @text-front{
-    Take a minute to discuss reasons why
+    Take 30 seconds to discuss reasons why
     telling your story on the first day of
-    class is educationally valuable for 
-    students.
+    class is valuable for students.
   }
   @(go-look-it-up)
-  60)
+  30)
 
 (define-card story-vocab-0
   @text-front{
@@ -37,8 +36,8 @@
 (define-card story-vocab-0.5
   @text-front{
    Take 30 seconds to discuss narrative 
-   transportation in light of a story 
-   with which you've personally
+   transportation. Include a time 
+   where you've personally
    experienced it.
   }
   @(go-look-it-up)
@@ -73,12 +72,12 @@
 
 (define-card story-science
   @text-front{
-    Take one minute to discuss how
+    Take 30 seconds to discuss how
     science supports the use of stories
     for learning.
   }
   @(go-look-it-up)
-  60)
+  30)
 
 (define-card coach-story-prep-1
   @text-front{
