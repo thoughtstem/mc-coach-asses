@@ -5,8 +5,7 @@
 (define-card adv-student-engagement-2
   @text-front{
    Take 20 seconds to discuss when and how 
-   to make Game Mode valuable for returning
-   students.
+   to make a Game Mode more challenging.
   }
   @(go-look-it-up)
   15)
